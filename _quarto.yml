@@ -1,0 +1,33 @@
+project:
+  type: website
+
+website:
+  title: "The Genetic Mosaic"
+  description: "A website dedicated to exploring the fascinating world of genetic mosaicism."
+  image: "opengraph.png"
+  favicon: "favicon.ico"
+  google-analytics: "Your Google tracking Id"
+  page-navigation: true
+  open-graph: true
+  twitter-card: true
+  navbar:
+    left:
+      - href: "index.html"
+        text: "Home"
+      - href: "about.html"
+        text: "About"
+      - href: "cv.html"
+        text: "CV"
+      - href: "pictures.html"
+        text: "Pictures"
+      - href: "readings.html"
+        text: "Readings"
+      - href: "teaching_philosophy.html"
+        text: "Teaching Philosophy"
+    search: true
+
+format:
+  html:
+    theme: "cosmo"
+    css: "styles.css"
+    toc: true
