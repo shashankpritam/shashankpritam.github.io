@@ -34,5 +34,5 @@ description: "Pictures!"
 <h2>Chiku</h2>
 
 <div id="chiku-pics">
-  <img src="/images/chiku/chiku1.jpg" alt="Chiku 1" class="chiku-pic">
+  <img src="/chiku.jpg" alt="Chiku 1" class="chiku-pic">
 </div>

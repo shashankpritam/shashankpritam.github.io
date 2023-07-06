@@ -4,7 +4,7 @@ project:
 website:
   title: "The Genetic Mosaic"
   description: "A website dedicated to exploring the fascinating world of genetic mosaicism."
-  image: "opengraph.png"
+  image: "chiku.jpg"
   favicon: "favicon.ico"
   google-analytics: "Your Google tracking Id"
   page-navigation: true
