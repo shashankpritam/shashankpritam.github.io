@@ -14,20 +14,21 @@ website:
     left:
       - href: "index.html"
         text: "Home"
-      - href: "about.html"
-        text: "About"
       - href: "cv.html"
         text: "CV"
       - href: "pictures.html"
         text: "Pictures"
-      - href: "readings.html"
-        text: "Readings"
       - href: "teaching_philosophy.html"
         text: "Teaching Philosophy"
+      - href: "readings.html"
+        text: "Readings"
+      - href: "about.html"
+        text: "About"
     search: true
 
 format:
   html:
-    theme: "cosmo"
-    css: "styles.css"
-    toc: true
+    theme:
+      light: flatly
+      dark: darkly
+
