@@ -33,4 +33,3 @@ The PPII Binding Site Predictor project operates under the LGPL-2.1 License.
 You can find the PPII Binding Site Predictor repository [here](https://github.com/shashankpritam/PPII-Interface). For more detailed insights about the project, visit the project site [here](https://shashankpritam.github.io/PPII-Interface/).
 
 For queries and assistance, don't hesitate to reach out via our contact email.
-
