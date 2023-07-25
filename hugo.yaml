@@ -1,9 +1,8 @@
-baseURL: 'shashankpritam.github.io'
+baseURL: 'https://www.gomodelbio.systems'
 languageCode: 'en-us'
 title: 'GoModelBio'
 theme: 'PaperMod'
 author: 'Shashank'
-
 
 enableRSS: true
 
@@ -25,25 +24,25 @@ menu:
       weight: 1
     - identifier: 'cv'
       name: 'CV'
-      url: '/cv'
+      url: '/cv/'
       weight: 2
     - identifier: 'pictures'
       name: 'Pictures'
-      url: '/pictures'
+      url: '/pictures/'
       weight: 3
     - identifier: 'teaching-philosophy'
       name: 'Teaching Philosophy'
-      url: '/teaching-philosophy'
+      url: '/teaching-philosophy/'
       weight: 4
     - identifier: 'readings'
       name: 'Readings'
-      url: '/readings'
+      url: '/readings/'
       weight: 5
     - identifier: 'about'
       name: 'About'
-      url: '/about'
+      url: '/about/'
       weight: 6
     - identifier: 'blog'
       name: 'Blog'
-      url: '/blog'
+      url: '/blog/'
       weight: 7
