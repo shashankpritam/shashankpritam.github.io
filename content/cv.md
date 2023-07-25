@@ -7,7 +7,7 @@ description: "My Curriculum Vitae"
 
 * [**LinkedIn**](https://www.linkedin.com/in/shashank-pritam/)
 * [**GitHub**](https://www.github.com/shashankpritam)
-* [**Statement of Teaching Philosophy**](/SoT/)
+* [**Statement of Teaching Philosophy**](/teaching-philosophy/)
 * [**Google Scholar**](https://scholar.google.com/citations?user=E5oKLgkAAAAJ&hl=en)
 
 
