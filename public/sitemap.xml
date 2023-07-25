@@ -2,12 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>shashankpritam.github.io/categories/</loc>
+    <loc>https://www.gomodelbio.systems/blog/</loc>
+    <lastmod>2023-07-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>shashankpritam.github.io/</loc>
+    <loc>https://www.gomodelbio.systems/blog/post1/</loc>
+    <lastmod>2023-07-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>shashankpritam.github.io/</loc>
+    <loc>https://www.gomodelbio.systems/</loc>
+    <lastmod>2023-07-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>shashankpritam.github.io/tags/</loc>
+    <loc>https://www.gomodelbio.systems/about/</loc>
+  </url><url>
+    <loc>https://www.gomodelbio.systems/categories/</loc>
+  </url><url>
+    <loc>https://www.gomodelbio.systems/readings/</loc>
+  </url><url>
+    <loc>https://www.gomodelbio.systems/cv/</loc>
+  </url><url>
+    <loc>https://www.gomodelbio.systems/pictures/</loc>
+  </url><url>
+    <loc>https://www.gomodelbio.systems/teaching-philosophy/</loc>
+  </url><url>
+    <loc>https://www.gomodelbio.systems/tags/</loc>
   </url>
 </urlset>

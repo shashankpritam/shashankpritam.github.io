@@ -4,6 +4,8 @@ title: "Intersecting Genetics and Computation"
 
 Welcome to my webpage!
 
+
+
 # Spotlight: Past Projects
 
 ## PPII Binding Site Predictor: Unveiling the Intricacies of Protein Structures

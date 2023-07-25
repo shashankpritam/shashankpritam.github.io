@@ -1,20 +1,70 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>GoModelBio</title>
-    <link>shashankpritam.github.io/</link>
-    <description>Recent content on GoModelBio</description>
+    <title>Intersecting Genetics and Computation on GoModelBio</title>
+    <link>https://www.gomodelbio.systems/</link>
+    <description>Recent content in Intersecting Genetics and Computation on GoModelBio</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="shashankpritam.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Mon, 24 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.gomodelbio.systems/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Intersecting Genetics and Computation</title>
-      <link>shashankpritam.github.io/</link>
+      <title>Distractions</title>
+      <link>https://www.gomodelbio.systems/blog/post1/</link>
+      <pubDate>Mon, 24 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.gomodelbio.systems/blog/post1/</guid>
+      <description>Introduction Understanding Distractions Discuss what distractions are and how they impact our productivity and well-being. Talk about the most common sources of distraction in our modern world (like smartphones and social media).
+The FOMO Phenomenon Explain the concept of FOMO and its implications. Discuss why we experience it and how it contributes to distraction and stress.
+The Cost of FOMO Discuss the effects of FOMO on our mental health, relationships, productivity, and overall quality of life.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://www.gomodelbio.systems/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>shashankpritam.github.io/</guid>
-      <description>Welcome to my webpage!
-Spotlight: Past Projects PPII Binding Site Predictor: Unveiling the Intricacies of Protein Structures Features at a Glance PPII Binding Site Prediction: Feed the application with a 4-letter PDB ID (for instance, 1CKA), and it will return the potential PPII helix binding site within the structure.
-User-Friendly Outputs: If the structure you input doesn&amp;rsquo;t house a PPII binding site, you&amp;rsquo;ll be notified. However, when a PPII binding site is discovered, you&amp;rsquo;ll be provided with a detailed model of the PPII bound structure, demonstrating the &amp;ldquo;best possible orientation&amp;rdquo; at the predicted binding site.</description>
+      <guid>https://www.gomodelbio.systems/about/</guid>
+      <description>Welcome! Hello, and thank you for visiting my webpage! I am a passionate doctoral student specializing in Biological Sciences with a particular fascination for Population Genetics. The world of genetics, with its intricate complexities and profound implications, is the driving force behind my studies and research.
+I created this webpage as a platform to share my journey and explore topics that pique my curiosity in the field of genetics. Here, I will delve into and explain complex concepts such as genetic algorithms, bioinformatics, DNA sequencing, genomics, and proteomics.</description>
+    </item>
+    
+    <item>
+      <title>Current Readings</title>
+      <link>https://www.gomodelbio.systems/readings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.gomodelbio.systems/readings/</guid>
+      <description>Articles The following are some current articles that have caught my interest:
+&amp;ldquo;Ten Things You Should Know about Transposable Elements&amp;rdquo; by Guillaume Bourque, et al., in Genome Biology, vol. 19, no. 1, Nov. 2018, p. 199. Read Article
+&amp;ldquo;History of the Discovery of a Master Locus Producing PiRNAs: The Flamenco/COM Locus in Drosophila Melanogaster&amp;rdquo; by Goriaux Coline, et al., in Frontiers in Genetics, vol. 5, Aug. 2014, p. 257. Read Article</description>
+    </item>
+    
+    <item>
+      <title>CV</title>
+      <link>https://www.gomodelbio.systems/cv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.gomodelbio.systems/cv/</guid>
+      <description>My Curriculum Vitae</description>
+    </item>
+    
+    <item>
+      <title>Pictures</title>
+      <link>https://www.gomodelbio.systems/pictures/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.gomodelbio.systems/pictures/</guid>
+      <description>Pictures!</description>
+    </item>
+    
+    <item>
+      <title>Statement of Teaching Philosophy</title>
+      <link>https://www.gomodelbio.systems/teaching-philosophy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.gomodelbio.systems/teaching-philosophy/</guid>
+      <description>As an educator, my teaching philosophy is centered around fostering a balanced power dynamic in the classroom that encourages productivity, nurtures mental health, and promotes an inclusive and welcoming environment. Mental health is as important as physical health; education should never compromise either aspect. My approach to teaching emphasizes genuine curiosity, accessibility, and guiding students toward valuable resources when necessary.
+Prioritizing mental health and well-being A student’s mental health is paramount; my teaching practices reflect this commitment.</description>
     </item>
     
   </channel>
