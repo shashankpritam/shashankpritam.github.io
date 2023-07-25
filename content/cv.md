@@ -5,10 +5,11 @@ description: "My Curriculum Vitae"
 
 # Shashank Pritam
 
-* <a href="https://www.linkedin.com/in/shashank-pritam/"> **LinkedIn** </a>
-* <a href="https://www.github.com/shashankpritam"> **GitHub** </a>
-* <a href="/SoT/"> **Statement of Teaching Philosophy** </a>
-* <a href="https://scholar.google.com/citations?user=E5oKLgkAAAAJ&hl=en"> **Google Scholar** </a>
+* [**LinkedIn**](https://www.linkedin.com/in/shashank-pritam/)
+* [**GitHub**](https://www.github.com/shashankpritam)
+* [**Statement of Teaching Philosophy**](/SoT/)
+* [**Google Scholar**](https://scholar.google.com/citations?user=E5oKLgkAAAAJ&hl=en)
+
 
 
 ## OBJECTIVE
@@ -46,7 +47,7 @@ I am currently utilizing computational methods to explore RNA processes, with a 
 2. **Prediction of PPII Receptors** (Jun 2021 - Aug 2022)  
    - Implemented Monte-Carlo algorithms and superimposition-based method to predict the binding sites of PPII peptides.
    - **Technology/Tools:** Python, BioPython, GROMACS, Chimera
-   - **Link:** [GitHub](https://github.com/shashankpritam//PPII_Receptor_Predictor)
+   - **Link:** [GitHub](https://github.com/shashankpritam/PPII-Interface)
 
 
 
