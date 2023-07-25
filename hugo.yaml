@@ -1,0 +1,31 @@
+baseURL: 'shashankpritam.github.io'
+languageCode: 'en-us'
+title: 'GoModelBio'
+theme: 'PaperMod'
+author: 'Shashank'
+
+# Enable Hugo's built-in RSS feed template
+enableRSS: true
+
+# Add your social media links
+social:
+  - icon: 'github'
+    name: 'GitHub'
+    weight: 1
+    url: 'https://github.com/shashankpritam'
+  - icon: 'twitter'
+    name: 'Twitter'
+    weight: 2
+    url: 'https://twitter.com/fan_of_gpu'
+
+# Add menus to the main navigation
+menu:
+  main:
+    - identifier: 'about'
+      name: 'About'
+      url: '/about'
+      weight: 1
+    - identifier: 'blog'
+      name: 'Blog'
+      url: '/blog'
+      weight: 2
