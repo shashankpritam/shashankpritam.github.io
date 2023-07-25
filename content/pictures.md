@@ -5,4 +5,4 @@ description: "Pictures!"
 
 
 
-![Chiku Image](chiku.jpg)
+![Chiku Image](/chiku.jpg)
