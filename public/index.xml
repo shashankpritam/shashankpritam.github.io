@@ -6,5 +6,16 @@
     <description>Recent content on GoModelBio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="shashankpritam.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Intersecting Genetics and Computation</title>
+      <link>shashankpritam.github.io/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>shashankpritam.github.io/</guid>
+      <description>Welcome to my webpage!
+Spotlight: Past Projects PPII Binding Site Predictor: Unveiling the Intricacies of Protein Structures Features at a Glance PPII Binding Site Prediction: Feed the application with a 4-letter PDB ID (for instance, 1CKA), and it will return the potential PPII helix binding site within the structure.
+User-Friendly Outputs: If the structure you input doesn&amp;rsquo;t house a PPII binding site, you&amp;rsquo;ll be notified. However, when a PPII binding site is discovered, you&amp;rsquo;ll be provided with a detailed model of the PPII bound structure, demonstrating the &amp;ldquo;best possible orientation&amp;rdquo; at the predicted binding site.</description>
+    </item>
+    
   </channel>
 </rss>

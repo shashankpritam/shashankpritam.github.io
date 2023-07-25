@@ -1,7 +1,9 @@
 ---
-title: "Racing Against Time: Dealing with Distractions and FOMO"
-date: 2023-07-25T00:48:25-05:00
+title: "Distractions"
+date: 2023-07-24
+draft: false
 ---
+
 
 ## Introduction
 
