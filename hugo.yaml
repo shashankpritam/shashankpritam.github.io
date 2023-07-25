@@ -4,10 +4,9 @@ title: 'GoModelBio'
 theme: 'PaperMod'
 author: 'Shashank'
 
-# Enable Hugo's built-in RSS feed template
+
 enableRSS: true
 
-# Add your social media links
 social:
   - icon: 'github'
     name: 'GitHub'
@@ -18,14 +17,33 @@ social:
     weight: 2
     url: 'https://twitter.com/fan_of_gpu'
 
-# Add menus to the main navigation
 menu:
   main:
+    - identifier: 'home'
+      name: 'Home'
+      url: '/'
+      weight: 1
+    - identifier: 'cv'
+      name: 'CV'
+      url: '/cv'
+      weight: 2
+    - identifier: 'pictures'
+      name: 'Pictures'
+      url: '/pictures'
+      weight: 3
+    - identifier: 'teaching-philosophy'
+      name: 'Teaching Philosophy'
+      url: '/teaching-philosophy'
+      weight: 4
+    - identifier: 'readings'
+      name: 'Readings'
+      url: '/readings'
+      weight: 5
     - identifier: 'about'
       name: 'About'
       url: '/about'
-      weight: 1
+      weight: 6
     - identifier: 'blog'
       name: 'Blog'
       url: '/blog'
-      weight: 2
+      weight: 7
