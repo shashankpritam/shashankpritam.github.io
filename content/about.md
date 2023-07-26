@@ -1,17 +1,27 @@
----
-title: "About"
----
+# Hi there!
 
-# Welcome!
+Welcome to my little corner of the web. I'm currently working on my PhD in Computational Biology, with a focus on Population Genetics. It's fascinating stuff - all about understanding the genetic makeup of populations and how it changes over time. But enough about me, let's talk about something cool I've been working on!
 
-Hello, and thank you for visiting my webpage! I am a passionate doctoral student specializing in Biological Sciences with a particular fascination for Population Genetics. The world of genetics, with its intricate complexities and profound implications, is the driving force behind my studies and research.
+## PPII Binding Site Predictor
 
-I created this webpage as a platform to share my journey and explore topics that pique my curiosity in the field of genetics. Here, I will delve into and explain complex concepts such as genetic algorithms, bioinformatics, DNA sequencing, genomics, and proteomics. Each of these fields has vast potential to revolutionize our understanding of life as we know it, and I'm thrilled to have you along as I explore them.
+This is a tool I've developed that has some interesting applications in biological research. 
 
-You can expect to find here a blend of formal research and personal insights. While the majority of my posts will focus on professional topics - breaking down academic papers, providing commentary on recent advancements, and sharing findings from my own projects - I also intend to share some personal content. This could include stories from my academic journey, book reviews from relevant or inspiring literature, and my thoughts on the broader implications of genetic research.
+### Quick Overview
 
-My aim is to make this space informative and engaging for other students, researchers, and anyone interested in genetics. Whether you are a fellow researcher or just a curious visitor, I hope my posts will inspire you and foster a deeper understanding of the exciting world of genetics.
+- **Predicting PPII Binding Sites:** You just need to supply a 4-letter PDB ID (like 1CKA for instance), and the tool will highlight potential PPII helix binding sites within the protein's structure. 
+- **Easy to Understand Outputs:** If there's no PPII binding site in your protein, the tool will clearly state that. But when it does find a site, it provides a detailed model showcasing the best possible orientation of the PPII bound structure. 
 
-Feel free to reach out if you have any questions, comments, or topics you'd like me to cover. I always appreciate engaging discussions that challenge me to think and learn.
+### Getting Started
 
-Once again, welcome, and happy browsing!
+You need Python 3.8.10 along with a few Python libraries (numpy, scipy, modeller, biopython) to run this tool. Just follow these steps:
+
+1. Make sure you have the required Python version and libraries.
+2. Download the tool from our repository.
+3. Create a text file named `input_database.txt` listing the PDB IDs you want to analyze (one PDB ID per line).
+4. Run this command in your terminal: `python3 pp2_pred_for_database.py input_database.txt`.
+
+## Wrapping Up
+
+You can find all the details about this project on its [GitHub page](https://github.com/shashankpritam/PPII-Interface). If you have any questions or need help, feel free to shoot me an email.
+
+Thanks for visiting and happy exploring!
