@@ -9,6 +9,13 @@ draft: false
 
 ## Introduction
 
+graph TD
+A[Lactose] -- induces --> B[lacI]
+B -- represses --> C[lacZ]
+C -- enables --> D[Breakdown of lactose]
+A -- presence --> D
+
+
 Here, talk about why you decided to write this post and provide a brief overview of the points you're going to discuss.
 
 ## Simplicity is the Backbone of Robustness
