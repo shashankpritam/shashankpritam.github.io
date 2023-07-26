@@ -4,16 +4,13 @@ date: 2023-07-26
 draft: false
 ---
 
-
 # Simplicity, Efficiency, and the Art of Learning
 
 ## Introduction
 
 A simple diagram which shows the simplified model of the lac operon, a well-studied gene regulatory network in E. coli.
 
-![](lactose_metabolism.svg)
-
-
+<img src="lactose_metabolism.svg" alt="Lactose Metabolism" style="zoom:80%;" />
 
 
 
