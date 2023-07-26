@@ -6,7 +6,18 @@
     <description>Recent content in Blogs on GoModelBio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 24 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.gomodelbio.systems/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 26 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.gomodelbio.systems/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Simplicity</title>
+      <link>https://www.gomodelbio.systems/blog/simplicity/</link>
+      <pubDate>Wed, 26 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.gomodelbio.systems/blog/simplicity/</guid>
+      <description>Simplicity, Efficiency, and the Art of Learning Introduction A simple diagram which shows the simplified model of the lac operon, a well-studied gene regulatory network in E. coli.
+Here, talk about why you decided to write this post and provide a brief overview of the points you&amp;rsquo;re going to discuss.
+Simplicity is the Backbone of Robustness In this section, explain why simplicity is key to creating robust systems, using examples from nature, science, or your own field - computational biology.</description>
+    </item>
+    
     <item>
       <title>Distractions</title>
       <link>https://www.gomodelbio.systems/blog/distractions/</link>

@@ -10,7 +10,7 @@ draft: false
 
 A simple diagram which shows the simplified model of the lac operon, a well-studied gene regulatory network in E. coli.
 
-<img src="lactose_metabolism.svg" alt="Lactose Metabolism" style="zoom:80%;" />
+<img src="lactose_metabolism.svg" alt="Lactose Metabolism" width="600"/>
 
 
 
