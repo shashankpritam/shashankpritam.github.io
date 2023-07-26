@@ -9,13 +9,12 @@ draft: false
 
 ## Introduction
 
-```mermaid
-graph TD
-A[Lactose] -- induces --> B[lacI]
-B -- represses --> C[lacZ]
-C -- enables --> D[Breakdown of lactose]
-A -- presence --> D
-```
+A simple diagram which shows the simplified model of the lac operon, a well-studied gene regulatory network in E. coli.
+
+![](lactose_metabolism.png)
+
+
+
 
 
 Here, talk about why you decided to write this post and provide a brief overview of the points you're going to discuss.
