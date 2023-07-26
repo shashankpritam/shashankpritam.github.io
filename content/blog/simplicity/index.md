@@ -1,5 +1,5 @@
 ---
-title: “Simplicity”
+title: Simplicity
 date: 2023-07-26
 draft: false
 ---
