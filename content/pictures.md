@@ -9,6 +9,4 @@ description: "Pictures!"
 
 
 
-![](https://www.threads.net/@pritamshashank/post/CuvVMXSODcD)
-
-![Chiku Image](/chiku.jpg)
+[![Chiku Image](/chiku.jpg)](https://www.threads.net/@pritamshashank)
