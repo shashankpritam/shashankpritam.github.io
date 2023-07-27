@@ -18,6 +18,87 @@ I'm a computational biologist, currently deep in the world of Ph.D. research. I 
 - **Version Control**: Git and GitHub are my tools of choice for version control and collaboration.
 - **Shell & Command Line**: I've got a soft spot for Bash, regex, and the simplicity of command-line interfaces.
 
+
+
+# My .zshrc Configuration
+
+Here's a look at my `.zshrc` configuration for my Zsh shell setup.
+
+## Theme
+
+I use the `powerlevel10k` theme, which is a fast, highly customizable Zsh theme. 
+
+    ```zsh
+    ZSH_THEME="powerlevel10k/powerlevel10k"
+    ```
+
+## Case and Hyphen Sensitivity
+
+In this setup, completion in my shell is case-sensitive and hyphen-insensitive.
+
+    ```zsh
+    CASE_SENSITIVE="true"
+    HYPHEN_INSENSITIVE="true"
+    ```
+
+## Plugins
+
+My Zsh comes with the following plugins:
+
+    ```zsh
+    plugins=(git zsh-autosuggestions zsh-syntax-highlighting bedtools fig thefuck)
+    ```
+
+These plugins enhance my workflow by providing autosuggestions, syntax highlighting, improved Git interaction, and more.
+
+## FZF Integration
+
+FZF, the command-line fuzzy finder, is integrated into my shell. I've also set up some aliases to provide a preview feature for the `ls` command, and to quickly open files in the `micro` editor.
+
+    ```zsh
+    alias preview="fzf --preview 'bat --color \"always\" {}'"
+    alias vi='micro'
+    ```
+
+## Micro Editor
+
+The terminal-based text editor `micro` is set as the default editor in my shell.
+
+    ```zsh
+    export EDITOR='micro'
+    ```
+
+## Custom Aliases
+
+I've set up custom aliases to streamline my workflow, such as `zshconfig` and `ohmyzsh` for easy access to configuration files, and `hist` to search through my command history using `fzf`.
+
+    ```zsh
+    alias zshconfig="micro ~/.zshrc"
+    alias ohmyzsh="micro ~/.oh-my-zsh/themes/powerlevel10k/powerlevel10k.zsh-theme"
+    alias hist=fzf_history
+    ```
+
+## Neofetch
+
+Neofetch runs at the start of each terminal session, displaying system information with ASCII art.
+
+    ```zsh
+    neofetch
+    ```
+
+## Git Prompt
+
+My prompt also displays information about my Git repository status, like the branch name and whether there are changes to be committed.
+
+    ```zsh
+    ZSH_THEME_GIT_PROMPT_PREFIX="%{$fg[blue]%}git:(%{$fg[red]%}"
+    ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%} "
+    ZSH_THEME_GIT_PROMPT_DIRTY="%{$fg[blue]%}) %{$fg[yellow]%}✗"
+    ZSH_THEME_GIT_PROMPT_CLEAN="%{$fg[blue]%})"
+    ```
+
+This configuration provides a powerful, user-friendly, and efficient command line environment that boosts my productivity and makes working in the terminal an enjoyable experience. Happy coding!
+
 ### Writing
 
 - **Markdown Editor**: Typora is my editor of choice for Markdown. It's clean, it's neat, and it makes writing a breeze.
