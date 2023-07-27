@@ -20,11 +20,11 @@ I'm a computational biologist, currently deep in the world of Ph.D. research. I 
 
 
 
-# My .zshrc Configuration
+## My .zshrc Configuration
 
 Here's a look at my `.zshrc` configuration for my Zsh shell setup.
 
-## Theme
+### Theme
 
 I use the `powerlevel10k` theme, which is a fast, highly customizable Zsh theme. 
 
@@ -32,7 +32,7 @@ I use the `powerlevel10k` theme, which is a fast, highly customizable Zsh theme.
     ZSH_THEME="powerlevel10k/powerlevel10k"
     ```
 
-## Case and Hyphen Sensitivity
+### Case and Hyphen Sensitivity
 
 In this setup, completion in my shell is case-sensitive and hyphen-insensitive.
 
@@ -41,7 +41,7 @@ In this setup, completion in my shell is case-sensitive and hyphen-insensitive.
     HYPHEN_INSENSITIVE="true"
     ```
 
-## Plugins
+### Plugins
 
 My Zsh comes with the following plugins:
 
@@ -51,7 +51,7 @@ My Zsh comes with the following plugins:
 
 These plugins enhance my workflow by providing autosuggestions, syntax highlighting, improved Git interaction, and more.
 
-## FZF Integration
+### FZF Integration
 
 FZF, the command-line fuzzy finder, is integrated into my shell. I've also set up some aliases to provide a preview feature for the `ls` command, and to quickly open files in the `micro` editor.
 
@@ -60,7 +60,7 @@ FZF, the command-line fuzzy finder, is integrated into my shell. I've also set u
     alias vi='micro'
     ```
 
-## Micro Editor
+### Micro Editor
 
 The terminal-based text editor `micro` is set as the default editor in my shell.
 
@@ -68,7 +68,7 @@ The terminal-based text editor `micro` is set as the default editor in my shell.
     export EDITOR='micro'
     ```
 
-## Custom Aliases
+### Custom Aliases
 
 I've set up custom aliases to streamline my workflow, such as `zshconfig` and `ohmyzsh` for easy access to configuration files, and `hist` to search through my command history using `fzf`.
 
@@ -78,7 +78,7 @@ I've set up custom aliases to streamline my workflow, such as `zshconfig` and `o
     alias hist=fzf_history
     ```
 
-## Neofetch
+### Neofetch
 
 Neofetch runs at the start of each terminal session, displaying system information with ASCII art.
 
@@ -86,7 +86,7 @@ Neofetch runs at the start of each terminal session, displaying system informati
     neofetch
     ```
 
-## Git Prompt
+### Git Prompt
 
 My prompt also displays information about my Git repository status, like the branch name and whether there are changes to be committed.
 
@@ -105,18 +105,18 @@ This configuration provides a powerful, user-friendly, and efficient command lin
 - **Blogging**: This website is built with Hugo, an open-source static site generator that I adore for its simplicity.
 - **Note-Taking**: I rely on Quarto for note-taking and to-do lists. It's versatile and particularly powerful when working with R and has deep integration with Pandoc and LaTex.
 
-## Tools I Can't Live Without
+### Tools I Can't Live Without
 
 - **Mermaid & D2**: For all my diagram needs. They've made my life a whole lot easier.
 - **Termius**: When it comes to remote work, Termius is my best friend. It's a powerful SSH client, and it's saved me more times than I can count.
 - **Zotero & Calibre**: My trusted allies in the war against disorganized references and e-books.
 - **Pandoc**: The Swiss Army knife of document conversion. I don't know where I'd be without it.
 
-## Eye Care
+### Eye Care
 
 - **Flux & HazeOver**: These two take care of my eyes during those long hours in front of the screen.
 
-## Github Stars
+### Github Stars
 
 I've discovered some amazing projects on GitHub, and I've given them a star. You can check them out [here](https://github.com/shashankpritam?tab=stars).
 
