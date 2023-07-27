@@ -12,8 +12,8 @@ I'm a computational biologist, currently deep in the world of Ph.D. research. I 
 
 ### Programming
 
-- **Languages**: Python and R have been my staples for a long time, but I've been immersing myself in the worlds of Go and Codon ( an exciting variant of Python).
-- **IDEs**: I use RStudio, Jupyter Notebook and Visual Studio Code has been a reliable ally for many other languages.
+- **Languages**: Python and R have been my staples for a long time, but I've been immersing myself in the worlds of Go and Codon (an exciting variant of Python).
+- **IDEs**: I use RStudio, Jupyter Notebook and VS Codium has been a reliable ally for many other languages.
 - **Terminals**: iTerm is my terminal of choice. It's sleek, customizable, and very powerful.
 - **Version Control**: Git and GitHub are my tools of choice for version control and collaboration.
 - **Shell & Command Line**: I've got a soft spot for Bash, regex, and the simplicity of command-line interfaces.
@@ -103,7 +103,7 @@ This configuration provides a powerful, user-friendly, and efficient command lin
 
 - **Markdown Editor**: Typora is my editor of choice for Markdown. It's clean, it's neat, and it makes writing a breeze.
 - **Blogging**: This website is built with Hugo, an open-source static site generator that I adore for its simplicity.
-- **Note-Taking**: I rely on Quarto for note-taking and to-do lists. It's versatile and particularly powerful when working with R.
+- **Note-Taking**: I rely on Quarto for note-taking and to-do lists. It's versatile and particularly powerful when working with R and has deep integration with Pandoc and LaTex.
 
 ## Tools I Can't Live Without
 
@@ -111,7 +111,6 @@ This configuration provides a powerful, user-friendly, and efficient command lin
 - **Termius**: When it comes to remote work, Termius is my best friend. It's a powerful SSH client, and it's saved me more times than I can count.
 - **Zotero & Calibre**: My trusted allies in the war against disorganized references and e-books.
 - **Pandoc**: The Swiss Army knife of document conversion. I don't know where I'd be without it.
-- **Bubbletea**: This fun little library for Go has been an absolute joy to use for building user interfaces in the terminal.
 
 ## Eye Care
 
