@@ -38,13 +38,14 @@ Let's have a look at the SIR model diagram below to understand the power of simp
   $\frac{dR}{dt} = \gamma I$
 
 Where:
+
 - \( S \): Number of susceptible individuals.
 - \( I \): Number of infected individuals.
 - \( R \): Number of recovered individuals.
 - \( $\beta$ \): Transmission rate.
-- \($ \gamma$ \): Recovery rate.
+- \( $\gamma$ \): Recovery rate.
 
-3. A computer programmer can then take those equations and plot simulations of disease spread under different conditions. The programmer also has the flexibility to add complexity to the model since the framework is robust.
+1. A computer programmer can then take those equations and plot simulations of disease spread under different conditions. The programmer also has the flexibility to add complexity to the model since the framework is robust.
 
 ``` python
 ### SIR Model Coding

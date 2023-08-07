@@ -119,15 +119,29 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <figcaption class="figure-caption">Susceptible, Infected, Recovered Model</figcaption>
 </figure>
 </div>
+<ol type="1">
+<li>This SIR model diagram is helpful for people to understand infectious disease spread, regardless of their academic background. This is because it involves a simple diagram that can be easily visualized and followed, rather than jargon-filled equations.</li>
+<li>Despite its simplicity, a mathematician can still write down equations describing the SIR model. The three-compartment structure lends itself well to mathematical analysis.</li>
+</ol>
 </section>
 <section id="sir-model-equations" class="level3">
 <h3 class="anchored" data-anchor-id="sir-model-equations">SIR Model Equations</h3>
 <ul>
-<li><p>Susceptible equation: <span class="math display">\[\frac{dS}{dt} = -\beta S I\]</span></p></li>
-<li><p>Infected equation: <span class="math display">\[\frac{dI}{dt} = \beta S I - \gamma I\]</span></p></li>
-<li><p>Recovered equation: <span class="math display">\[\frac{dR}{dt} = \gamma I\]</span></p></li>
+<li><p>Susceptible equation: <span class="math inline">\(\frac{dS}{dt} = -\beta S I\)</span></p></li>
+<li><p>Infected equation: <span class="math inline">\(\frac{dI}{dt} = \beta S I - \gamma I\)</span></p></li>
+<li><p>Recovered equation: <span class="math inline">\(\frac{dR}{dt} = \gamma I\)</span></p></li>
 </ul>
-<p>Where: - ( S ): Number of susceptible individuals. - ( I ): Number of infected individuals. - ( R ): Number of recovered individuals. - ( ): Transmission rate. - ( ): Recovery rate.</p>
+<p>Where:</p>
+<ul>
+<li>( S ): Number of susceptible individuals.</li>
+<li>( I ): Number of infected individuals.</li>
+<li>( R ): Number of recovered individuals.</li>
+<li>( <span class="math inline">\(\beta\)</span> ): Transmission rate.</li>
+<li>( <span class="math inline">\(\gamma\)</span> ): Recovery rate.</li>
+</ul>
+<ol type="1">
+<li>A computer programmer can then take those equations and plot simulations of disease spread under different conditions. The programmer also has the flexibility to add complexity to the model since the framework is robust.</li>
+</ol>
 <div class="sourceCode" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">### SIR Model Coding</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
@@ -167,24 +181,30 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">"Population"</span>)</span>
 <span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">"SIR Model of Disease Spread"</span>)</span>
 <span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<ol start="4" type="1">
+<li>We can then design effective policies to control disease outbreaks based on the model predictions.</li>
+</ol>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="sir_plot.png" class="img-fluid figure-img"></p>
 <figcaption class="figure-caption">Prediction Based on SIR</figcaption>
 </figure>
 </div>
+<p>This was all made possible because the SIR model focuses on abstracting the complex real world into a simple model. Rather than trying to incorporate every detail initially, it starts simple, and complexity can be added later. This demonstrates why beginning with simplicity is so valuable in biological modeling. It enables clear understanding, mathematical tractability, computational simulation, and practical applications. Starting simple and flexible provides a strong foundation before adding complexity where needed.</p>
+<p>Similarly, we can look at a simple biological model of HIV infection progression shown below.</p>
+<p>This diagram summarizes the key stages of HIV infection in a person through a simple sequence. Despite being a simplification, it captures the essence of HIV pathogenesis - initial exposure, viral replication, immunosuppression leading to AIDS, and eventual death.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="hiv.svg" class="img-fluid figure-img"></p>
 <figcaption class="figure-caption">HIV Infection</figcaption>
 </figure>
 </div>
-<p>Here, talk about why you decided to write this post and provide a brief overview of the points you’re going to discuss.</p>
+<p>These examples of simple sequence models demonstrate the power of abstraction and simplicity when modeling complex biological phenomena. Identifying the key agents and transitions enables mathematical analysis, computational implementation, and communication with diverse audiences. Beginning simple lays a robust and flexible foundation to build upon.</p>
 </section>
-</section>
-<section id="simplicity-is-the-backbone-of-robustness" class="level2">
-<h2 class="anchored" data-anchor-id="simplicity-is-the-backbone-of-robustness">Simplicity is the Backbone of Robustness</h2>
+<section id="simplicity-is-the-backbone-of-robustness" class="level3">
+<h3 class="anchored" data-anchor-id="simplicity-is-the-backbone-of-robustness">Simplicity is the Backbone of Robustness</h3>
 <p>In this section, explain why simplicity is key to creating robust systems, using examples from nature, science, or your own field - computational biology.</p>
+</section>
 </section>
 <section id="information-and-complexity-can-be-distracting-and-inefficient" class="level2">
 <h2 class="anchored" data-anchor-id="information-and-complexity-can-be-distracting-and-inefficient">Information and Complexity Can Be Distracting and Inefficient</h2>
