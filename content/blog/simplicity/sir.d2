@@ -1,0 +1,13 @@
+
+SIR Model: {
+  shape: sequence_diagram
+  person: Person
+  disease: Disease
+  stages: {
+    person -> disease: Exposed to infection.
+    disease -> person: Become Infected (I).
+    person -> person: Infect others.
+    disease -> person: Recovered (R).
+    person -> person: Immune from further infection.
+  }
+}

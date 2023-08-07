@@ -8,10 +8,9 @@ draft: false
 
 ## Introduction
 
+![Susceptible, Infected, Recovered Model](sir.svg)
 
-![An example of Protein-Protein Interaction Network](multiple_interactions.svg)
-
-![The simplified version of above network](simple_multiple_interactions.svg)
+![HIV Infection](hiv.svg)
 
 
 Here, talk about why you decided to write this post and provide a brief overview of the points you're going to discuss.
