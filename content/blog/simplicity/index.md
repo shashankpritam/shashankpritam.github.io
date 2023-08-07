@@ -8,10 +8,10 @@ draft: false
 
 ## Introduction
 
-A simple diagram which shows the simplified model of the lac operon, a well-studied gene regulatory network in E. coli.
 
-![Lactose Metabolism](lactose_metabolism.svg)
+![An example of Protein-Protein Interaction Network](multiple_interactions.svg)
 
+![The simplified version of above network](simple_multiple_interactions.svg)
 
 
 Here, talk about why you decided to write this post and provide a brief overview of the points you're going to discuss.
