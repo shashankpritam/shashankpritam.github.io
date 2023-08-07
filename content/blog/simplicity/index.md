@@ -29,20 +29,20 @@ Let's have a look at the SIR model diagram below to understand the power of simp
 ### SIR Model Equations
 
 - Susceptible equation:
-  $$\frac{dS}{dt} = -\beta S I$$
+  $\frac{dS}{dt} = -\beta S I$
 
 - Infected equation:
-  $$\frac{dI}{dt} = \beta S I - \gamma I$$
+  $\frac{dI}{dt} = \beta S I - \gamma I$
 
 - Recovered equation:
-  $$\frac{dR}{dt} = \gamma I$$
+  $\frac{dR}{dt} = \gamma I$
 
 Where:
 - \( S \): Number of susceptible individuals.
 - \( I \): Number of infected individuals.
 - \( R \): Number of recovered individuals.
-- \( \beta \): Transmission rate.
-- \( \gamma \): Recovery rate.
+- \( $\beta$ \): Transmission rate.
+- \($ \gamma$ \): Recovery rate.
 
 3. A computer programmer can then take those equations and plot simulations of disease spread under different conditions. The programmer also has the flexibility to add complexity to the model since the framework is robust.
 
@@ -94,14 +94,17 @@ plt.show()
 
 ![Prediction Based on SIR](sir_plot.png)
 
-This was all made possible because the SIR model focuses on abstracting the complex real world into a simple model. Rather than trying to incorporate every detail initially, it starts simple, and complexity can be added later. This demonstrates why beginning with simplicity is so valuable in biological modeling. It enables clear understanding, mathematical tractability, computational simulation, and practical applications. Starting simple and flexible provides a strong foundation before adding complexity where needed
+This was all made possible because the SIR model focuses on abstracting the complex real world into a simple model. Rather than trying to incorporate every detail initially, it starts simple, and complexity can be added later. This demonstrates why beginning with simplicity is so valuable in biological modeling. It enables clear understanding, mathematical tractability, computational simulation, and practical applications. Starting simple and flexible provides a strong foundation before adding complexity where needed.
+
+Similarly, we can look at a simple biological model of HIV infection progression shown below.
+
+This diagram summarizes the key stages of HIV infection in a person through a simple sequence. Despite being a simplification, it captures the essence of HIV pathogenesis - initial exposure, viral replication, immunosuppression leading to AIDS, and eventual death. 
 
 ![HIV Infection](hiv.svg)
 
+These examples of simple sequence models demonstrate the power of abstraction and simplicity when modeling complex biological phenomena. Identifying the key agents and transitions enables mathematical analysis, computational implementation, and communication with diverse audiences. Beginning simple lays a robust and flexible foundation to build upon. 
 
-Here, talk about why you decided to write this post and provide a brief overview of the points you're going to discuss.
-
-## Simplicity is the Backbone of Robustness
+### Simplicity is the Backbone of Robustness
 
 In this section, explain why simplicity is key to creating robust systems, using examples from nature, science, or your own field - computational biology.
 
