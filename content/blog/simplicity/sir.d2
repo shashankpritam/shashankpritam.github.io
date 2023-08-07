@@ -8,10 +8,20 @@ SIR Model: {
   death: Death
 
   stages: {
-    susceptible -> infected: Exposed to infection.
-    infected -> infected: Infect others.
-    infected -> recovered: Recovered from disease.
-    infected -> vaccinated: Get Vaccinated.
-    infected -> death: Death due to disease.
+    susceptible -> infected: Exposed to infection. {
+      style.animated: true
+    }
+    infected -> infected: Infect others. {
+      style.animated: true
+    }
+    infected -> recovered: Recovered from disease. {
+      style.animated: true
+    }
+    infected -> vaccinated: Get Vaccinated. {
+      style.animated: true
+    }
+    infected -> death: Death due to disease. {
+      style.animated: true
+    }
   }
 }
