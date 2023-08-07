@@ -9,7 +9,7 @@ draft: false
 
 ## Introduction
 
-### Why am I writing this blog post?
+#### Why am I writing this blog post?
 
 My work involves modeling *complex biological systems* and *networks* using mathematics. Mathematical models are valuable tools for understanding biological systems and processes. 
 
@@ -96,6 +96,8 @@ plt.show()
 
 ![Prediction Based on SIR](sir_plot.png)
 
+## Simplicity is the Backbone of Robustness
+
 This was all made possible because the SIR model focuses on abstracting the complex real world into a simple model. Rather than trying to incorporate every detail initially, it starts simple, and complexity can be added later. This demonstrates why beginning with simplicity is so valuable in biological modeling. It enables clear understanding, mathematical tractability, computational simulation, and practical applications. Starting simple and flexible provides a strong foundation before adding complexity where needed.
 
 Similarly, we can look at a simple biological model of HIV infection progression shown below.
@@ -105,10 +107,6 @@ This diagram summarizes the key stages of HIV infection in a person through a si
 ![HIV Infection](hiv.svg)
 
 These examples of simple sequence models demonstrate the power of abstraction and simplicity when modeling complex biological phenomena. Identifying the key agents and transitions enables mathematical analysis, computational implementation, and communication with diverse audiences. Beginning simple lays a robust and flexible foundation to build upon. 
-
-### Simplicity is the Backbone of Robustness
-
-In this section, explain why simplicity is key to creating robust systems, using examples from nature, science, or your own field - computational biology.
 
 ## Information and Complexity Can Be Distracting and Inefficient
 
