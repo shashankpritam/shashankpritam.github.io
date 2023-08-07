@@ -1,16 +1,12 @@
-direction: right
-HIV Infection Process: {
+HIV Infection: {
     shape: sequence_diagram
     person: Person
     hiv: HIV
-    immune_system: Immune System
     infection_stages: {
         person -> hiv: Exposure to virus.
         hiv -> person: Enters bloodstream.
-        hiv -> immune_system: Attacks CD4 cells.
-        immune_system -> hiv: Fights back.
-        hiv -> person: Evades immune response.
-        person -> person: Disease progresses.
-        immune_system -> person: Continues to weaken.
+        hiv -> person: Attacks immune system.
+        person -> person: Progresses to AIDS.
+        hiv -> person: Death.
     }
 }

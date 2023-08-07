@@ -1,13 +1,17 @@
-
+direction: right
 SIR Model: {
   shape: sequence_diagram
-  person: Person
-  disease: Disease
+  susceptible: Susceptible (S)
+  infected: Infected (I)
+  recovered: Recovered (R)
+  vaccinated: Vaccinated
+  death: Death
+
   stages: {
-    person -> disease: Exposed to infection.
-    disease -> person: Become Infected (I).
-    person -> person: Infect others.
-    disease -> person: Recovered (R).
-    person -> person: Immune from further infection.
+    susceptible -> infected: Exposed to infection.
+    infected -> infected: Infect others.
+    infected -> recovered: Recovered from disease.
+    infected -> vaccinated: Get Vaccinated.
+    infected -> death: Death due to disease.
   }
 }
