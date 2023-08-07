@@ -1,6 +1,7 @@
 ---
 title: Simplicity
 date: 2023-07-26
+math: katex
 draft: false
 ---
 
