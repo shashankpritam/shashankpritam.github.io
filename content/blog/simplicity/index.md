@@ -128,19 +128,3 @@ Wrap up your post by summarizing the key points and offering some practical tips
 
 ## References
 
-If you cited any research, book, or article in your blog post, list them here in proper format.
-
-
-```mermaid
-sequenceDiagram
-    participant Alice
-    participant Bob
-    Alice->>John: Hello John, how are you?
-    loop Healthcheck
-        John->>John: Fight against hypochondria
-    end
-    Note right of John: Rational thoughts <br/>prevail!
-    John-->>Alice: Great!
-    John->>Bob: How about you?
-    Bob-->>John: Jolly good!
-```
