@@ -3,10 +3,19 @@ HIV Infection: {
     person: Person
     hiv: HIV
     infection_stages: {
-        person -> hiv: Exposure to virus.
-        hiv -> person: Enters bloodstream.
-        hiv -> person: Attacks immune system.
-        person -> person: Progresses to AIDS.
-        hiv -> person: Death.
+      person -> hiv: Exposure to virus. {
+        style.animated: true
+      }
+      hiv -> person: Enters bloodstream. {
+        style.animated: true
+      }
+      hiv -> person: Attacks immune system. {
+        style.animated: true
+      }
+      person -> person: Progresses to AIDS. {
+        style.animated: true
+      }
+      hiv -> person: Death.
     }
-}
+  }
+  
