@@ -114,7 +114,7 @@ Through a systematic process of proposing, rejecting, and renewing proposals, th
 
 This seemingly simple example embodies a profound truth: we can unveil elegant solutions by reducing complexity. Algorithmic thinking offers a way to cut through the tangled web of complexity to find clarity. Much like mathematicians distill complexity into understandable forms, we, too, can wield the strength of simplicity to uncover beautiful, practical solutions.
 
-The far-reaching impact of the Stable Marriage Problem, including applications in markets and medicine and recognition with a Nobel Prize in Economics[^2], illustrates how simplicity can tackle multifaceted societal challenges.
+The far-reaching impact of the Stable Marriage Problem, including applications in markets and medicine and recognition with a Nobel Prize in Economics[^2^], illustrates how simplicity can tackle multifaceted societal challenges.
 
 Ultimately, starting with unbiased, simple thinking lays a solid foundation. From there, algorithmic approaches allow us to build advanced yet efficient solutions. The interplay between simplicity and algorithmic thinking opens doors to profound insights and robust problem-solving frameworks. We carve out a path to remarkable discoveries by embracing simplicity and carefully weaving in complexity.
 
