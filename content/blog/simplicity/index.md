@@ -67,9 +67,17 @@ We will further dive into the concept of "beginner's mind" or "Shoshin". We will
 
 In this section, I will explain how the human mind perceives information in logarithmic terms. I will explain how this affects our learning, decision-making, and perception of the world. I will also provide some tips on how to leverage this for efficient learning.
 
-## Conclusion
+## Conclusion: Simplicity in Complexity
 
-I will wrap up your post by summarizing the key points and offering some practical tips or insights for my readers on embracing simplicity and efficiency in their learning journey.
+The power of simplicity shines through in the Stable Marriage Problem. 
+Here's how the algorithm starts:
+![The Problem of Stable Marriage](stable_marriage.svg)
+The algorithm proposes, rejects, and makes new proposals. It's all done in an orderly and systematic manner: 
+![The Solution for Stable Marriage](stable_marriage_sol.svg)
 
-## References
+By applying a straightforward matching algorithm, we find optimal pairings without conflict. This seemingly trivial example reveals a profound truth: reducing complexity often reveals elegant solutions. Whether unraveling biological mysteries, economic challenges, or even the game of love, seeking simplicity in the complex allows us to see otherwise hidden patterns. Simplicity enables understanding. Algorithmic thinking is a tool to cut through entanglement and find clarity. Like mathematicians, we can leverage the strength of simplicity in our lives to discover more robust and beautiful solutions. The Stable Marriage Problem has had far-reaching impacts, with critical applications in markets and medicine. Its creators were even awarded the Nobel Prize in Economics[^1^] for the robust framework it provides. This playful puzzle illustrates how simplicity can elucidate solutions to complex societal challenges. By cutting through complexity, we can uncover more profound truths.
+
+
+
+[^1^]: “The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel 2012.” NobelPrize.Org, https://www.nobelprize.org/prizes/economic-sciences/2012/summary/. Accessed 8 Aug. 2023.
 
