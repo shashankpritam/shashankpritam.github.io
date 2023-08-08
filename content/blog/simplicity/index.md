@@ -1,7 +1,6 @@
 ---
 title: Simplicity
 date: 2023-07-26
-math: katex
 draft: false
 ---
 
@@ -20,31 +19,16 @@ For example, the SIR model is one of the simplest models of infectious disease s
 
 Let's have a look at the SIR model diagram below to understand the power of simplicity:
 
-![Susceptible, Infected, Recovered Model](sir.svg)
+![Susceptible, Infected & Recovered Model](sir.svg)
 
 
 
 1. This SIR model diagram is helpful for people to understand infectious disease spread, regardless of their academic background. This is because it involves a simple diagram that can be easily visualized and followed, rather than jargon-filled equations.
 2. Despite its simplicity, a mathematician can still write down equations describing the SIR model. The three-compartment structure lends itself well to mathematical analysis.
 
-### SIR Model Equations
+### SIR Model Math Equations
 
-- Susceptible equation:
-  $\frac{dS}{dt} = -\beta S I$
-
-- Infected equation:
-  $\frac{dI}{dt} = \beta S I - \gamma I$
-
-- Recovered equation:
-  $\frac{dR}{dt} = \gamma I$
-
-Where:
-
-- \( S \): Number of susceptible individuals.
-- \( I \): Number of infected individuals.
-- \( R \): Number of recovered individuals.
-- \( $\beta$ \): Transmission rate.
-- \( $\gamma$ \): Recovery rate.
+![SIR Model Math Equations](equation.svg)
 
 1. A computer programmer can then take those equations and plot simulations of disease spread under different conditions. The programmer also has the flexibility to add complexity to the model since the framework is robust.
 
@@ -61,7 +45,7 @@ Where:
 
 ## Simplicity is the Backbone of Robustness
 
-This was all made possible because the SIR model focuses on abstracting the complex real world into a simple model. Rather than trying to incorporate every detail initially, it starts simple, and complexity can be added later. This demonstrates why beginning with simplicity is so valuable in biological modeling. It enables clear understanding, mathematical tractability, computational simulation, and practical applications. Starting simple and flexible provides a strong foundation before adding complexity where needed.
+The above modeling made possible because the SIR model focuses on abstracting the complex real world into a simple model. Rather than trying to incorporate every detail initially, it starts simple, and complexity can be added later. This demonstrates why beginning with simplicity is so valuable in biological modeling. It enables clear understanding, mathematical tractability, computational simulation, and practical applications. Starting simple and flexible provides a strong foundation before adding complexity where needed.
 
 Similarly, we can look at a simple biological model of HIV infection progression shown below.
 
@@ -73,19 +57,19 @@ These examples of simple sequence models demonstrate the power of abstraction an
 
 ## Information and Complexity Can Be Distracting and Inefficient
 
-Here, discuss the downsides of overloading with information and complexity. You can talk about cognitive load, decision fatigue, analysis paralysis, etc. and how they affect creativity and efficiency.
+Here, we will discuss the downsides of overloading with information and complexity. We will talk about cognitive load, decision fatigue, analysis paralysis, etc. and how they affect creativity and efficiency.
 
 ## Learning New Things Requires Starting from an Empty Slate
 
-Dive into the concept of "beginner's mind" or "Shoshin". Discuss how preconceived notions or biases can hinder learning. You might want to share your personal experiences of learning new programming languages like Go or complex concepts in population genetics.
+We will further dive into the concept of "beginner's mind" or "Shoshin". We will go through the discussion of how preconceived notions or biases can hinder learning. I might share my personal experiences of learning new programming languages like Go or complex concepts in population genetics.
 
 ## Human Mind Thinks in Logarithmic Fashion, It's Important to Make It Efficient
 
-In this section, explain how the human mind perceives information in logarithmic terms. Discuss how this affects our learning, decision-making, and perception of the world. You could also provide some tips on how to leverage this for efficient learning.
+In this section, I will explain how the human mind perceives information in logarithmic terms. I will explain how this affects our learning, decision-making, and perception of the world. I will also provide some tips on how to leverage this for efficient learning.
 
 ## Conclusion
 
-Wrap up your post by summarizing the key points and offering some practical tips or insights for your readers on embracing simplicity and efficiency in their learning journey.
+I will wrap up your post by summarizing the key points and offering some practical tips or insights for my readers on embracing simplicity and efficiency in their learning journey.
 
 ## References
 
