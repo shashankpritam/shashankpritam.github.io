@@ -30,7 +30,7 @@ Let's have a look at the SIR model diagram below to understand the power of simp
 
 ![SIR Model Math Equations](equation.svg)
 
-1. A computer programmer can then take those equations and plot simulations of disease spread under different conditions. The programmer also has the flexibility to add complexity to the model since the framework is robust.
+3. A computer programmer can then take those equations and plot simulations of disease spread under different conditions. The programmer also has the flexibility to add complexity to the model since the framework is robust.
 
 
 ### SIR Model Coding
