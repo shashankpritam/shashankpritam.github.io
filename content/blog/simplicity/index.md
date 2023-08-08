@@ -1,7 +1,8 @@
 ---
-title: Simplicity, Efficiency, and the Art of Learning
-date: 2023-07-26
-draft: false
+title: "Simplicity, Efficiency, and the Art of Learning"
+date: "2023-07-26"
+draft: no
+output: pdf_document
 ---
 
 ## Introduction
