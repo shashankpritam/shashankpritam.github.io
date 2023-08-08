@@ -106,13 +106,16 @@ Algorithmic thinking is a tool that helps us navigate complex problems by breaki
 
 ## Conclusion: Simplicity in Complexity
 
-The power of simplicity shines through in the Stable Marriage Problem. 
-Here's how the algorithm starts:
+The power of algorithmic thinking transcends academic boundaries, reaching into realms that may seem unlikely. Consider the Stable Marriage Problem:
 ![The Problem of Stable Marriage](stable_marriage.svg)
-The algorithm proposes, rejects, and makes new proposals. It's all done in an orderly and systematic manner: 
+Through a systematic process of proposing, rejecting, and renewing proposals, this algorithm finds optimal pairings without conflict:
 ![The Solution for Stable Marriage](stable_marriage_sol.svg)
 
-By applying a straightforward matching algorithm, we find optimal pairings without conflict. This seemingly trivial example reveals a profound truth: reducing complexity often reveals elegant solutions. Whether unraveling biological mysteries, economic challenges, or even the game of love, seeking simplicity in the complex allows us to see otherwise hidden patterns. Simplicity enables understanding. Algorithmic thinking is a tool to cut through entanglement and find clarity. Like mathematicians, we can leverage the strength of simplicity in our lives to discover more robust and beautiful solutions. The Stable Marriage Problem has had far-reaching impacts, with critical applications in markets and medicine. Its creators were even awarded the Nobel Prize in Economics[^2^] for the robust framework it provides. This playful puzzle illustrates how simplicity can elucidate solutions to complex societal challenges. By cutting through complexity, we can uncover more profound truths.
+This seemingly simple example embodies a profound truth: we can unveil elegant solutions by reducing complexity. Algorithmic thinking offers a way to cut through the tangled web of complexity to find clarity. Much like mathematicians distill complexity into understandable forms, we, too, can wield the strength of simplicity to uncover beautiful, practical solutions.
+
+The far-reaching impact of the Stable Marriage Problem, including applications in markets and medicine and recognition with a Nobel Prize in Economics[^2], illustrates how simplicity can tackle multifaceted societal challenges.
+
+Ultimately, starting with unbiased, simple thinking lays a solid foundation. From there, algorithmic approaches allow us to build advanced yet efficient solutions. The interplay between simplicity and algorithmic thinking opens doors to profound insights and robust problem-solving frameworks. We carve out a path to remarkable discoveries by embracing simplicity and carefully weaving in complexity.
 
 
 [^1^]: Sun, John Z., et al. “A Framework for Bayesian Optimality of Psychophysical Laws.” Journal of Mathematical Psychology, vol. 56, no. 6, Dec. 2012, pp. 495–501. DOI.org (Crossref), https://doi.org/10.1016/j.jmp.2012.08.002.
