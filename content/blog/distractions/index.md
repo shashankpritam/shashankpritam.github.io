@@ -7,10 +7,7 @@ draft: false
 
 ## Introduction
 
-+----+
-|    |---> My first diagram!
-+----+
-
+![The Modern Day Distractions](distraction.svg)
 
 ## Understanding Distractions
 
