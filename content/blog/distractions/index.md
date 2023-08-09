@@ -7,15 +7,10 @@ draft: false
 
 ## Introduction
 
-      
-<body>
-  <script src="https://google.github.io/typograms/typograms.js"></script>
-  <script type="text/typogram">
 +----+
 |    |---> My first diagram!
 +----+
-  </script>
-</body>
+
 
 ## Understanding Distractions
 
