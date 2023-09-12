@@ -14,7 +14,6 @@ Before we begin, make sure you have the following prerequisites:
 - C++ Compiler (e.g., g++)
 - R programming environment
 - GUDHI library for C++
-- Required data files (e.g., [tdaplot.cpp](tdaplot.cpp), [data.txt](data.txt), [tda.R](tda.R))
 
 You can install the necessary software and access the data files via the provided links or instructions.
 
@@ -48,7 +47,22 @@ Let's start by creating a filtered graph in C++ using GUDHI.
       return 0;
     }
 
+
+
+#### Expected Output
+
+Now let's see what `./output` gives us:
+
+```./output
+fn[1, 3] = 2
+fn[0, 1] = 1
+fn[1, 2] = 1
+fn[2, 3] = 1
+fn[3, 0] = 1
+```
+
 ### Part 2: Plotting the Filtered Graph in R
+
 Now, let's visualize the filtered graph in R using the igraph package.
 
     # Load the igraph package
