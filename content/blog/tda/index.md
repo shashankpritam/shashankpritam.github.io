@@ -1,6 +1,9 @@
-title: "Tutorial: Visualizing Topological Data Analysis (TDA) with GUDHI, Boost, and R"
+---
+title: 'Tutorial: Visualizing Topological Data Analysis (TDA) with GUDHI, Boost, and
+  R'
 date: "2023-09-12"
 draft: no
+---
 
 ### Introduction
 
@@ -48,7 +51,7 @@ Let's start by creating a filtered graph in C++ using GUDHI and Boost.
     }
 
 ### Part 2: Plotting the Filtered Graph in R
-Now, let's visualize the filtered graph in R using the igraph package. We'll also customize the plot to make it colorful.
+Now, let's visualize the filtered graph in R using the igraph package.
 
     # Load the igraph package
     library(igraph)
@@ -74,14 +77,11 @@ Now, let's visualize the filtered graph in R using the igraph package. We'll als
          sub="",
          frame=FALSE)
 
+![Result](./TDA.jpeg)
+
 ### Conclusion
 In this tutorial, you've learned how to create and visualize filtered graphs using C++ (GUDHI), Boost, and R (igraph). You've also explored the significance of Topological Data Analysis (TDA) in understanding complex data structures.
 
-
-
-![TDA](./TDA.jpeg)
-
-Feel free to customize the color palette to create vibrant and informative graph visualizations for your specific datasets.
 
 ### Additional Resources
 For more information on TDA, GUDHI, Boost, R, or graph visualization, you can explore the following resources:
