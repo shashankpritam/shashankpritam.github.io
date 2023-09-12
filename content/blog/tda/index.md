@@ -14,13 +14,12 @@ Before we begin, make sure you have the following prerequisites:
 - C++ Compiler (e.g., g++)
 - R programming environment
 - GUDHI library for C++
-- Boost C++ Libraries
 - Required data files (e.g., [tdaplot.cpp](tdaplot.cpp), [data.txt](data.txt), [tda.R](tda.R))
 
 You can install the necessary software and access the data files via the provided links or instructions.
 
 ### Part 1: Creating a Filtered Graph in C++
-Let's start by creating a filtered graph in C++ using GUDHI and Boost.
+Let's start by creating a filtered graph in C++ using GUDHI.
 
     #include <gudhi/Flag_complex_edge_collapser.h>
     #include <iostream>
@@ -79,12 +78,13 @@ Now, let's visualize the filtered graph in R using the igraph package.
 ![Result](./TDA.jpeg)
 
 ### Conclusion
-In this tutorial, you've learned how to create and visualize filtered graphs using C++ (GUDHI), Boost, and R (igraph). You've also explored the significance of Topological Data Analysis (TDA) in understanding complex data structures.
+In this tutorial, you've learned how to create and visualize filtered graphs using C++ (GUDHI), and R (igraph). 
+
+You've also explored the significance of Topological Data Analysis (TDA) in understanding complex data structures.
 
 
 ### Additional Resources
-For more information on TDA, GUDHI, Boost, R, or graph visualization, you can explore the following resources:
+For more information on GUDHI or igraph visualization, you can explore the following resources:
 
 - [GUDHI Documentation](https://gudhi.inria.fr/doc/latest/)
-- [Boost C++ Libraries](https://www.boost.org/)
 - [igraph Package Documentation](https://igraph.org/r/)
