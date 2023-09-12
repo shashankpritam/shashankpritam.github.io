@@ -1,6 +1,5 @@
 ---
-title: 'Tutorial: Visualizing Topological Data Analysis (TDA) with GUDHI, Boost, and
-  R'
+title: 'Tutorial: Visualizing Topological Data Analysis (TDA) with GUDHI and R'
 date: "2023-09-12"
 draft: no
 ---
@@ -16,7 +15,7 @@ Before we begin, make sure you have the following prerequisites:
 - R programming environment
 - GUDHI library for C++
 - Boost C++ Libraries
-- Required data files (e.g., `tdaplot.cpp`, `data.txt`, `tda.R`)
+- Required data files (e.g., [tdaplot.cpp](tdaplot.cpp), [data.txt](data.txt), [tda.R](tda.R))
 
 You can install the necessary software and access the data files via the provided links or instructions.
 
