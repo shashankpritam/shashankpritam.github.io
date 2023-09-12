@@ -1,6 +1,9 @@
-## Tutorial: Visualizing Topological Data Analysis (TDA) with GUDHI, Boost, and R
+title: "Tutorial: Visualizing Topological Data Analysis (TDA) with GUDHI, Boost, and R"
+date: "2023-09-12"
+draft: no
 
 ### Introduction
+
 In this tutorial, we will explore the concept of Topological Data Analysis (TDA) and its significance in data analysis. TDA helps uncover hidden structures in complex data by analyzing topological features such as connected components, loops, and voids.
 
 ### Prerequisites
@@ -76,7 +79,7 @@ In this tutorial, you've learned how to create and visualize filtered graphs usi
 
 
 
-![TDA](/Users/shashankpritam/github/personal/tda/TDA.jpeg)
+![TDA](./TDA.jpeg)
 
 Feel free to customize the color palette to create vibrant and informative graph visualizations for your specific datasets.
 
