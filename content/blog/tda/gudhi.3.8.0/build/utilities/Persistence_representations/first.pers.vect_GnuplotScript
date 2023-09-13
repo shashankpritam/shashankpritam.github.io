@@ -1,0 +1,11 @@
+set style data histogram
+set style histogram cluster gap 1
+set style fill solid border -1
+plot '-' notitle
+3.11127
+0.707107
+0.707107
+0.547301
+0.547301
+0.547301
+

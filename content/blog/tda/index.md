@@ -102,3 +102,7 @@ For more information on GUDHI or igraph visualization, you can explore the follo
 
 - [GUDHI Documentation](https://gudhi.inria.fr/doc/latest/)
 - [igraph Package Documentation](https://igraph.org/r/)
+
+
+
+# The Non Dualistic Universe
