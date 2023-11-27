@@ -7,14 +7,21 @@ description: "Pictures!"
 
 #### Some random but cool pictures (of my cat mostly).
 
-- ![Goof](./pics/chickugoof.jpg) - "Silly Boy"
-- ![Handsome](./pics/chikuhandsome.jpg) - "Striking a Dashing Pose"
-- ![Pose](./pics/chikupose.jpg) - "Elegantly Poised"
-- ![Rawr](./pics/chikurawr.jpg) - "Chiku: Fierce and Feisty"
-- ![Wonder](./pics/chikuwonder.jpg) - "Lost in Thought and Wonder"
-- ![MrTurt](./pics/mrturt.jpg) - "MrTurt: The Wise and Ancient One"
-- ![Sneak](./pics/sneak.jpg) - "Sneak: Sneaky"
-- ![Uni](./pics/uni.jpg) - "University"
+- ![Goof](../pics/chickugoof.jpg) - "Silly Boy"
+  
+- ![Handsome](../pics/chikuhandsome.jpg) - "Striking a Dashing Pose"
+  
+- ![Pose](../pics/chikupose.jpg) - "Elegantly Poised"
+  
+- ![Rawr](../pics/chikurawr.jpg) - "Chiku: Fierce and Feisty"
+
+- ![Wonder](../pics/chikuwonder.jpg) - "Lost in Thought and Wonder"
+  
+- ![MrTurt](../pics/mrturt.jpg) - "MrTurt: The Wise and Ancient One"
+  
+- ![Sneak](../pics/sneak.jpg) - "Sneak: Sneaky"
+  
+- ![Uni](../pics/uni.jpg) - "University"
 
 
 
