@@ -1,4 +1,4 @@
-baseURL: 'https://www.gomodelbio.systems'
+baseURL: 'https://github.com/shashankpritam'
 languageCode: 'en-us'
 title: 'GoModelBio'
 theme: 'PaperMod'
@@ -11,10 +11,7 @@ social:
     name: 'GitHub'
     weight: 1
     url: 'https://github.com/shashankpritam'
-  - icon: 'twitter'
-    name: 'Twitter'
-    weight: 2
-    url: 'https://twitter.com/fan_of_gpu'
+
 
 menu:
   main:
