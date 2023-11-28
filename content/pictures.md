@@ -7,19 +7,19 @@ description: "Pictures!"
 
 #### Some random but cool pictures (of my cat mostly).
 
-- ![Handsome](pics/chikuhandsome.jpg) - "Striking a Dashing Pose"
+- ![Handsome](https://github.com/shashankpritam/shashankpritam.github.io/tree/main/content/pics/chikuhandsome.jpg) - "Striking a Dashing Pose"
   
-- ![Pose](pics/chikupose.jpg) - "Elegantly Poised"
+- ![Pose](https://github.com/shashankpritam/shashankpritam.github.io/tree/main/content/pics/chikupose.jpg) - "Elegantly Poised"
   
-- ![Rawr](pics/chikurawr.jpg) - "Chiku: Fierce and Feisty"
+- ![Rawr](https://github.com/shashankpritam/shashankpritam.github.io/tree/main/content/pics/chikurawr.jpg) - "Chiku: Fierce and Feisty"
 
-- ![Wonder](pics/chikuwonder.jpg) - "Lost in Thought and Wonder"
+- ![Wonder](https://github.com/shashankpritam/shashankpritam.github.io/tree/main/content/pics/chikuwonder.jpg) - "Lost in Thought and Wonder"
   
-- ![MrTurt](pics/mrturt.jpg) - "MrTurt: The Wise and Ancient One"
+- ![MrTurt](https://github.com/shashankpritam/shashankpritam.github.io/tree/main/content/pics/mrturt.jpg) - "MrTurt: The Wise and Ancient One"
   
-- ![Sneak](pics/sneak.jpg) - "Sneak: Sneaky"
+- ![Sneak](https://github.com/shashankpritam/shashankpritam.github.io/tree/main/content/pics/sneak.jpg) - "Sneak: Sneaky"
   
-- ![Uni](pics/uni.jpg) - "University
+- ![Uni](https://github.com/shashankpritam/shashankpritam.github.io/tree/main/content/pics/uni.jpg) - "University
 
 
 
