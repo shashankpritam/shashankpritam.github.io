@@ -19,15 +19,6 @@ description: "Pictures!"
     <!-- more divs for other images -->
 </div>
 
-<div>
-    <img src="{{ .Get "src" }}" alt="{{ .Get "alt" }}">
-    <p>{{ .Get "caption" }}</p>
-</div>
-
-{{< image src="/pics/chikuhandsome.jpg" alt="Handsome" caption="Striking a Dashing Pose" >}}
-{{< image src="/pics/chikupose.jpg" alt="Pose" caption="Elegantly Poised" >}}
-<!-- more shortcodes for other images -->
-
 
 
 ![Handsome](/pics/chikuhandsome.jpg) - Striking a Dashing Pos
