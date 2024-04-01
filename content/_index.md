@@ -17,6 +17,8 @@ I use Grammarly and local LLMs (especially variants of Mistral) on my computer t
 
 ## My Digital Workspace
 
+Here are some tools listed, which I use almost daily for my work:
+
 ### Programming Tools
 - **Languages**: Python, R, Go, and Rust. Current obsession : Raku. 
 - **IDEs**: Helix editor, Zed, and VS Code.
