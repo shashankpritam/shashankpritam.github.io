@@ -10,9 +10,9 @@ My primary interests lie within the computational domain of Biology, specificall
 
 This blog is a platform for me to discuss various topics that interest me - from different programming languages and operating systems to opinions about diverse subcultures.
 
-:note:
+:: note ::
 
-I use Grammarly and local LLMs (especially variants of Mistral) on my computer to fix spelling mistakes, grammar, and writing flow. These tools help me learn how to write better. My goal is that as I progress with my writing, I'll use them less and less after a while.
+I use Grammarly and local LLMs (especially variants of Mistral) on my computer to fix spelling mistakes, grammar, and writing flow. These tools help me learn how to write better. My goal is that as I progress with my writing, I'll use these tools less and less after a while. So that I can develop my own writing skills and style.
 
 
 ## My Digital Workspace
