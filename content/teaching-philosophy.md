@@ -19,11 +19,3 @@ Learning is most effective when students are genuinely curious about the subject
 ### Providing guidance and resources
 
 As an educator, I know my limitations and recognize that I may not always be able to address every question or concern. In such instances, I prioritize guiding students toward relevant and valuable resources through peer-reviewed articles, expert opinions, or supplementary materials. This approach supports their learning journey and empowers them to become self-directed learners.
-
-One example of how I put these principles into practice is by regularly checking in with my students about their mental health and well-being. I make it a point to create a safe space for them to express their concerns, and I actively work with them to find appropriate accommodations or solutions to mitigate potential stressors.
-
-In addition, to create genuine curiosity and engagement, I incorporate real-world case studies, group discussions, and interactive activities that encourage students to delve deeper into the subject matter. These methods make learning more enjoyable and help students develop critical thinking and problem-solving skills.
-
-Lastly, I acknowledge my limitations as an educator and proactively guide students toward additional resources. By providing them with a curated list of relevant articles, websites, and experts in the field, I ensure they have the tools necessary to excel in their studies and become independent learners.
-
-In conclusion, my teaching philosophy promotes a balanced power dynamic, prioritizes mental health, and fosters an inclusive and engaging learning environment. By incorporating these principles into my teaching practices, I hope to create a positive and supportive educational experience that empowers students to reach their full academic and personal potential.
