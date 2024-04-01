@@ -2,7 +2,7 @@
 title: "ᓚᘏᗢ"
 ---
 
-Hello! Welcome to my blog.
+Hello! Welcome to my website.
 
 I am a PhD student in the Biological Sciences department at North Dakota State University (NDSU). 
 
@@ -51,6 +51,6 @@ Explore my *favorite* GitHub projects [here](https://github.com/shashankpritam?t
 
 Thank you for stopping by! Feel free to browse my blog posts in the **Blog** section.
 
-#### -------------------------------------------------------------------------------------------------------------------------
+#### --------------------------------------------------------------------------------------------------------------------------------
 
-## Blog articles
+## Recent blog articles
