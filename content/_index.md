@@ -50,3 +50,6 @@ alternative. For now, my iPad Gen 9 serves as a useful and budget-friendly devic
 Explore my *favorite* GitHub projects [here](https://github.com/shashankpritam?tab=stars).
 
 Thank you for stopping by! Feel free to browse my blog posts in the **Blog** section.
+
+#### ------------------------------------------------------------------------------------
+#### ------------------------------------------------------------------------------------
