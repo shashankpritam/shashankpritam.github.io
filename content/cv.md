@@ -4,7 +4,7 @@ description: "My Curriculum Vitae"
 ---
 
 # Shashank Pritam
-I avoid using social media because I have found it has lost it's charm, novelty and usefulness. Additionally, as a full-time graduate student my free time has become quite limited.
+I avoid using social media because I have found it has lost it's charm, novelty and usefulness.
 
 You can find my work here:
 
@@ -44,17 +44,11 @@ Through my academic journey, I have developed an interest in bridging scientific
 - Statistical Machine Learning
 
 ### Undergraduate
-- Linear Algebra
-- Statistical Inference
-- Combinatorics
-- Graph Theory
-- Operations Research
-- Algorithms
-- Mathematical & Computational Biology
-- Data Science
-- Microbiology
-- Genome Biology
-- Bioinformatics
+| Mathematics                 | Statistics                | Biology                    | Computer Science           |
+|------------------------------|---------------------------|----------------------------|----------------------------|
+| Linear Algebra               | Statistical Inference     | Microbiology               | Operations Research        |
+| Combinatorics                | Data Science              | Genome Biology              | Algorithms                 |
+| Graph Theory                 |                           | Bioinformatics             | Mathematical & Computational Biology |
 
 ## Publications & Presentations
 
