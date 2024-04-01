@@ -12,7 +12,7 @@ Here are some of books that I am currently reading:
 4. "Rust for Rustaceans : *Idiomatic Programming for Experienced Developers*" by Jon Gjengset
 5. "SUPERMAN AND THE AUTHORITY #1" 
 Writer: Grant Morrison, Art by: Mikel Janin
-6. Marvel's Black Widow: Forever Red by
+6. "Marvel's Black Widow: Forever Red" by
 Margaret Stohl.
 
 
