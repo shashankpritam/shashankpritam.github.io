@@ -1,33 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Blogs on GoModelBio</title>
-    <link>https://www.gomodelbio.systems/blog/</link>
-    <description>Recent content in Blogs on GoModelBio</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <title>Blogs on Algorithms and Sequences</title>
+    <link>http://localhost:1313/shashankpritam/shashankpritam.github.io/blog/</link>
+    <description>Recent content in Blogs on Algorithms and Sequences</description>
+    <generator>Hugo -- 0.128.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 26 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.gomodelbio.systems/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 26 Jul 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/shashankpritam/shashankpritam.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Simplicity</title>
-      <link>https://www.gomodelbio.systems/blog/simplicity/</link>
+      <title>Simplicity, Efficiency, and the Art of Learning</title>
+      <link>http://localhost:1313/shashankpritam/shashankpritam.github.io/blog/simplicity/</link>
       <pubDate>Wed, 26 Jul 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.gomodelbio.systems/blog/simplicity/</guid>
-      <description>Simplicity, Efficiency, and the Art of Learning Introduction A simple diagram which shows the simplified model of the lac operon, a well-studied gene regulatory network in E. coli.
-Here, talk about why you decided to write this post and provide a brief overview of the points you&amp;rsquo;re going to discuss.
-Simplicity is the Backbone of Robustness In this section, explain why simplicity is key to creating robust systems, using examples from nature, science, or your own field - computational biology.</description>
+      <guid>http://localhost:1313/shashankpritam/shashankpritam.github.io/blog/simplicity/</guid>
+      <description>Introduction Demystifying Complexity: Finding Clarity in Simplicity In our information-saturated age, complexity often impedes progress. An overabundance of information can lead to:
+Information Overload Our brains can only process so much information. Too many details overwhelm our ability to understand and solve problems. Decision Fatigue Weighing lots of complex options tires out our decision-making. The more choices we face, the worse our decisions get. Analysis Paralysis With tons of data, we become unable to choose.</description>
     </item>
-    
     <item>
-      <title>Distractions</title>
-      <link>https://www.gomodelbio.systems/blog/distractions/</link>
+      <title>The issue of distractions</title>
+      <link>http://localhost:1313/shashankpritam/shashankpritam.github.io/blog/distractions/</link>
       <pubDate>Mon, 24 Jul 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.gomodelbio.systems/blog/distractions/</guid>
-      <description>Introduction Understanding Distractions Discuss what distractions are and how they impact our productivity and well-being. Talk about the most common sources of distraction in our modern world (like smartphones and social media).
-The FOMO Phenomenon Explain the concept of FOMO and its implications. Discuss why we experience it and how it contributes to distraction and stress.
-The Cost of FOMO Discuss the effects of FOMO on our mental health, relationships, productivity, and overall quality of life.</description>
+      <guid>http://localhost:1313/shashankpritam/shashankpritam.github.io/blog/distractions/</guid>
+      <description>Distractions are things that pull our attention away from what we&amp;rsquo;re doing. It can be something as familiar as the buzz of a smartphone or a sudden thought about something we have to do later. Nowadays, many distractions come from technology like social media, emails, or shows and movies on entertainment platforms. Memes and short video forms have become new sources of entertainment. These distractions can mess with our ability to get things done, making us take longer to finish tasks.</description>
     </item>
-    
   </channel>
 </rss>

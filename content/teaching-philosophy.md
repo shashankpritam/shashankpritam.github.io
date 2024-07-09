@@ -2,6 +2,7 @@
 title: "Statement of Teaching Philosophy"
 ---
 
+
 As an educator, my teaching philosophy is centered around fostering a balanced power dynamic in the classroom that encourages productivity, nurtures mental health, and promotes an inclusive and welcoming environment. Mental health is as important as physical health; education should never compromise either aspect. My approach to teaching emphasizes genuine curiosity, accessibility, and guiding students toward valuable resources when necessary.
 
 ### Prioritizing mental health and well-being

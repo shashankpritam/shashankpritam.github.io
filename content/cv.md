@@ -4,9 +4,8 @@ description: "My Curriculum Vitae"
 ---
 
 # Shashank Pritam
-I avoid using social media because I have found it has lost it's charm, novelty and usefulness.
 
-You can find my work here:
+You can find my research work here:
 
 * [**GitHub**](https://www.github.com/shashankpritam)
 
@@ -19,7 +18,7 @@ You can find my work here:
 
 As a Ph.D. candidate in Biological Sciences, specializing in Computational Biology, I have gained skills in mathematics, programming, and advanced analytics. My expertise includes machine learning applications, bioinformatics tool development, and the analysis of biological data.
 
-Through my academic journey, I have developed an interest in bridging scientific research and industry solutions. I aim to apply my research skills and technical knowledge to contribute to innovative projects that use computational methods to advance the understanding and application of biological insights.
+I am interested in bridging scientific research and industry solutions. I want to apply my research skills and technical knowledge to contribute to innovative projects that use computational methods to advance the understanding and application of biological insights.
 
 ## EDUCATION
 

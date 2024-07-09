@@ -1,0 +1,21 @@
+HIV Infection: {
+    shape: sequence_diagram
+    person: Person
+    hiv: HIV
+    Infection Stages: {
+      person -> hiv: Exposure to virus {
+        style.animated: true
+      }
+      hiv -> person: Enters bloodstream {
+        style.animated: true
+      }
+      hiv -> person: Attacks immune system {
+        style.animated: true
+      }
+      person -> person: Progresses to AIDS {
+        style.animated: true
+      }
+      hiv -> person: Death
+    }
+  }
+  

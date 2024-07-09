@@ -1,0 +1,33 @@
+direction: right
+Stable Marriage Problem: {
+  men.man1 -> women.woman2: Proposal {
+    style.stroke: lightblue
+    style.animated: true
+  }
+  men.man2 -> women.woman1: Proposal {
+    style.stroke: lightblue
+    style.animated: true
+  }
+  men.man3 -> women.woman3: Proposal {
+    style.stroke: lightblue
+    style.animated: true
+  }
+  men.man4 -> women.woman4: Proposal {
+    style.stroke: lightblue
+    style.animated: true
+  }
+
+  women.woman2 -> men.man1: Rejection {
+    style.stroke: orange
+    style.animated: true
+  }
+
+  men.man1 -> women.woman3: New Proposal {
+    style.stroke: blue
+    style.animated: true
+  }
+  men.man1 -> women.woman3: Matched {style.stroke: green}
+  men.man2 -> women.woman1: Matched {style.stroke: green}
+  men.man3 -> women.woman3: Matched {style.stroke: green}
+  men.man4 -> women.woman4: Matched {style.stroke: green}
+}

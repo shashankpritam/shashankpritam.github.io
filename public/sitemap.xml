@@ -2,30 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.gomodelbio.systems/blog/</loc>
+    <loc>http://localhost:1313/shashankpritam/shashankpritam.github.io/blog/</loc>
     <lastmod>2023-07-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.gomodelbio.systems/</loc>
+    <loc>http://localhost:1313/shashankpritam/shashankpritam.github.io/blog/simplicity/</loc>
     <lastmod>2023-07-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.gomodelbio.systems/blog/simplicity/</loc>
+    <loc>http://localhost:1313/shashankpritam/shashankpritam.github.io/</loc>
     <lastmod>2023-07-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.gomodelbio.systems/blog/distractions/</loc>
+    <loc>http://localhost:1313/shashankpritam/shashankpritam.github.io/posts/</loc>
+    <lastmod>2023-07-25T00:47:05-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/shashankpritam/shashankpritam.github.io/blog/distractions/</loc>
     <lastmod>2023-07-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.gomodelbio.systems/about/</loc>
+    <loc>http://localhost:1313/shashankpritam/shashankpritam.github.io/about/</loc>
   </url><url>
-    <loc>https://www.gomodelbio.systems/categories/</loc>
+    <loc>http://localhost:1313/shashankpritam/shashankpritam.github.io/categories/</loc>
   </url><url>
-    <loc>https://www.gomodelbio.systems/readings/</loc>
+    <loc>http://localhost:1313/shashankpritam/shashankpritam.github.io/readings/</loc>
   </url><url>
-    <loc>https://www.gomodelbio.systems/cv/</loc>
+    <loc>http://localhost:1313/shashankpritam/shashankpritam.github.io/cv/</loc>
   </url><url>
-    <loc>https://www.gomodelbio.systems/pictures/</loc>
+    <loc>http://localhost:1313/shashankpritam/shashankpritam.github.io/pictures/</loc>
   </url><url>
-    <loc>https://www.gomodelbio.systems/teaching-philosophy/</loc>
+    <loc>http://localhost:1313/shashankpritam/shashankpritam.github.io/teaching-philosophy/</loc>
   </url><url>
-    <loc>https://www.gomodelbio.systems/tags/</loc>
+    <loc>http://localhost:1313/shashankpritam/shashankpritam.github.io/tags/</loc>
   </url>
 </urlset>
