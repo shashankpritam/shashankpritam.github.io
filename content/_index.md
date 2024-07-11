@@ -27,8 +27,8 @@ Here are some tools listed, which I use almost daily for my work:
 - **Diagrams**: D2.
 - **Remote Work**: Termius.
 - **Reference Management**: Zotero & Calibre.
-- **Other Favorites**: Omnivore, Kagi Search, Orion Browser, VS Code, Itsycal.
-
+- **Other Favorites**: Omnivore, Kagi Search, Orion Browser, Ollama, f.lux
+- **Cool Mac Apps**: Folder Peek, Maintainence, TomatoBar, Raycast, ItsyCal, Hazeover
 
 
 ### GitHub
