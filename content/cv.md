@@ -16,7 +16,7 @@ You can find my research work here:
 
 ## OBJECTIVE
 
-I am a Ph.D. candidate in Biological Sciences, specializing in Computational Biology, I have gained skills in mathematics, programming, and advanced analytics. My expertise and interests includes machine learning applications, bioinformatics tool development, and the analysis of biological data. In general, programming is quite appealing to me from both academic and practical perspectives.
+I am a Ph.D. candidate in Biological Sciences, specializing in Computational Biology, I have developed skills in mathematics, programming, and advanced analytics. My area of expertise and interests includes machine learning applications, bioinformatics tool development, and the analysis of biological data. In general, programming is quite appealing to me from both academic and practical perspectives.
 
 I am interested in bridging scientific research and industry solutions. I want to apply my research skills and technical knowledge to contribute to innovative projects that use computational methods to advance the understanding and application of biological insights.
 
@@ -64,9 +64,13 @@ I am interested in bridging scientific research and industry solutions. I want t
 2. Poster Preparation and Abstract Writing Workshop. Center for Writers, NDSU, February 29, 2024.
 
 ## Skills
-1. Programming Languages: Python and R for bioinformatics pipelines; familiar with Go and Rust for tool development. Exploring Raku, Zig, and Crystal for specific computational tasks. [Scripting]
-2. Data Analysis & Visualization: Using DuckDB and Polars for efficient in-memory data querying and manipulation. Experienced with Pandas and NumPy for data analysis,
+1. Programming Languages: Python and R for bioinformatics pipelines; familiar with Go and Rust for tool development. Exploring Crystal for specific computational tasks (scripting).
+
+2. Data Analysis & Visualization: I have been using DuckDB and Polars for efficient in-memory data querying and manipulation. Also, I am experienced with Pandas and NumPy for data analysis,
 proficient in creating visualizations with Matplotlib, Seaborn, ggplot2, and gnuplot.
-3. Machine Learning/Deep Learning: Applying TensorFlow and PyTorch to develop predictive models in genomics and proteomics. Using Scikit-learn for machine learning tasks and JAX for accelerated machine learning research.
-4. Workflow Management: Developing and managing bioinformatics workflows using Just, Snakemake, or Bash. Experienced in job scheduling with PBS and Slurm for HPC systems.
-5. Documentation, and Version Control: Maintaining documentation with LaTeX, Quarto, and Markdown. Utilizing Git for version control.
+
+3. Machine Learning/Deep Learning: I have used TensorFlow and PyTorch to develop predictive models in genomics and proteomics. I have been using Scikit-learn and JAX for machine learning research.
+
+4. Workflow Management: I have been creating bioinformatics workflows using Just, Snakemake, or Bash for my projects. Experienced in job scheduling with PBS and Slurm for HPC systems.
+
+5. Documentation, and Version Control: LaTeX, Quarto, and Markdown. Also, Git for version control.
