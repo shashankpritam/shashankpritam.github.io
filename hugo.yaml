@@ -39,7 +39,4 @@ menu:
       name: 'About'
       url: '/about/'
       weight: 6
-    - identifier: 'blog'
-      name: 'Blog'
-      url: '/blog/'
-      weight: 7
+

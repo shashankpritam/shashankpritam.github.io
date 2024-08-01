@@ -37,5 +37,3 @@ Explore my *favorite* GitHub projects [here](https://github.com/shashankpritam?t
 Thank you for stopping by! Feel free to browse my blog posts in the **Blog** section.
 
 #### --------------------------------------------------------------------------------------------------------------------------------
-
-## Recent blog articles
