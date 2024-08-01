@@ -31,9 +31,4 @@ Here are some tools listed, which I use almost daily for my work:
 - **Cool Mac Apps**: Folder Peek, Maintainence, TomatoBar, Raycast, ItsyCal, Hazeover
 
 
-### GitHub
-Explore my *favorite* GitHub projects [here](https://github.com/shashankpritam?tab=stars).
-
-Thank you for stopping by! Feel free to browse my blog posts in the **Blog** section.
-
-#### --------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------
