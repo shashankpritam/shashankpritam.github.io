@@ -1,6 +1,6 @@
 ---
 title: "Pictures"
-description: "Pictures!"
+description: ""
 ---
 
 
