@@ -1,6 +1,6 @@
 ---
 title: "Résumé"
-description: "My Résumé"
+description: ""
 ---
 
 # Shashank Pritam
