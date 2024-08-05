@@ -25,7 +25,7 @@ Below is a curated list of books I'm currently reading and websites I find usefu
 | | [Serious Eats](https://www.seriouseats.com/) | Scientific approach to cooking |
 | | [Budget Bytes](https://www.budgetbytes.com/) | Affordable cooking recipes |
 | **Fitness** | [Breaking Muscle](https://breakingmuscle.com/) | Strength training and fitness advice |
-| **Fashion** | [The Rake](https://therake.com/default.aspx) | Men's luxury style guide |
+| **Fashion** | [The Rake](https://therake.com/default/) | Men's luxury style guide |
 | | [Permanent Style](https://permanentstyle.com/) | Traditional, bespoke menswear |
 | | [FashionBeans](https://www.fashionbeans.com/) | Men's style advice and trends |
 | | [Ape To Gentleman](https://www.apetogentleman.com/) | Men's lifestyle and fashion blog |
