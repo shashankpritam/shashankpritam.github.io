@@ -4,62 +4,56 @@
     <title>ᓚᘏᗢ on Algorithms and Sequences</title>
     <link>http://localhost:1313/shashankpritam/shashankpritam.github.io/</link>
     <description>Recent content in ᓚᘏᗢ on Algorithms and Sequences</description>
-    <generator>Hugo -- 0.128.2</generator>
+    <generator>Hugo -- 0.131.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 26 Jul 2023 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/shashankpritam/shashankpritam.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Simplicity, Efficiency, and the Art of Learning</title>
-      <link>http://localhost:1313/shashankpritam/shashankpritam.github.io/blog/simplicity/</link>
-      <pubDate>Wed, 26 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/shashankpritam/shashankpritam.github.io/blog/simplicity/</guid>
-      <description>Introduction Demystifying Complexity: Finding Clarity in Simplicity In our information-saturated age, complexity often impedes progress. An overabundance of information can lead to:
-Information Overload Our brains can only process so much information. Too many details overwhelm our ability to understand and solve problems. Decision Fatigue Weighing lots of complex options tires out our decision-making. The more choices we face, the worse our decisions get. Analysis Paralysis With tons of data, we become unable to choose.</description>
-    </item>
-    <item>
-      <title>The issue of distractions</title>
-      <link>http://localhost:1313/shashankpritam/shashankpritam.github.io/blog/distractions/</link>
-      <pubDate>Mon, 24 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/shashankpritam/shashankpritam.github.io/blog/distractions/</guid>
-      <description>Distractions are things that pull our attention away from what we&amp;rsquo;re doing. It can be something as familiar as the buzz of a smartphone or a sudden thought about something we have to do later. Nowadays, many distractions come from technology like social media, emails, or shows and movies on entertainment platforms. Memes and short video forms have become new sources of entertainment. These distractions can mess with our ability to get things done, making us take longer to finish tasks.</description>
-    </item>
     <item>
       <title></title>
       <link>http://localhost:1313/shashankpritam/shashankpritam.github.io/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/shashankpritam/shashankpritam.github.io/about/</guid>
-      <description>What&amp;rsquo;s On The Blog? What I hope to post in future?
-A mix of whatever&amp;rsquo;s been capturing my interest lately in reading and learning Do you have any questions, or just want to chat about science, tech, or anything else? Feel free to send me an email (firstname.lastname@icloud.com)! Or schedule a meeting with me here.</description>
+      <description>What&amp;rsquo;s On The Blog? A mix of whatever&amp;rsquo;s been capturing my interest lately. I also use the webpage as my Résumé/CV, a public notebook. If you have any questions, or just want to chat about science, tech, or anything else? Please feel free to send me an email (firstname.lastname@icloud.com)! Or schedule a meeting with me here.</description>
     </item>
     <item>
-      <title>Current Readings</title>
+      <title>Current Readings and Bookmarks</title>
       <link>http://localhost:1313/shashankpritam/shashankpritam.github.io/readings/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/shashankpritam/shashankpritam.github.io/readings/</guid>
-      <description>Bookshelf Here are some of books that I am currently reading:
-&amp;ldquo;A Biologist&amp;rsquo;s Guide to Mathematical Modeling in Ecology and Evolution&amp;rdquo; by Sarah P. Otto and Troy Day &amp;ldquo;Modeling Life: The Mathematics of Biological Systems&amp;rdquo; by Alan Garfinkel, Jane Shevtsov, and Yina Guo &amp;ldquo;The Rust Programming Language&amp;rdquo; by Steve Klabnik and Carol Nichols, with contributions from the Rust Community &amp;ldquo;Rust for Rustaceans : Idiomatic Programming for Experienced Developers&amp;rdquo; by Jon Gjengset Cool Websites A few useful and interesting websites:</description>
-    </item>
-    <item>
-      <title>CV</title>
-      <link>http://localhost:1313/shashankpritam/shashankpritam.github.io/cv/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/shashankpritam/shashankpritam.github.io/cv/</guid>
-      <description>My Curriculum Vitae</description>
+      <description>Below is a curated list of books I&amp;rsquo;m currently reading and websites I find useful across various topics.
+Category Item Description Current Reading A Biologist&amp;rsquo;s Guide to Mathematical Modeling in Ecology and Evolution Mathematical modeling for biology Modeling Life: The Mathematics of Biological Systems Math applications in biological systems The Rust Programming Language Official guide to Rust programming Rust for Rustaceans Advanced Rust for experienced developers Search Kagi Advanced, privacy-focused search engine Science Quick Pop Gen Concise intro to population genetics Mathematics Probability Course Comprehensive online probability course Programming The Ascetic Programmer Minimalist programming practices The Grug Brained Developer Best practices Language Lingolia German German grammar and vocabulary resource DW Learn German Free German courses from Deutsche Welle Music JustinGuitar Free online guitar lessons News The New York Times Leading American newspaper The Economist Global economics and current affairs Cooking Minimalist Baker Simple, often vegan recipes The Kitchn Daily food magazine and kitchen tips Serious Eats Scientific approach to cooking Budget Bytes Affordable cooking recipes Fitness Breaking Muscle Strength training and fitness advice Fashion The Rake Men&amp;rsquo;s luxury style guide Permanent Style Traditional, bespoke menswear FashionBeans Men&amp;rsquo;s style advice and trends Ape To Gentleman Men&amp;rsquo;s lifestyle and fashion blog Travel Atlas Obscura Guide to unusual travel destinations Nomadic Matt Travel tips and budget advice Lonely Planet Comprehensive travel guides Automotive Consumer Reports - Cars Unbiased car reviews and ratings Car and Driver Automotive reviews and news </description>
     </item>
     <item>
       <title>Pictures</title>
       <link>http://localhost:1313/shashankpritam/shashankpritam.github.io/pictures/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/shashankpritam/shashankpritam.github.io/pictures/</guid>
-      <description>Pictures!</description>
+      <description>Some random but cool pictures (of my cat mostly). - Striking a Dashing Poe
+- Elegantly Poised
+- Chiku: Fierce and Feisty
+- Lost in Thought and Wonder
+- MrTurt: The Wise and Ancient One
+- Sneak: Sneaky
+- University</description>
+    </item>
+    <item>
+      <title>Résumé</title>
+      <link>http://localhost:1313/shashankpritam/shashankpritam.github.io/cv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/shashankpritam/shashankpritam.github.io/cv/</guid>
+      <description>Shashank Pritam You can find my research work here:
+GitHub
+Google Scholar
+Orcid
+LinkedIn
+OBJECTIVE Hello! I am a Ph.D. student at North Dakota State University (NDSU), enrolled in the Department of Biological Sciences. My academic journey has been quite enriching for me so far. Computational Biology has been my focus as a research area, mainly because it is quite interdisciplinary. I truly enjoy studying the breadth of the research area, as it gives me opportunities to focus on deep, specific problems while still acquiring new skills and utilizing old ones.</description>
     </item>
     <item>
       <title>Statement of Teaching Philosophy</title>
       <link>http://localhost:1313/shashankpritam/shashankpritam.github.io/teaching-philosophy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/shashankpritam/shashankpritam.github.io/teaching-philosophy/</guid>
-      <description>As an educator, my teaching philosophy is centered around fostering a balanced power dynamic in the classroom that encourages productivity, nurtures mental health, and promotes an inclusive and welcoming environment. Mental health is as important as physical health; education should never compromise either aspect. My approach to teaching emphasizes genuine curiosity, accessibility, and guiding students toward valuable resources when necessary.
-Prioritizing mental health and well-being A student’s mental health is paramount; my teaching practices reflect this commitment.</description>
+      <description>As an educator, my teaching philosophy is centered around creating a balanced power dynamic in the classroom that encourages productivity, nurtures mental health, and promotes an inclusive and welcoming environment. For me, mental health is as important as physical health and education should never compromise either of aspects.
+Prioritizing mental health and well-being A student’s mental health is very important; and my teaching practices reflect this commitment. I aim to create a classroom atmosphere where students feel emotionally supported and valued, this should enable them to focus on learning without added stress.</description>
     </item>
   </channel>
 </rss>

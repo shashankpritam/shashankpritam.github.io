@@ -1,28 +1,36 @@
 ---
-title: "Current Readings"
+title: "Current Readings and Bookmarks"
 ---
 
-## Bookshelf
+Below is a curated list of books I'm currently reading and websites I find useful across various topics.
 
-Here are some of books that I am currently reading:
-
-1. "A Biologist's Guide to Mathematical Modeling in Ecology and Evolution" by Sarah P. Otto and Troy Day
-2. "Modeling Life: The Mathematics of Biological Systems" by Alan Garfinkel, Jane Shevtsov, and Yina Guo
-3. "The Rust Programming Language" by Steve Klabnik and Carol Nichols, *with contributions from the Rust Community*
-4. "Rust for Rustaceans : *Idiomatic Programming for Experienced Developers*" by Jon Gjengset
-
-
-
-## Cool Websites
-
-A few useful and interesting websites:
-
-1. [Kagi.com](https://www.kagi.com/)
-    - **About**: One of the coolest tech tools available right now. It's the best search engine I've come across, and it's become a daily essential for me.
-
-2. [Quick Pop Gen](https://plato.stanford.edu/entries/population-genetics/)
-    - **About**: A concise but thorough introduction to the field of population genetics. It's a great refresher or starting point for anyone interested in this subject.
-
-3. [Probability Course](https://www.probabilitycourse.com/)
-    - **About**: A comprehensive course on probability. Useful for computational biology as it helps you in effectively refreshing your probability knowledge.
-
+| Category | Item | Description |
+|----------|------|-------------|
+| **Current Reading** | A Biologist's Guide to Mathematical Modeling in Ecology and Evolution | Mathematical modeling for biology |
+| | Modeling Life: The Mathematics of Biological Systems | Math applications in biological systems |
+| | The Rust Programming Language | Official guide to Rust programming |
+| | Rust for Rustaceans | Advanced Rust for experienced developers |
+| **Search** | [Kagi](https://www.kagi.com/) | Advanced, privacy-focused search engine |
+| **Science** | [Quick Pop Gen](https://plato.stanford.edu/entries/population-genetics/) | Concise intro to population genetics |
+| **Mathematics** | [Probability Course](https://www.probabilitycourse.com/) | Comprehensive online probability course |
+| **Programming** | [The Ascetic Programmer](https://www.asceticprogrammer.info/book) | Minimalist programming practices |
+| | [The Grug Brained Developer](https://grugbrain.dev) | Best practices |
+| **Language** | [Lingolia German](https://deutsch.lingolia.com/en/) | German grammar and vocabulary resource |
+| | [DW Learn German](https://learngerman.dw.com/en/learn-german/s-9528) | Free German courses from Deutsche Welle |
+| **Music** | [JustinGuitar](https://www.justinguitar.com/) | Free online guitar lessons |
+| **News** | [The New York Times](https://www.nytimes.com/) | Leading American newspaper |
+| | [The Economist](https://www.economist.com/) | Global economics and current affairs |
+| **Cooking** | [Minimalist Baker](https://minimalistbaker.com/) | Simple, often vegan recipes |
+| | [The Kitchn](https://www.thekitchn.com/) | Daily food magazine and kitchen tips |
+| | [Serious Eats](https://www.seriouseats.com/) | Scientific approach to cooking |
+| | [Budget Bytes](https://www.budgetbytes.com/) | Affordable cooking recipes |
+| **Fitness** | [Breaking Muscle](https://breakingmuscle.com/) | Strength training and fitness advice |
+| **Fashion** | [The Rake](https://therake.com/default.aspx) | Men's luxury style guide |
+| | [Permanent Style](https://permanentstyle.com/) | Traditional, bespoke menswear |
+| | [FashionBeans](https://www.fashionbeans.com/) | Men's style advice and trends |
+| | [Ape To Gentleman](https://www.apetogentleman.com/) | Men's lifestyle and fashion blog |
+| **Travel** | [Atlas Obscura](https://www.atlasobscura.com/) | Guide to unusual travel destinations |
+| | [Nomadic Matt](https://www.nomadicmatt.com/) | Travel tips and budget advice |
+| | [Lonely Planet](https://www.lonelyplanet.com/) | Comprehensive travel guides |
+| **Automotive** | [Consumer Reports - Cars](https://www.consumerreports.org/cars/) | Unbiased car reviews and ratings |
+| | [Car and Driver](https://www.caranddriver.com/) | Automotive reviews and news |
