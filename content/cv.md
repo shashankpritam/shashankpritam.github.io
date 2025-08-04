@@ -16,78 +16,91 @@ You can find my research work here:
 * [**LinkedIn**](https://www.linkedin.com/in/shashank-pritam/)
 
 ## OBJECTIVE
-Hello! I am a Ph.D. student at North Dakota State University (NDSU), enrolled in the Department of Biological Sciences. My research interests lie in the field of computational biology, particularly in bioinformatics and genomics. Biology is a domain that provides me with intellectual satisfaction and alsp enables me to help society in a way that I can. Currently, the biological domain I am working on involves small RNAs (such as piRNA and miRNA) and Transposable Elements. I also enjoy working with different programming languages and learning new programming paradigms. I am interested in the intersection of computational biology and software engineering, where I can apply my skills to solve complex biological problems.
+Hello! I am a Ph.D. student at North Dakota State University (NDSU), enrolled in the Department of Biological Sciences. My research interests lie in the field of computational biology, particularly in bioinformatics and genomics. Biology is a domain that provides me with intellectual satisfaction and also enables me to help society in a way that I can. Currently, the biological domain I am working on involves small RNAs (such as piRNA and miRNA) and Transposable Elements. I also enjoy working with different programming languages and learning new programming paradigms. I am interested in the intersection of computational biology and software engineering, where I can apply my skills to solve complex biological problems.
 
 
 ## EDUCATION
 
-| **Degree**                 | **Institution**      | **Location**     | **Completion**       |
-|----------------------------|----------------------|------------------|----------------------|
-| PhD, Biological Sciences   | NDSU                 | Fargo, ND        | Expected May, 2026   |
-| BS-MS, Biological Sciences | IISER                | Pune, India      | May, 2022            |
+| **Degree**                                          | **Institution**                                    | **Location**        | **Duration**         |
+|----------------------------------------------------|----------------------------------------------------|--------------------|---------------------|
+| Ph.D., Biological Sciences | North Dakota State University                      | Fargo, ND, USA     | Aug 2022 -- Apr 2026 |
+| BS-MS, Biological Sciences | Indian Institutes of Science Education and Research | Pune, MH, India    | Aug 2017 -- May 2022 |
 
-## Projects
+## PUBLICATIONS
 
-### Characterization of Flamenco piRNA Cluster locus in Drosophila Melanogaster
-- **Duration**: February 2025 - Present
-- **Description**: Characterizing the Flamenco piRNA cluster locus in Drosophila melanogaster using computational methods in bioinformatics. This project involves analyzing the genomic and epigenomic features of the Flamenco locus, including its transcriptional regulation and small RNA biogenesis.
-
-### Inferring Horizontal Transfer (HT) of Transposable Elements (TEs)
-- **Duration**: January 2025 - Present
-- **Description**: Implementing phylogenetic analysis pipelines to process and visualize large-scale evolutionary tree data to infer the horizontal transfer of transposable elements (TEs) in various species.
-
-### Small RNA's Role in Megachile Rotundata Diapause
-- **Duration**: August 2023 - Present
-- **Description**: Investigating the role of small RNAs in the diapause of Megachile rotundata using computational methods in bioinformatics.
-
-### Examining the High Insertion Bias of P-Elements into X-TAS
-- **Duration**: March 2023 - July 2024
-- **Description**: Analyzing the high insertion bias of P-elements into X-TAS using computational methods in bioinformatics.
-
-### Prediction of PPII Receptors
-- **Duration**: Jun 2021 -- Aug 2022
-- **Description**: Used superimposition-based methods and Monte Carlo simulations to study how protein receptors and PPII peptides interact.
-
-## Relevant Courses
-
-### Graduate
-
-- Computational Methods in Bioinformatics
-- Quantitative Biology
-- Statistical Machine Learning
-
-### Undergraduate
-
-| Mathematics                  | Statistics                | Biology                    | Computer Science           |
-|------------------------------|---------------------------|----------------------------|----------------------------|
-| Linear Algebra               | Statistical Inference     | Microbiology               | Operations Research        |
-| Combinatorics                | Data Science              | Genome Biology             | Algorithms                 |
-| Graph Theory                 |                           | Bioinformatics             | Mathematical & Computational Biology |
-
-## Presentations
-
-- Examining the High Insertion Bias of P-Elements into X-TAS. [Poster]. Presented at the TAGC, Washington DC, March 2024.
-- Investigating the Elevated Insertion Bias of P-elements into X-TAS. [Poster]. Presented at the Northern Plains Biological Symposium, Grand Forks ND, March 2024.
-
-### Awards & Recognitions
-
-- Best Poster Presentation, PhD Category. Northern Plains Biological Symposium 2024, University of North Dakota, Grand Forks ND.
-
-## Professional Development
-
-### Workshops
-1. Leadership and Entrepreneurship Workshop. Conducted by the NDSU Research Foundation and NDSU Office of Innovation and Economic Development, January 25, 2024.
-2. Poster Preparation and Abstract Writing Workshop. Center for Writers, NDSU, February 29, 2024.
+- Pritam, S., Signor, S. (2024). Evolution of piRNA-guided defense against transposable elements. *Trends in Genetics*.
+- Pritam, S., Scarpa, A., Kofler, R., Signor, S. (2025). The impact of insertion bias into piRNA clusters on the invasion of transposable elements. *BMC Biology*.
 
 
+## WORK EXPERIENCE
 
-## Skills
-1. Programming Languages: Python and R for bioinformatics pipelines; familiar with Go and Rust for tool development. Exploring Crystal for specific computational tasks (e.g., scripting).
+- Graduate Research Assistant
+**Signor Lab, NDSU** | Aug 2022 -- Present
 
-2. Data Analysis & Visualization: I have been using DuckDB and Polars for efficient in-memory data querying and manipulation. Also, I am experienced with Pandas and NumPy for data analysis, proficient in creating visualizations with Matplotlib, Seaborn, ggplot2, and gnuplot.
+- Graduate Teaching Assistant
+**Biological Sciences, NDSU** | Spring 2024, Fall 2024
 
-3. Machine Learning/Deep Learning: I have used TensorFlow and PyTorch to develop predictive models in genomics and proteomics. I have been using Scikit-learn and JAX for machine learning research.
+- Masters Research Student
+**COSPI Lab, IISER Pune** | Jun 2021 -- Aug 2022
 
-4. Workflow Management: I have been creating bioinformatics workflows using Just, Snakemake, or Bash for my projects. Experienced in job scheduling with PBS and Slurm for HPC systems.
+## RESEARCH PROJECTS
 
-5. Documentation, and Version Control: LaTeX, Quarto, and Markdown. Also, Git for version control.
+### Insertion Bias of Transposons into piRNA Clusters
+**Duration**: Feb 2023 -- Jul 2025
+- Developed computational models and population genetics simulations to study transposon invasion and host defense mechanisms
+- Built scalable data processing workflows using Python, R, and DuckDB with HPC optimization
+
+### Horizontal Transfer of Transposons in Drosophila
+**Duration**: Jan 2025 -- Aug 2025
+- Engineered computational methods to detect horizontal transfer events across 300+ Drosophila genome assemblies and 200+ transposable elements
+- Implemented phylogenetic analysis pipelines using Bash, R, and Python with machine learning prediction models (scikit-learn)
+
+### PPII Receptor Prediction
+**Duration**: Jun 2021 -- Aug 2022
+- Developed receptor prediction software for PPII peptides using superimposition-based methods and Monte Carlo simulations
+- Built comprehensive prediction software suite with automated molecular simulation workflows
+
+### Flamenco Locus Duplication in Drosophila melanogaster
+**Duration**: Dec 2024 -- Present
+- Analyzed D. melanogaster genome sequences to identify flamenco piRNA cluster duplication across different strains
+- Developed custom tools for large-scale transposable element analysis and syntenic gene mapping
+
+### Small RNA Regulation in Megachile rotundata Diapause
+**Duration**: Aug 2023 -- Present
+- Analyzed small RNA (*piRNA and miRNA*) expression patterns across diapause stages using miRDeep2, ShortStack, and custom Python/Raku pipelines
+- Built small RNA sequencing workflows for non-model organism analysis
+
+
+## TECHNICAL SKILLS
+
+**Programming Languages**: Python, R, Bash/Shell, Odin
+
+**Machine Learning & AI**: scikit-learn, TensorFlow, PyTorch, JAX, DNABert
+
+**Bioinformatics Tools**: DESeq, miRDeep2, ShortStack, GROMACS, BioPython
+
+**Documentation & Publishing**: LaTeX, Typst, Quarto, Pandoc, AsciiDoc, Markdown
+
+**Systems & Development**: Linux/Unix, Git version control, server administration
+
+**Analysis Methods**: Evolutionary Biology, Population Genetics, Comparative Genomics, Network Analysis
+
+## AWARDS & HONORS
+
+- Best Poster Presentation (Ph.D. Category), Northern Plains Biological Symposium 2024
+- Infosys Foundation Scholar, IISER Pune (2017-2018)
+
+## RELEVANT COURSES
+
+**Graduate**: Computational Methods in Bioinformatics, Quantitative Biology, Statistical Machine Learning
+
+**Undergraduate**: Linear Algebra, Statistical Inference, Combinatorics, Graph Theory, Operations Research, Algorithms, Mathematical & Computational Biology, Data Science, Microbiology, Genome Biology, Bioinformatics
+
+## PRESENTATIONS
+
+### Conference Presentations
+
+**Insertion Bias of Transposons into piRNA Clusters**
+- The Allied Genetics Conference (TAGC), Washington DC | March 2024
+- Northern Plains Biological Symposium, Grand Forks, ND | March 2024
+- 66th Annual Drosophila Research Conference, San Diego, CA | March 2025

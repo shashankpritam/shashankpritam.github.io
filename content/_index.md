@@ -13,7 +13,7 @@ I am working in the field of Computational Biology, as a grad student my researc
 Here are some tools listed, which I use almost daily for my work:
 
 ### Programming Tools
-- **Languages**: Python, R, Go, and Rust.
+- **Languages**: Python, R, Go, Odin, and Rust.
 - **IDEs**: Neovim, Helix editor, Zed, and VS Code.
 - **Terminal**: Ghostty ftw!
 - **Version Control**: Currently using GitHub, but planning to transition to [sr.ht](https://sr.ht/~pritam/).

@@ -27,16 +27,12 @@ menu:
       name: 'Pictures'
       url: '/pictures/'
       weight: 3
-    - identifier: 'teaching-philosophy'
-      name: 'Teaching Philosophy'
-      url: '/teaching-philosophy/'
-      weight: 4
     - identifier: 'readings'
       name: 'Readings'
       url: '/readings/'
-      weight: 5
+      weight: 4
     - identifier: 'about'
       name: 'About'
       url: '/about/'
-      weight: 6
+      weight: 5
 

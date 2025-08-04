@@ -4,7 +4,7 @@
     <title>ᓚᘏᗢ on Algorithms and Sequences</title>
     <link>http://localhost:1313/shashankpritam/shashankpritam.github.io/</link>
     <description>Recent content in ᓚᘏᗢ on Algorithms and Sequences</description>
-    <generator>Hugo -- 0.131.0</generator>
+    <generator>Hugo -- 0.148.2</generator>
     <language>en-us</language>
     <atom:link href="http://localhost:1313/shashankpritam/shashankpritam.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -12,48 +12,158 @@
       <link>http://localhost:1313/shashankpritam/shashankpritam.github.io/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/shashankpritam/shashankpritam.github.io/about/</guid>
-      <description>What&amp;rsquo;s On The Blog? A mix of whatever&amp;rsquo;s been capturing my interest lately. I also use the webpage as my Résumé/CV, a public notebook. If you have any questions, or just want to chat about science, tech, or anything else? Please feel free to send me an email (firstname.lastname@icloud.com)! Or schedule a meeting with me here.</description>
+      <description>&lt;h2 id=&#34;whats-on-the-blog&#34;&gt;What&amp;rsquo;s On The Blog?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;A mix of whatever&amp;rsquo;s been capturing my interest lately. I also use the webpage as my Résumé/CV, a public notebook.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you have any questions, or just want to chat about science, tech, or anything else? Please feel free to send me an email (&lt;a href=&#34;mailto:firstname.lastname@icloud.com&#34;&gt;firstname.lastname@icloud.com&lt;/a&gt;)! Or schedule a meeting with me &lt;a href=&#34;https://cal.com/shashankpritam&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Current Readings and Bookmarks</title>
       <link>http://localhost:1313/shashankpritam/shashankpritam.github.io/readings/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/shashankpritam/shashankpritam.github.io/readings/</guid>
-      <description>Below is a curated list of books I&amp;rsquo;m currently reading and websites I find useful across various topics.
-Category Item Description Current Reading A Biologist&amp;rsquo;s Guide to Mathematical Modeling in Ecology and Evolution Mathematical modeling for biology Modeling Life: The Mathematics of Biological Systems Math applications in biological systems The Rust Programming Language Official guide to Rust programming Rust for Rustaceans Advanced Rust for experienced developers Search Kagi Advanced, privacy-focused search engine Science Quick Pop Gen Concise intro to population genetics Mathematics Probability Course Comprehensive online probability course Programming The Ascetic Programmer Minimalist programming practices The Grug Brained Developer Best practices Language Lingolia German German grammar and vocabulary resource DW Learn German Free German courses from Deutsche Welle Music JustinGuitar Free online guitar lessons News The New York Times Leading American newspaper The Economist Global economics and current affairs Cooking Minimalist Baker Simple, often vegan recipes The Kitchn Daily food magazine and kitchen tips Serious Eats Scientific approach to cooking Budget Bytes Affordable cooking recipes Fitness Breaking Muscle Strength training and fitness advice Fashion The Rake Men&amp;rsquo;s luxury style guide Permanent Style Traditional, bespoke menswear FashionBeans Men&amp;rsquo;s style advice and trends Ape To Gentleman Men&amp;rsquo;s lifestyle and fashion blog Travel Atlas Obscura Guide to unusual travel destinations Nomadic Matt Travel tips and budget advice Lonely Planet Comprehensive travel guides Automotive Consumer Reports - Cars Unbiased car reviews and ratings Car and Driver Automotive reviews and news </description>
+      <description>&lt;p&gt;Below is a curated list of books and resources I&amp;rsquo;m currently enjoying (not updated frequently, but I do try to keep it relevant).&lt;/p&gt;
+&lt;h2 id=&#34;books&#34;&gt;Books&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Category&lt;/th&gt;
+          &lt;th&gt;Title&lt;/th&gt;
+          &lt;th&gt;Description&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Biology &amp;amp; Evolution&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;A Biologist&amp;rsquo;s Guide to Mathematical Modeling in Ecology and Evolution&lt;/td&gt;
+          &lt;td&gt;Mathematical modeling for biology&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;Modeling Life: The Mathematics of Biological Systems&lt;/td&gt;
+          &lt;td&gt;Math applications in biological systems&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Programming&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;The Rust Programming Language&lt;/td&gt;
+          &lt;td&gt;Official guide to Rust programming&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;Rust for Rustaceans&lt;/td&gt;
+          &lt;td&gt;Advanced Rust for experienced developers&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;online-resources&#34;&gt;Online Resources&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Category&lt;/th&gt;
+          &lt;th&gt;Resource&lt;/th&gt;
+          &lt;th&gt;Description&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Biology &amp;amp; Genetics&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://plato.stanford.edu/entries/population-genetics/&#34;&gt;Quick Pop Gen&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;Concise intro to population genetics&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Mathematics&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.probabilitycourse.com/&#34;&gt;Probability Course&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;Comprehensive online probability course&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Programming&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.asceticprogrammer.info/book&#34;&gt;The Ascetic Programmer&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;Minimalist programming practices&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://grugbrain.dev&#34;&gt;The Grug Brained Developer&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;Best practices&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Bioinformatics&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.biostars.org&#34;&gt;Biostars&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;Bioinformatics Q&amp;amp;A forum&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.seqanswers.com&#34;&gt;SeqAnswers&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;Sequencing and bioinformatics community&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://bioinformatics.stackexchange.com&#34;&gt;Bioinformatics Stack Exchange&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;Stack Exchange for bioinformatics&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.reddit.com/r/bioinformatics/&#34;&gt;r/bioinformatics&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;Reddit community for bioinformatics discussions&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Research Tools&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://notebooklm.google.com&#34;&gt;NotebookLM&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;Google&amp;rsquo;s AI-powered research notebook&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://scholar.google.com/citations?view_op=search_authors&amp;amp;hl=en&amp;amp;mauthors=label:transposable_elements&#34;&gt;Transposable Elements Research&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;Google Scholar - transposable elements researchers&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</description>
     </item>
     <item>
       <title>Pictures</title>
       <link>http://localhost:1313/shashankpritam/shashankpritam.github.io/pictures/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/shashankpritam/shashankpritam.github.io/pictures/</guid>
-      <description>Some random but cool pictures (of my cat mostly). - Striking a Dashing Poe
-- Elegantly Poised
-- Chiku: Fierce and Feisty
-- Lost in Thought and Wonder
-- MrTurt: The Wise and Ancient One
-- Sneak: Sneaky
-- University</description>
+      <description>&lt;h4 id=&#34;some-random-but-cool-pictures-of-my-cat-mostly&#34;&gt;Some random but cool pictures (of my cat mostly).&lt;/h4&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;img alt=&#34;Handsome&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/shashankpritam/shashankpritam.github.io/pics/chikuhandsome.jpg&#34;&gt; - Striking a Dashing Pose&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;img alt=&#34;Pose&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/shashankpritam/shashankpritam.github.io/pics/chikupose.jpg&#34;&gt; - Elegantly Poised&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;img alt=&#34;Rawr&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/shashankpritam/shashankpritam.github.io/pics/chikurawr.jpg&#34;&gt; - Chiku: Fierce and Feisty&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;img alt=&#34;Wonder&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/shashankpritam/shashankpritam.github.io/pics/chikuwonder.jpg&#34;&gt; - Lost in Thought and Wonder&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;img alt=&#34;MrTurt&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/shashankpritam/shashankpritam.github.io/pics/mrturt.jpg&#34;&gt; - MrTurt: The Wise and Ancient One&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;img alt=&#34;Sneak&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/shashankpritam/shashankpritam.github.io/pics/sneak.jpg&#34;&gt; - Sneak: Sneaky&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;img alt=&#34;Uni&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/shashankpritam/shashankpritam.github.io/pics/uni.jpg&#34;&gt; - University&lt;/p&gt;
+&lt;hr&gt;</description>
     </item>
     <item>
       <title>Résumé</title>
       <link>http://localhost:1313/shashankpritam/shashankpritam.github.io/cv/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/shashankpritam/shashankpritam.github.io/cv/</guid>
-      <description>Shashank Pritam You can find my research work here:
-GitHub
-Google Scholar
-Orcid
-LinkedIn
-OBJECTIVE Hello! I am a Ph.D. student at North Dakota State University (NDSU), enrolled in the Department of Biological Sciences. My academic journey has been quite enriching for me so far. Computational Biology has been my focus as a research area, mainly because it is quite interdisciplinary. I truly enjoy studying the breadth of the research area, as it gives me opportunities to focus on deep, specific problems while still acquiring new skills and utilizing old ones.</description>
-    </item>
-    <item>
-      <title>Statement of Teaching Philosophy</title>
-      <link>http://localhost:1313/shashankpritam/shashankpritam.github.io/teaching-philosophy/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/shashankpritam/shashankpritam.github.io/teaching-philosophy/</guid>
-      <description>As an educator, my teaching philosophy is centered around creating a balanced power dynamic in the classroom that encourages productivity, nurtures mental health, and promotes an inclusive and welcoming environment. For me, mental health is as important as physical health and education should never compromise either of aspects.
-Prioritizing mental health and well-being A student’s mental health is very important; and my teaching practices reflect this commitment. I aim to create a classroom atmosphere where students feel emotionally supported and valued, this should enable them to focus on learning without added stress.</description>
+      <description>&lt;h1 id=&#34;shashank-pritam&#34;&gt;Shashank Pritam&lt;/h1&gt;
+&lt;p&gt;You can find my research work here:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.github.com/shashankpritam&#34;&gt;&lt;strong&gt;GitHub&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://scholar.google.com/citations?user=E5oKLgkAAAAJ&amp;amp;hl=en&#34;&gt;&lt;strong&gt;Google Scholar&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://orcid.org/0009-0009-4228-7883&#34;&gt;&lt;strong&gt;Orcid&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.linkedin.com/in/shashank-pritam/&#34;&gt;&lt;strong&gt;LinkedIn&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;objective&#34;&gt;OBJECTIVE&lt;/h2&gt;
+&lt;p&gt;Hello! I am a Ph.D. student at North Dakota State University (NDSU), enrolled in the Department of Biological Sciences. My research interests lie in the field of computational biology, particularly in bioinformatics and genomics. Biology is a domain that provides me with intellectual satisfaction and also enables me to help society in a way that I can. Currently, the biological domain I am working on involves small RNAs (such as piRNA and miRNA) and Transposable Elements. I also enjoy working with different programming languages and learning new programming paradigms. I am interested in the intersection of computational biology and software engineering, where I can apply my skills to solve complex biological problems.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

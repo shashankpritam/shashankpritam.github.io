@@ -2,7 +2,7 @@
 title: "Current Readings and Bookmarks"
 ---
 
-Below is a curated list of books and resources I'm currently enjoying.
+Below is a curated list of books and resources I'm currently enjoying (not updated frequently, but I do try to keep it relevant).
 
 ## Books
 

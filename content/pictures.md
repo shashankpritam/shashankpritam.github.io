@@ -9,7 +9,7 @@ description: ""
 
 * * * * *
 
-![Handsome](/pics/chikuhandsome.jpg) - Striking a Dashing Poe
+![Handsome](/pics/chikuhandsome.jpg) - Striking a Dashing Pose
 
 * * * * *
 
@@ -25,15 +25,15 @@ description: ""
 ![Wonder](/pics/chikuwonder.jpg) - Lost in Thought and Wonder
 
 * * * * *
-  
+
 ![MrTurt](/pics/mrturt.jpg) - MrTurt: The Wise and Ancient One
 
 * * * * *
-  
+
 ![Sneak](/pics/sneak.jpg) - Sneak: Sneaky
 
 * * * * *
-  
+
 ![Uni](/pics/uni.jpg) - University
 
 * * * * *
