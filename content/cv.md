@@ -79,8 +79,6 @@ Hello! I am a Ph.D. student at North Dakota State University (NDSU), enrolled in
 
 **Bioinformatics Tools**: DESeq, miRDeep2, ShortStack, GROMACS, BioPython
 
-**Documentation & Publishing**: LaTeX, Typst, Quarto, Pandoc, AsciiDoc, Markdown
-
 **Systems & Development**: Linux/Unix, Git version control, server administration
 
 **Analysis Methods**: Evolutionary Biology, Population Genetics, Comparative Genomics, Network Analysis
