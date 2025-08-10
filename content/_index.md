@@ -13,14 +13,11 @@ I am working in the field of Computational Biology, as a grad student my researc
 Here are some tools listed, which I use almost daily for my work:
 
 ### Programming Tools
-- **Languages**: Python, R, Go, Odin, and Rust.
-- **IDEs**: Neovim, Helix editor, Zed, and VS Code.
+- **Languages**: Python, R, Bash, Go, Odin, and Rust.
+- **IDEs**: Neovim, Helix editor (my daily driver), Zed, and VS Code.
 - **Terminal**: Ghostty ftw!
-- **Version Control**: Currently using GitHub, but planning to transition to [sr.ht](https://sr.ht/~pritam/).
-- **Shell & CLI**: I love tools like ripgrep, bat, fzf, fd, and Pretzo.
-
-### Writing & Note-Taking
-- **Markdown**: Typora, Obsidian
+- **Version Control**: Currently using GitHub and [sr.ht](https://sr.ht/~pritam/) but planning to transition to [tangled.sh](https://tangled.sh). Note to my future self: checkout jj vcs.
+- **Shell & CLI**: I love tools like ffmpeg, yt-dlp, sponge (from coreutils), lynx, glow (basically everything [Charmbracelet](https://github.com/charmbracelet) makes), ripgrep, bat, fzf, fd, and Pretzo.
 - **Note-Taking**: Quarto, LaTeX, Typst
 
 ### Essential Tools
