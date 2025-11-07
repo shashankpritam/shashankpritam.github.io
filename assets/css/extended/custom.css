@@ -1,0 +1,4 @@
+/* Override list background to match homepage */
+.list {
+    background: var(--theme) !important;
+}
