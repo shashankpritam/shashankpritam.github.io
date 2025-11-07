@@ -26,37 +26,27 @@ Hello! I am a Ph.D. student at North Dakota State University (NDSU), enrolled in
 
 ### WORK EXPERIENCE
 
-- Graduate Research Assistant
-**Signor Lab, NDSU**, Aug 2022 -- Present
-
-- Graduate Teaching Assistant
-**Biological Sciences, NDSU**, Spring 2024, Fall 2024
-
-- Masters Research Student
-**COSPI Lab, IISER Pune**, Jun 2021 -- Aug 2022
+- Graduate Research Assistant: **Signor Lab, NDSU** (Aug 2022 - Present)
+- Graduate Teaching Assistant: **Biological Sciences NDSU** (Spring 2024, Fall 2024)
+- Masters Research Student: **COSPI Lab, IISER Pune** (Jun 2021 - Aug 2022)
 
 ### RESEARCH PROJECTS
 
-**Small RNA Regulation in *Megachile rotundata* Diapause** (Aug 2023 -- Present)
-Analyzed miRNA expression patterns across diapause stages using miRDeep2, ShortStack, and custom Python/Raku pipelines
+- **Small RNA Regulation in *Megachile rotundata* Diapause** (Aug 2023 - Present): Analyzed miRNA expression patterns across diapause stages using miRDeep2, ShortStack, and custom Python/Raku pipelines
 
-**Flamenco Locus Duplication in *Drosophila melanogaster*** (Dec 2024 -- Present)
-Analyzed genome sequences to identify flamenco piRNA cluster duplication across different strains
+- **Flamenco Locus Duplication in *Drosophila melanogaster*** (Dec 2024 - Present): To characterise and identify flamenco piRNA cluster duplication across different strains
 
-**Insertion Bias of Transposons into piRNA Clusters** (Feb 2023 -- Jul 2025)
-Developed computational models and population genetics simulations to study transposon invasion and host defense mechanisms
+- **Insertion Bias of Transposons into piRNA Clusters** (Feb 2023 - Jul 2025): Developed computational models and population genetics simulations to study transposon invasion and host defense mechanisms
 
-**Horizontal Transfer of Transposons in *Drosophila*** (Jan 2025 -- Aug 2025)
-Engineered computational methods to detect horizontal transfer events across 300+ genome assemblies and 1200+ transposable elements
+- **Horizontal Transfer of Transposons in *Drosophila*** (Jan 2025 - Aug 2025): Created computational methods to detect horizontal transfer events across 300+ genome assemblies and 1200+ transposable elements
 
-**PPII Receptor Prediction** (Jun 2021 -- Aug 2022)
-Developed receptor prediction software for PPII peptides using superimposition-based methods and Monte Carlo simulations
+- **PPII Receptor Prediction** (Jun 2021 - Aug 2022): Developed receptor prediction software for PPII peptides using superimposition-based methods and Monte Carlo simulations
 
 ### TECHNICAL SKILLS
 
-**Programming Languages**: Python, R, Bash/Shell, Odin, Go, Rust
-**Systems & Development**: Linux/Unix, Git version control, Server administration
-**Analysis Methods**: Evolutionary Biology, Population Genetics, Comparative Genomics, Network Analysis
+- **Programming Languages:** Python, R, Bash/Shell, Odin, Go, Rust
+- **Systems & Development:** Linux/Unix, Git version control, Server administration
+- **Analysis Methods:** Evolutionary Biology, Population Genetics, Comparative Genomics, Network Analysis
 
 ### AWARDS & HONORS
 
@@ -65,12 +55,10 @@ Developed receptor prediction software for PPII peptides using superimposition-b
 
 ### RELEVANT COURSES
 
-**Graduate**: Computational Methods in Bioinformatics, Quantitative Biology, Statistical Machine Learning
-
+**Graduate**: Computational Methods in Bioinformatics, Quantitative Biology, Statistical Machine Learning $\newline$
 **Undergraduate**: Linear Algebra, Statistical Inference, Combinatorics, Graph Theory, Operations Research, Algorithms, Mathematical & Computational Biology, Data Science, Microbiology, Genome Biology, Bioinformatics
 
 ### PRESENTATIONS
-
 #### Conference Presentations
 
 **Insertion Bias of Transposons into piRNA Clusters**
