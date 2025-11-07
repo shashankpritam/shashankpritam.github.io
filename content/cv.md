@@ -3,11 +3,9 @@ title: "Résumé"
 description: ""
 ---
 
-# Shashank Pritam
 **Research Profile**: [GitHub](https://www.github.com/shashankpritam),  [Google Scholar](https://scholar.google.com/citations?user=E5oKLgkAAAAJ&hl=en),  [ORCID](https://orcid.org/0009-0009-4228-7883).
+---
 
-
-## OBJECTIVE
 Hello! I am a Ph.D. student at North Dakota State University (NDSU), enrolled in the Department of Biological Sciences. My research interests lie in the field of computational biology, particularly in bioinformatics and genomics. Biology is a domain that provides me with intellectual satisfaction and also enables me to help society in a way that I can. Currently, the biological domain I am working on involves small RNAs (such as piRNA and miRNA) and Transposable Elements. I also enjoy working with different programming languages and learning new programming paradigms. I am interested in the intersection of computational biology and software engineering, where I can apply my skills to solve complex biological problems.
 
 
