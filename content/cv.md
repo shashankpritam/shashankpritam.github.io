@@ -55,7 +55,8 @@ Hello! I am a Ph.D. student at North Dakota State University (NDSU), enrolled in
 
 ### RELEVANT COURSES
 
-**Graduate**: Computational Methods in Bioinformatics, Quantitative Biology, Statistical Machine Learning $\newline$
+**Graduate**: Computational Methods in Bioinformatics, Quantitative Biology, Statistical Machine Learning
+
 **Undergraduate**: Linear Algebra, Statistical Inference, Combinatorics, Graph Theory, Operations Research, Algorithms, Mathematical & Computational Biology, Data Science, Microbiology, Genome Biology, Bioinformatics
 
 ### PRESENTATIONS
