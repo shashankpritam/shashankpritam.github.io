@@ -16,7 +16,7 @@ Here are some tools listed, which I use almost daily for my work:
 - **Terminal**: Ghostty & Termius
 - **Version Control**: Currently using GitHub and [sr.ht](https://sr.ht/~pritam/) but planning to transition to [tangled.sh](https://tangled.sh). Note for my future self: checkout jj vcs.
 - **Shell & CLI**: I love tools like ffmpeg, yt-dlp, sponge (from coreutils), lynx, glow (basically everything [Charmbracelet](https://github.com/charmbracelet) makes), ripgrep, bat, fzf, fd, and Pretzo.
-- **Note-Taking**: Quarto, $\LaTeX$, Typst.
+- **Note-Taking**: Quarto, LaTeX, Typst.
 
 ### Essential Tools
 - **Diagrams**: D2 and Mermaid.
