@@ -7,9 +7,9 @@ description: ""
 
 ---
 
-Hello! I am a Ph.D. student at North Dakota State University (NDSU), enrolled in the Department of Biological Sciences. My research interests lie in the field of computational biology, particularly in bioinformatics and genomics.
+Hello! I recently completed my Ph.D. in the Department of Biological Sciences at North Dakota State University (NDSU). My research focuses on computational biology, particularly genomics and transposable element evolution.
 
-Biology is a domain that provides me with intellectual satisfaction and also enables me to help society in a way that I can. Currently, the biological domain I am working on involves small RNAs (such as piRNA and miRNA) and transposable elements (TE). I also enjoy working with different programming languages. I am interested in the intersection of computational biology and software engineering, where I can apply my skills to solve complex biological problems.
+My dissertation investigated small RNA defense systems (piRNA) and transposable element invasion dynamics in *Drosophila*, combining population genetics simulations, comparative genomics, and large-scale phylogenetic analyses. I am broadly interested in the intersection of computational biology and software engineering, applying modern tools to solve complex biological problems.
 
 ### EDUCATION
 
@@ -33,9 +33,7 @@ Biology is a domain that provides me with intellectual satisfaction and also ena
 
 ### RESEARCH PROJECTS
 
-- **Small RNA Regulation in *Megachile rotundata* Diapause** (Aug 2023 - Present): I analyzed miRNA expression patterns across diapause stages using miRDeep2, ShortStack, and custom Python/Raku pipelines
-
-- **Flamenco Locus Duplication in *Drosophila melanogaster*** (Dec 2024 - Present): The project involves characterisation of flamenco locus and its duplication across different strains of *Drosophila melanogaster*
+- **Flamenco Locus Duplication in *Drosophila melanogaster*** (Dec 2024 - Feb 2026): The project involved characterisation of flamenco locus and investigating its polymorphism across different strains of *Drosophila melanogaster*
 
 - **Insertion Bias of Transposons into piRNA Clusters** (Feb 2023 - Jul 2025): We developed computational models and performed population genetics simulations to study transposon invasion and host defense mechanisms
 
@@ -47,7 +45,7 @@ Biology is a domain that provides me with intellectual satisfaction and also ena
 
 - **Programming Languages:** Python, R, Bash/Shell, Odin, Go, Rust
 - **Systems & Development:** Linux/Unix, Git version control, Server administration
-- **Analysis Methods:** Evolutionary Biology, Population Genetics, Comparative Genomics, Network Analysis
+- **Analysis Methods:** Evolutionary Biology, Population Genetics, Phylogenomics, Comparative Genomics
 
 ### AWARDS & HONORS
 

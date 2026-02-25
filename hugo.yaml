@@ -31,8 +31,12 @@ menu:
       name: 'Readings'
       url: '/readings/'
       weight: 4
+    - identifier: 'neocities'
+      name: 'Neocities'
+      url: '/neocities/'
+      weight: 5
     - identifier: 'about'
       name: 'About'
       url: '/about/'
-      weight: 5
+      weight: 6
 
