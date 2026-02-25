@@ -2,3 +2,15 @@
 .list {
     background: var(--theme) !important;
 }
+
+/* Neocities embed — strip chrome, widen, integrate */
+.neocities-wrap {
+    margin: 0 calc(var(--gap) * -1);
+}
+
+.neocities-wrap iframe {
+    display: block;
+    width: 100%;
+    border: none;
+    background: var(--theme);
+}
