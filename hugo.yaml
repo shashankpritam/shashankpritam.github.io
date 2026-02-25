@@ -32,7 +32,7 @@ menu:
       url: '/readings/'
       weight: 4
     - identifier: 'neocities'
-      name: 'Neocities'
+      name: 'ID'
       url: 'https://shashankpritam.neocities.org'
       weight: 5
     - identifier: 'about'

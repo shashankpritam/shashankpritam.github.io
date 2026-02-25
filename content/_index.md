@@ -8,9 +8,6 @@ I recently completed my PhD in computational biology in the Biological Sciences 
 
 ---
 
-Check out my ID @[Neocities page](https://shashankpritam.neocities.org).
----
-
 Here are some tools listed, which I use almost daily for my work:
 
 ### Programming Tools
