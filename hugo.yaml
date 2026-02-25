@@ -33,7 +33,7 @@ menu:
       weight: 4
     - identifier: 'neocities'
       name: 'Neocities'
-      url: '/neocities/'
+      url: 'https://shashankpritam.neocities.org'
       weight: 5
     - identifier: 'about'
       name: 'About'
