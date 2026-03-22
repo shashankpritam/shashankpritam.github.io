@@ -113,6 +113,18 @@ footer {
         margin-top: 0.2rem;
         margin-bottom: 0.2rem;
     }
+
+    header nav ul {
+        white-space: normal;
+        overflow-x: visible;
+        text-align: left;
+    }
+
+    header nav ul li,
+    footer nav ul li {
+        display: block;
+        margin: 0.4rem 0;
+    }
 }
 
 /* Avoid double margin on the last child of each section */
