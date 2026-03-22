@@ -1,0 +1,16 @@
+#+TITLE: Pictures
+#+OPTIONS: toc:nil num:nil
+
+**** Some random pictures
+
+#+HTML: <figure><img src="/pics/mrturt.jpg" alt="MrTurt"><figcaption>MrTurt: The Wise and Ancient One</figcaption></figure>
+
+-----
+
+#+HTML: <figure><img src="/pics/sneak.jpg" alt="Sneak"><figcaption>Sneak: Sneaky</figcaption></figure>
+
+-----
+
+#+HTML: <figure><img src="/pics/uni.jpg" alt="University"><figcaption>University</figcaption></figure>
+
+-----
