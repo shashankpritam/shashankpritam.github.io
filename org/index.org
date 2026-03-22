@@ -1,0 +1,23 @@
+#+TITLE: ~/
+#+OPTIONS: toc:nil num:nil
+
+Hello!
+
+I recently completed my PhD in computational biology in the Biological Sciences department at North Dakota State University (NDSU). My dissertation focused on "Transposable Element Invasion Dynamics and piRNA Cluster Evolution in /Drosophila/".
+
+Here are some tools listed, which I use almost daily for my work:
+
+* Programming Tools
+
+- *Languages*: Python, R, Bash, Go, Odin, Rust
+- *IDE*: Helix, Emacs (Doom), VSCode
+- *Terminal*: Ghostty, Termius
+- *Version Control*: Git, jj; hosting via [[https://www.github.com/shashankpritam][GitHub]], [[https://tangled.org/0000.tngl.sh][Tangled]], [[https://sr.ht/~pritam/][sr.ht]]
+- *CLI*: ripgrep, bat, fzf, fd, ffmpeg, yt-dlp, sponge, lynx, glow, pretzo
+- *Note-taking*: Typst, Org-mode, AsciiDoc, LaTeX
+
+* Essential Tools
+
+- *Diagrams*: Typst, D2
+- *Reference Management*: Zotero, zbib.org, Calibre
+- *Utilities*: Kagi, f.lux, Folder Peek, Maintenance, TomatoBar, Raycast, Itsycal, HazeOver, AppCleaner

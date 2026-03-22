@@ -1,0 +1,84 @@
+#+TITLE: shashankpritam.github.io
+
+Personal website for [[https://shashankpritam.github.io][Shashank Pritam]].
+
+Built with Emacs [[https://orgmode.org/manual/Publishing.html][org-publish]].
+
+* Structure
+
+#+BEGIN_EXAMPLE
+org/           ← source pages (.org)
+static/
+  css/         ← Stylesheet
+  pics/        ← images
+publish.el     ← org-publish build script
+public/        ← generated HTML
+#+END_EXAMPLE
+
+* Pages
+
+| File                | URL              |
+|---------------------+------------------|
+| =org/index.org=     | ~/~              |
+| =org/cv.org=        | ~/cv.html~       |
+| =org/pictures.org=  | ~/pictures.html~ |
+| =org/readings.org=  | ~/readings.html~ |
+| =org/about.org=     | ~/about.html~    |
+
+* Build locally
+
+Requires Emacs (29+) and [[https://d2lang.com][D2]].
+
+#+BEGIN_SRC sh
+# install D2 once
+curl -fsSL https://d2lang.com/install.sh | sh -s -- --version v0.7.1
+
+emacs --batch --load publish.el
+# output in public/
+#+END_SRC
+
+Open =public/index.html= in a browser to preview.
+
+* Deploy
+
+Pushing to =main= triggers the GitHub Actions workflow (=.github/workflows/pages.yml=), which installs =emacs-nox= and runs =publish.el=. Output is deployed to GitHub Pages automatically.
+
+* Theme
+
+The site uses [[https://github.com/wintermute-cell/magick.css][magick.css]] by winterveil. It's a minimal, classless CSS framework that provides a clean, raw, and responsive typography-focused design out of the box.
+
+The active variant (light/dark mode) is selected automatically via =prefers-color-scheme=.
+
+* Math and diagrams
+
+Math and diagrams are rendered at build time via [[https://d2lang.com][D2]] — no JavaScript required.
+D2 is installed by the CI workflow (=v0.7.1= to =~/.local/bin=) and must also be on =PATH= for local builds.
+
+** Inline math
+
+Use a =d2math= source block. Write a bare LaTeX expression (no =$= delimiters):
+
+#+BEGIN_SRC org
+,#+BEGIN_SRC d2math
+p^2 + 2pq + q^2 = 1
+,#+END_SRC
+#+END_SRC
+
+The block renders as a compact inline SVG, sized relative to the surrounding text.
+
+** Diagrams
+
+Use a =d2= source block with standard [[https://d2lang.com/tour/intro][D2 syntax]]:
+
+#+BEGIN_SRC org
+,#+BEGIN_SRC d2
+TE invasion: {
+  shape: sequence_diagram
+  Host -> piRNA cluster: insertion bias
+  piRNA cluster -> TE: silencing
+  TE -> Host: fitness cost
+}
+,#+END_SRC
+#+END_SRC
+
+The block renders as a block-level SVG. Diagram backgrounds are transparent and blend with the page theme.
