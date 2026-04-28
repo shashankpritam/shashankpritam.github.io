@@ -117,7 +117,7 @@ which causes preserveAspectRatio=meet to scale against the wrong axis."
       <li><a href='/cv.html'>CV</a></li>
       <li><a href='/pictures.html'>Pictures</a></li>
       <li><a href='/readings.html'>Readings</a></li>
-      <li><a href='https://shashankpritam.neocities.org' target='_blank' rel='noopener'>ID ^</a></li>
+      <li><a href='https://sifa.id/p/shashankpritam.bsky.social' target='_blank' rel='noopener'>ID ^</a></li>
       <li><a href='https://leaflet.pub/p/shashankpritam.bsky.social' target='_blank' rel='noopener'>Blog ^</a></li>
       <li><a href='/about.html'>About</a></li>
     </ul>
