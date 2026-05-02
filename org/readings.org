@@ -5,23 +5,20 @@ Below is a curated list of books and resources I'm currently enjoying (not updat
 
 * Books
 
-| *Category*              | *Title*                                                                  | *Author*                       | *Description*                              |
-|-------------------------+--------------------------------------------------------------------------+--------------------------------+--------------------------------------------|
-| *Biology & Evolution*   | A Planet of Viruses: Third Edition                                      | Carl Zimmer                    |                                            |
-| *Programming*           | Modern C, Third Edition                                                  | Jens Gustedt                   |                                            |
-|                         | Parallel and High Performance Computing                                  | Robert Robey and Yuliana Zamora|                                            |
+| *Category*            | *Title*                                  | *Author*                        |
+|-----------------------+------------------------------------------+---------------------------------|
+| *Biology & Evolution* | A Planet of Viruses: Third Edition       | Carl Zimmer                     |
+| *Programming*         | Modern C, Third Edition                  | Jens Gustedt                    |
+|                       | Parallel and High Performance Computing  | Robert Robey and Yuliana Zamora |
 
 * Online Resources
 
-| *Category*          | *Resource*                                                                                                                                                                    | *Description*                               |
-|---------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------|
-| *Biology & Genetics* | [[https://plato.stanford.edu/entries/population-genetics/][Quick Pop Gen]]                                                                                                   | Concise intro to population genetics        |
-| *Mathematics*       | [[https://www.probabilitycourse.com/][Probability Course]]                                                                                                                       | Comprehensive online probability course     |
-| *Programming*       | [[https://www.asceticprogrammer.info/book][The Ascetic Programmer]]                                                                                                                   | Minimalist programming practices            |
-|                     | [[https://grugbrain.dev][The Grug Brained Developer]]                                                                                                                                       | Best practices                              |
-| *Bioinformatics*    | [[https://www.biostars.org][Biostars]]                                                                                                                                                         | Bioinformatics Q&A forum                    |
-|                     | [[https://www.seqanswers.com][SeqAnswers]]                                                                                                                                                       | Sequencing and bioinformatics community     |
-|                     | [[https://bioinformatics.stackexchange.com][Bioinformatics Stack Exchange]]                                                                                                                    | Stack Exchange for bioinformatics           |
-|                     | [[https://www.reddit.com/r/bioinformatics/][r/bioinformatics]]                                                                                                                                 | Reddit community for bioinformatics         |
-| *Research Tools*    | [[https://notebooklm.google.com][NotebookLM]]                                                                                                                                                       | Google's AI-powered research notebook       |
-|                     | [[https://scholar.google.com/citations?view_op=search_authors&hl=en&mauthors=label:transposable_elements][Transposable Elements Research]]                                                                        | Google Scholar - TE researchers             |
+| *Category*           | *Resource*                                                                    |
+|----------------------+-------------------------------------------------------------------------------|
+| *Biology & Genetics* | [[https://plato.stanford.edu/entries/population-genetics/][Quick Pop Gen]]   |
+| *Mathematics*        | [[https://www.probabilitycourse.com/][Probability Course]]                    |
+| *Programming*        | [[https://www.asceticprogrammer.info/book][The Ascetic Programmer]]          |
+|                      | [[https://grugbrain.dev][The Grug Brained Developer]]                        |
+| *Bioinformatics*     | [[https://www.biostars.org][Biostars]]                                      |
+|                      | [[https://www.seqanswers.com][SeqAnswers]]                                    |
+|                      | [[https://bioinformatics.stackexchange.com][Bioinformatics Stack Exchange]] |
