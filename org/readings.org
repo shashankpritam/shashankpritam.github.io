@@ -5,12 +5,11 @@ Below is a curated list of books and resources I'm currently enjoying (not updat
 
 * Books
 
-| *Category*              | *Title*                                                                  | *Description*                              |
-|-------------------------+--------------------------------------------------------------------------+--------------------------------------------|
-| *Biology & Evolution*   | A Biologist's Guide to Mathematical Modeling in Ecology and Evolution    | Mathematical modeling for biology          |
-|                         | Modeling Life: The Mathematics of Biological Systems                     | Math applications in biological systems    |
-| *Programming*           | The Rust Programming Language                                            | Official guide to Rust programming         |
-|                         | Rust for Rustaceans                                                      | Advanced Rust for experienced developers   |
+| *Category*              | *Title*                                                                  | *Author*                       | *Description*                              |
+|-------------------------+--------------------------------------------------------------------------+--------------------------------+--------------------------------------------|
+| *Biology & Evolution*   | A Planet of Viruses: Third Edition                                      | Carl Zimmer                    |                                            |
+| *Programming*           | Modern C, Third Edition                                                  | Jens Gustedt                   |                                            |
+|                         | Parallel and High Performance Computing                                  | Robert Robey and Yuliana Zamora|                                            |
 
 * Online Resources
 
