@@ -9,10 +9,10 @@ Here are some tools listed, which I use almost daily for my work:
 
 * Programming Tools
 
-- *Languages*: Python, R, Bash, Go, Odin, Rust
-- *IDE*: Helix, Emacs (Doom), VSCode
-- *Terminal*: Ghostty, Termius
-- *Version Control*: Git, jj; hosting via [[https://www.github.com/shashankpritam][GitHub]], [[https://tangled.org/0000.tngl.sh][Tangled]], [[https://sr.ht/~pritam/][sr.ht]]
+- *Languages*: Python, R, Bash, C
+- *IDE*: Helix, VSCode
+- *Terminal*: GNOME Terminal, Termius
+- *Version Control*: Git hosting via [[https://www.github.com/shashankpritam][GitHub]], [[https://tangled.org/0000.tngl.sh][Tangled]], [[https://sr.ht/~pritam/][sr.ht]]
 - *CLI*: ripgrep, bat, fzf, fd, ffmpeg, yt-dlp, sponge, lynx, glow, pretzo
 - *Note-taking*: Typst, Org-mode, AsciiDoc, LaTeX
 
