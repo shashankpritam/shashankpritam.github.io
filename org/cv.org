@@ -26,7 +26,7 @@ My dissertation investigated small RNA defense systems (piRNA) and transposable 
 
 * Skills
 
-- *Programming Languages*: Python, Bash/Shell, Go, Rust
+- *Programming Languages*: Python, R, Bash/Shell, C/C3
 - *Analysis Methods*: Evolutionary Biology, Population Genetics, Phylogenomics, Comparative Genomics
 
 * Presentations

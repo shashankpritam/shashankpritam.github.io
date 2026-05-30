@@ -102,7 +102,6 @@ which causes preserveAspectRatio=meet to scale against the wrong axis."
   \"url\": \"https://shashankpritam.com\",
   \"sameAs\": [
     \"https://github.com/shashankpritam\",
-    \"https://leaflet.pub/p/shashankpritam.bsky.social\"
   ],
   \"jobTitle\": \"Computational Biologist\",
   \"description\": \"PhD in Biological Sciences from NDSU.\"
@@ -118,7 +117,6 @@ which causes preserveAspectRatio=meet to scale against the wrong axis."
       <li><a href='/pictures.html'>Pictures</a></li>
       <li><a href='/readings.html'>Readings</a></li>
       <li><a href='https://sifa.id/p/shashankpritam.bsky.social' target='_blank' rel='noopener'>ID ^</a></li>
-      <li><a href='https://leaflet.pub/p/shashankpritam.bsky.social' target='_blank' rel='noopener'>Blog ^</a></li>
       <li><a href='/about.html'>About</a></li>
     </ul>
   </nav>
