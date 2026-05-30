@@ -18,22 +18,13 @@
 }
 
 :root {
-    /* Theme colors */
-    --fg: #0e0e0e;
-    --bg: #fefefe;
-    --form-bg: #fbfbfb;
-    --form-fg: #00004d;
-    --form-fg-placeholder: #00004d9a;
-}
-
-@media (prefers-color-scheme: dark) {
-    :root {
-        --fg: #fefefe;
-        --bg: #0e0e0e;
-        --form-bg: #1a1a1a;
-        --form-fg: #fefefe;
-        --form-fg-placeholder: #fefefe9a;
-    }
+    /* Kanagawa Lotus theme */
+    --fg: #545464;
+    --bg: #f2ecbc;
+    --form-bg: #e4d5c0;
+    --form-fg: #43436c;
+    --form-fg-placeholder: #43436c9a;
+    --muted: #8a8980;
 }
 
 /*
