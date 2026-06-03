@@ -18,13 +18,16 @@
 }
 
 :root {
-    /* Kanagawa Lotus theme */
-    --fg: #545464;
-    --bg: #f2ecbc;
-    --form-bg: #e4d5c0;
-    --form-fg: #43436c;
-    --form-fg-placeholder: #43436c9a;
+    /* Sakura CSS theme (borrowed from revo) */
+    --fg: #4a4a4a;
+    --bg: #f9f9f9;
+    --form-bg: #f1f1f1;
+    --form-fg: #4a4a4a;
+    --form-fg-placeholder: #4a4a4a9a;
     --muted: #8a8980;
+    --link: #1d7484;
+    --link-visited: #144f5a;
+    --link-hover: #982c61;
 }
 
 /*
@@ -157,7 +160,15 @@ p {
 
 /* Remove link color. */
 a {
-    color: var(--fg);
+    color: var(--link);
+}
+
+a:visited {
+    color: var(--link-visited);
+}
+
+a:hover {
+    color: var(--link-hover);
 }
 
 /* Make string a little more bold, to adjust for the font. */
@@ -274,14 +285,20 @@ header nav ul li a,
 footer nav ul li a {
     text-decoration: underline;
     text-decoration-color: transparent;
-    color: var(--fg);
+    color: var(--link);
     font-weight: bold;
     font-size: 2.2rem;
     text-transform: uppercase;
 }
 
+header nav ul li a:visited,
+footer nav ul li a:visited {
+    color: var(--link-visited);
+}
+
 header nav ul li a:hover,
 footer nav ul li a:hover {
+    color: var(--link-hover);
     text-decoration-color: currentColor;
 }
 
@@ -684,8 +701,9 @@ pre:has(code) {
     overflow-y: hidden; /* 2 */
     font-family: "Courier Prime", monospace; /* 3 */
     font-size: 1.6rem; /* 3 */
-    border-top: 2px solid var(--fg); /* 4 */
-    border-bottom: 2px solid var(--fg); /* 4 */
+    background-color: var(--form-bg); /* 4 */
+    border-top: 2px solid var(--fg); /* 5 */
+    border-bottom: 2px solid var(--fg); /* 5 */
 }
 
 /* Set a custom monospace font */
