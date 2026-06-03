@@ -45,9 +45,21 @@ Pushing to =main= triggers the GitHub Actions workflow (=.github/workflows/pages
 
 * Theme
 
-The site uses [[https://github.com/wintermute-cell/magick.css][magick.css]] by winterveil. It's a minimal, classless CSS framework that provides a clean, raw, and responsive typography-focused design out of the box.
+The site uses [[https://github.com/wintermute-cell/magick.css][magick.css]] by winterveil as its structural base, with a custom warm color scheme layered on top.
 
-The active variant (light/dark mode) is selected automatically via =prefers-color-scheme=.
+** Color palette
+
+| Role         | Hex       | Description                |
+|--------------+-----------+----------------------------|
+| Background   | =#faf6f2= | warm ivory                 |
+| Text         | =#4a4540= | warm brownish gray         |
+| Links        | =#7c6f4e= | warm olive                 |
+| Visited      | =#5a4e3e= | dark olive-brown           |
+| Hover        | =#b04a3e= | warm terracotta / rust     |
+| Code blocks  | =#f0ebe5= | warm stone                 |
+| Muted        | =#8a847c= | warm taupe                 |
+
+Originally based on the [[https://github.com/oxalorg/sakura][Sakura CSS]] palette, then shifted uniformly to warmer, slatier tones for an easy-on-the-eyes feel.
 
 * Math and diagrams
 
