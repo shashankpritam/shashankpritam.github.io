@@ -51,7 +51,7 @@ The site uses [[https://github.com/wintermute-cell/magick.css][magick.css]] by w
 
 | Role         | Hex       | Description                |
 |--------------+-----------+----------------------------|
-| Background   | =#faf6f2= | warm ivory                 |
+| Background   | =#ECE7CD= | warm ivory                 |
 | Text         | =#4a4540= | warm brownish gray         |
 | Links        | =#7c6f4e= | warm olive                 |
 | Visited      | =#5a4e3e= | dark olive-brown           |
