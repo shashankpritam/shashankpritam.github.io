@@ -944,14 +944,13 @@ footer {
     user-select: none;
     transform-origin: 50% 80%;
     /*
-        Glides left→right (`paw-advance`) while riding a sine wave whose
-        amplitude grows across the sweep (`paw-wave`): tiny ripples on the
-        left building to wide swings on the right. `paw-fade` shows the trail
-        then resets. All three share an 18s period so the wave stays aligned.
+        Discrete hops along a growing sine wave: `step-end` holds the paw at
+        each point, then snaps it to the next crest / baseline / trough as it
+        advances left→right, the swings widening toward the end. `paw-fade`
+        shows the trail then resets. Both share an 18s period.
     */
     animation:
-        paw-advance 18s linear infinite,
-        paw-wave 18s ease-in-out infinite,
+        paw-hop 18s step-end infinite,
         paw-fade 18s linear infinite;
 }
 
@@ -961,31 +960,26 @@ header .paw {
 
 footer .paw {
     bottom: 0.8rem;
-    /* One value shifts all three animations equally, keeping them in sync. */
+    /* One value shifts both animations equally, keeping them in sync. */
     animation-delay: -7s;
 }
 
-@keyframes paw-advance {
-    from { left: 0; }
-    to   { left: 100%; }
-}
-
-/* Three sine periods with a linearly growing amplitude (~0.11rem → ~0.56rem),
-   with a little banking tilt at each crest and trough. */
-@keyframes paw-wave {
-    0%   { transform: translateY(0)        rotate(0deg); }
-    8%   { transform: translateY(-0.11rem) rotate(-7deg); }
-    17%  { transform: translateY(0)        rotate(0deg); }
-    25%  { transform: translateY(0.20rem)  rotate(7deg); }
-    33%  { transform: translateY(0)        rotate(0deg); }
-    42%  { transform: translateY(-0.29rem) rotate(-8deg); }
-    50%  { transform: translateY(0)        rotate(0deg); }
-    58%  { transform: translateY(0.38rem)  rotate(8deg); }
-    67%  { transform: translateY(0)        rotate(0deg); }
-    75%  { transform: translateY(-0.47rem) rotate(-9deg); }
-    83%  { transform: translateY(0)        rotate(0deg); }
-    92%  { transform: translateY(0.56rem)  rotate(9deg); }
-    100% { transform: translateY(0)        rotate(0deg); }
+/* Twelve hops tracing three sine periods whose amplitude grows linearly
+   (~0.11rem → ~0.56rem), with a banking tilt at each crest and trough. */
+@keyframes paw-hop {
+    0%   { left: 0;    transform: translateY(0)        rotate(0deg); }
+    8%   { left: 8%;   transform: translateY(-0.11rem) rotate(-7deg); }
+    17%  { left: 17%;  transform: translateY(0)        rotate(0deg); }
+    25%  { left: 25%;  transform: translateY(0.20rem)  rotate(7deg); }
+    33%  { left: 33%;  transform: translateY(0)        rotate(0deg); }
+    42%  { left: 42%;  transform: translateY(-0.29rem) rotate(-8deg); }
+    50%  { left: 50%;  transform: translateY(0)        rotate(0deg); }
+    58%  { left: 58%;  transform: translateY(0.38rem)  rotate(8deg); }
+    67%  { left: 67%;  transform: translateY(0)        rotate(0deg); }
+    75%  { left: 75%;  transform: translateY(-0.47rem) rotate(-9deg); }
+    83%  { left: 83%;  transform: translateY(0)        rotate(0deg); }
+    92%  { left: 92%;  transform: translateY(0.56rem)  rotate(9deg); }
+    100% { left: 100%; transform: translateY(0)        rotate(0deg); }
 }
 
 @keyframes paw-fade {
