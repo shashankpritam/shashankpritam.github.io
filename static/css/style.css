@@ -386,9 +386,9 @@ figure.framed {
     background: var(--form-bg);
     border: 1px solid rgba(74, 69, 64, 0.1);
     box-shadow: 0 4px 16px rgba(74, 69, 64, 0.15);
-    padding: 1rem;
-    margin: 2rem auto;
-    max-width: 40rem;
+    padding: 1.5rem;
+    margin: 3rem auto;
+    max-width: 52rem;
 }
 
 figure.framed a {
