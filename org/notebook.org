@@ -5,7 +5,7 @@
 
 I use this webpage as a public notebook and bookmarks.
 
-If you have any questions, or just want to chat about science, tech, or anything else, please feel free to send me an email ([[mailto:REDACTED][REDACTED]])! Or schedule a meeting with me [[https://cal.com/shashankpritam][here]].
+If you have any questions, or just want to chat about science, tech, or anything else, please feel free to schedule a meeting with me [[https://cal.com/shashankpritam][here]].
 
 * Tools I use daily
 
