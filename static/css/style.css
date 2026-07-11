@@ -321,6 +321,55 @@ header h3.site-title {
     color: var(--muted);
 }
 
+/* ========================================================================================================================= */
+/*  Page Curl (bottom-right corner page-turn cue) ========================================================================== */
+/* ========================================================================================================================= */
+
+a.page-curl {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 6rem;
+    height: 6rem;
+    color: var(--muted);
+    text-decoration: none;
+    font-family: "Averia Libre", cursive;
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    background:
+        linear-gradient(
+            135deg,
+            transparent 49.5%,
+            var(--form-bg) 50%
+        );
+    box-shadow:
+        -4px -4px 8px rgba(74, 69, 64, 0.12),
+        -2px -2px 4px rgba(74, 69, 64, 0.08);
+    overflow: hidden;
+    z-index: 999;
+    transition: width 0.2s ease, height 0.2s ease, box-shadow 0.2s ease;
+}
+
+a.page-curl:hover {
+    width: 7.5rem;
+    height: 7.5rem;
+    box-shadow:
+        -6px -6px 12px rgba(74, 69, 64, 0.18),
+        -3px -3px 6px rgba(74, 69, 64, 0.12);
+    color: var(--link-hover);
+}
+
+a.page-curl span {
+    position: absolute;
+    bottom: 1.2rem;
+    right: 0.8rem;
+    transform: rotate(-45deg);
+    transform-origin: bottom right;
+    white-space: nowrap;
+}
+
 /* On mobile, stack nav items vertically instead of horizontal scroll. */
 @media (max-width: 600px) {
     header nav ul {

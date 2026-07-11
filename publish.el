@@ -108,17 +108,16 @@ which causes preserveAspectRatio=meet to scale against the wrong axis."
 }
 </script>")
 
-(defvar sp/nav
-  "<header>
-  <nav>
-    <ul>
-<li><a href='/index.html'>Home</a></li>
-      <li><a href='/pictures.html'>Pictures</a></li>
-      <li><a href='/notebook.html'>Notebook</a></li>
-    </ul>
-  </nav>
-  <h3 class='site-title'>Shashank Pritam</h3>
-</header>")
+(defun sp/preamble (plist)
+  "Return header HTML with a page-curl link to the next page in the cycle."
+  (let* ((filename (file-name-nondirectory (plist-get plist :input-file)))
+         (next (cond
+                ((string= filename "index.org")    '("Pictures" . "/pictures.html"))
+                ((string= filename "pictures.org")  '("Notebook"  . "/notebook.html"))
+                ((string= filename "notebook.org")  '("Home"      . "/index.html"))
+                (t                                  '("Home"      . "/index.html")))))
+    (format "<header>\n  <h3 class='site-title'>Shashank Pritam</h3>\n</header>\n<a class='page-curl' href='%s'><span>%s</span></a>"
+            (cdr next) (car next))))
 
 (defvar sp/footer
   "<footer>
@@ -141,7 +140,7 @@ which causes preserveAspectRatio=meet to scale against the wrong axis."
          :html-html5-fancy                t
          :html-container                  "main"
          :html-head                       ,sp/html-head
-         :html-preamble                   ,sp/nav
+         :html-preamble                   sp/preamble
          :html-postamble                  ,sp/footer
          :html-head-include-default-style nil
          :html-head-include-scripts       nil
