@@ -395,13 +395,13 @@ a.page-curl:hover {
     left: 50%;
     width: 80%;
     max-width: 40rem;
-    transform: translate(-50%, -50%);
-    transition: transform 0.35s ease, opacity 0.35s ease, box-shadow 0.35s ease;
-    cursor: pointer;
     background: var(--form-bg);
     border: 1px solid rgba(74, 69, 64, 0.1);
     box-shadow: 0 4px 16px rgba(74, 69, 64, 0.15);
     padding: 1rem;
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.25s ease, opacity 0.25s ease, box-shadow 0.25s ease;
 }
 
 .card-stack .card img {
@@ -424,39 +424,33 @@ a.page-curl:hover {
 }
 
 .card-stack .card.next {
-    transform: translate(-15%, -50%) rotate(8deg);
-    opacity: 0.5;
+    transform: translate(-25%, -45%) rotate(8deg);
+    opacity: 0.4;
     z-index: 2;
     box-shadow: 0 2px 8px rgba(74, 69, 64, 0.1);
 }
 
 .card-stack .card.prev {
-    transform: translate(-85%, -50%) rotate(-8deg);
-    opacity: 0.5;
+    transform: translate(-75%, -45%) rotate(-8deg);
+    opacity: 0.4;
     z-index: 1;
     box-shadow: 0 2px 8px rgba(74, 69, 64, 0.1);
 }
 
-.card-stack .card.hidden {
-    opacity: 0;
-    pointer-events: none;
-    transform: translate(-50%, -50%) scale(0.8);
-}
-
 .card-stack .card.next:hover,
 .card-stack .card.prev:hover {
-    opacity: 0.8;
+    opacity: 0.75;
     box-shadow: 0 4px 16px rgba(74, 69, 64, 0.2);
 }
 
 @media (max-width: 600px) {
     .card-stack .card.next {
-        transform: translate(-5%, -50%) rotate(6deg);
-        opacity: 0.3;
+        transform: translate(-15%, -45%) rotate(6deg);
+        opacity: 0.25;
     }
     .card-stack .card.prev {
-        transform: translate(-95%, -50%) rotate(-6deg);
-        opacity: 0.3;
+        transform: translate(-85%, -45%) rotate(-6deg);
+        opacity: 0.25;
     }
 }
 
