@@ -1,8 +1,8 @@
 #+TITLE: Pictures
 #+OPTIONS: toc:nil num:nil
 
-**** Some random pictures
+* Some random pictures
 
-#+HTML: <figure><img src="/pics/mrturt.jpg" alt="MrTurt" loading="lazy" width="1512" height="2016"><figcaption>MrTurt: The Wise and Ancient One</figcaption></figure>
-#+HTML: <figure><img src="/pics/sneak.jpg" alt="Sneak" loading="lazy" width="2016" height="1512"><figcaption>Sneak: Sneaky</figcaption></figure>
-#+HTML: <figure><img src="/pics/uni.jpg" alt="University" loading="lazy" width="2016" height="1512"><figcaption>University</figcaption></figure>
+#+HTML: <figure class="frame"><img src="/pics/mrturt.jpg" alt="MrTurt" loading="lazy" width="1512" height="2016"><figcaption>MrTurt: The Wise and Ancient One</figcaption></figure>
+#+HTML: <figure class="frame"><img src="/pics/sneak.jpg" alt="Sneak" loading="lazy" width="2016" height="1512"><figcaption>Sneak: Sneaky</figcaption></figure>
+#+HTML: <figure class="frame"><img src="/pics/uni.jpg" alt="University" loading="lazy" width="2016" height="1512"><figcaption>University</figcaption></figure>

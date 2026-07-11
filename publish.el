@@ -156,6 +156,9 @@ which causes preserveAspectRatio=meet to scale against the wrong axis."
          :html-head-include-default-style nil
          :html-head-include-scripts       nil
          :html-validation-link            nil
+         ;; Render top-level org headings as <h3> so page sections pick up
+         ;; magick.css's decorative subtitle style instead of a plain <h2>.
+         :html-toplevel-hlevel            3
 
          ;; Export settings
          :with-latex          nil

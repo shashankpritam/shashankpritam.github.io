@@ -59,6 +59,16 @@ The site uses [[https://github.com/wintermute-cell/magick.css][magick.css]] by w
 
 Originally based on the [[https://github.com/oxalorg/sakura][Sakura CSS]] palette, then shifted uniformly to warmer, slatier tones for an easy-on-the-eyes feel.
 
+** Dark mode
+
+A =prefers-color-scheme: dark= block overrides the palette variables with a warm, dimmed variant, so readers whose OS is in dark mode get a matching theme automatically. It is pure CSS — no toggle, no JavaScript. D2 diagrams are lightened with a CSS filter so their build-time ink stays legible; photographs are left untouched.
+
+* No JavaScript
+
+The site ships no executable JavaScript. Everything interactive-looking — framed, scrollable pictures, decorated section subtitles, math, and diagrams — is plain HTML and CSS rendered at build time. The only =<script>= element is a =type="application/ld+json"= structured-data block (inert metadata for search engines).
+
+A =Content-Security-Policy= meta tag enforces this: =script-src 'none'=, everything same-origin, with Google Fonts the sole third-party origin allowed for styles and fonts.
+
 * Math and diagrams
 
 Math and diagrams are rendered at build time via [[https://d2lang.com][D2]] — no JavaScript required.
