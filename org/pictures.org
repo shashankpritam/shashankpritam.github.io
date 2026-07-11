@@ -3,8 +3,12 @@
 
 **** Some random pictures
 
-#+HTML: <div class="card-stack">
-#+HTML: <a class="card prev" href="/pics/mrturt.jpg"><img src="/pics/mrturt.jpg" alt="MrTurt"><figcaption>MrTurt: The Wise and Ancient One</figcaption></a>
-#+HTML: <a class="card active" href="/pics/sneak.jpg"><img src="/pics/sneak.jpg" alt="Sneak"><figcaption>Sneak: Sneaky</figcaption></a>
-#+HTML: <a class="card next" href="/pics/uni.jpg"><img src="/pics/uni.jpg" alt="University"><figcaption>University</figcaption></a>
-#+HTML: </div>
+#+HTML: <figure class="framed"><a href="/pics/mrturt.jpg"><img src="/pics/mrturt.jpg" alt="MrTurt"></a><figcaption>MrTurt: The Wise and Ancient One</figcaption></figure>
+
+-----
+
+#+HTML: <figure class="framed"><a href="/pics/sneak.jpg"><img src="/pics/sneak.jpg" alt="Sneak"></a><figcaption>Sneak: Sneaky</figcaption></figure>
+
+-----
+
+#+HTML: <figure class="framed"><a href="/pics/uni.jpg"><img src="/pics/uni.jpg" alt="University"></a><figcaption>University</figcaption></figure>
