@@ -3,7 +3,7 @@
 
 Hello!
 
-I recently completed my PhD in computational biology in the Biological Sciences department at North Dakota State University (NDSU). My dissertation focused on "Transposable Element Invasion Dynamics and piRNA Cluster Evolution in /Drosophila/".
+I recently completed my PhD in computational biology in the Biological Sciences department at North Dakota State University (NDSU). My dissertation focused on "Transposable Element Invasion Dynamics and piRNA Cluster Evolution in /Drosophila/". I am currently a Postdoctoral Fellow in the [[https://bazykinlab.org][Bazykin Lab]] at Emory University, Atlanta, where my research focuses on epidemiology and population genetics.
 
 Here are some tools listed, which I use almost daily for my work:
 
