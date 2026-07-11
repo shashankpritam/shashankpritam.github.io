@@ -983,8 +983,10 @@ footer {
     100% { opacity: 0; }
 }
 
+/* Reduced motion: with no walk to animate, drop the trail entirely rather than
+   freezing all eight prints on screen at once. */
 @media (prefers-reduced-motion: reduce) {
-    .track { animation: none; opacity: 0.28; }
+    .tracks { display: none; }
 }
 
 /* ===================================================================================================================== */
