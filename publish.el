@@ -130,7 +130,7 @@ which causes preserveAspectRatio=meet to scale against the wrong axis."
   </nav>
   <p>(c) Shashank Pritam<br>
   Built with <a href='https://orgmode.org/manual/Publishing.html' target='_blank' rel='noopener'>Emacs org-publish</a> and <a href='https://github.com/wintermute-cell/magick.css' target='_blank' rel='noopener'>magick.css</a></p>
-  <span class='tracks' aria-hidden='true'><span class='track'></span><span class='track'></span><span class='track'></span><span class='track'></span><span class='track'></span><span class='track'></span></span>
+  <span class='tracks' aria-hidden='true'><span class='critter'><span class='track hl'></span><span class='track fl'></span><span class='track hr'></span><span class='track fr'></span></span></span>
 </footer>")
 
 ;; ---- Project definition ----

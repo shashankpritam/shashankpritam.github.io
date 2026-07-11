@@ -926,11 +926,11 @@ footer nav.elsewhere {
 }
 
 /*
-    A cat gait padding across the footer — purely for delight. Six individual
-    paw prints (the --paw shape applied as a mask, so each takes --muted and
-    adapts to dark mode) stamp in sequence, alternating up/down with a widening
-    stride to trace a growing wave. Bounded and clipped by the footer, and held
-    as a static trail for readers who prefer reduced motion.
+    A little four-legged cat walking across the footer — purely for delight.
+    The whole critter glides left→right while its four paws (the --paw shape
+    applied as a mask, so each takes --muted and adapts to dark mode) lift and
+    plant one at a time in a lateral-sequence walk. Bounded and clipped by the
+    footer, and held as a static four-paw stance for prefers-reduced-motion.
 */
 footer {
     position: relative;
@@ -946,42 +946,53 @@ footer {
     pointer-events: none;
 }
 
+.critter {
+    position: absolute;
+    bottom: 0;
+    width: 3.6rem;
+    height: 2rem;
+    opacity: 0;
+    animation: critter-walk 14s linear infinite;
+}
+
 .track {
     position: absolute;
-    width: 1.15rem;
-    height: 1.15rem;
+    width: 1rem;
+    height: 1rem;
     background-color: var(--muted);
     -webkit-mask: var(--paw) center / contain no-repeat;
     mask: var(--paw) center / contain no-repeat;
-    opacity: 0;
-    animation: track-stamp 9s ease-in-out infinite;
+    animation: paw-step 1.2s ease-in-out infinite;
 }
 
 /*
-    Spread the prints across the footer and alternate the stride up/down, the
-    offset from the centre line widening toward the right. Negative delays keep
-    a trail already in motion on load; each print stamps in, lingers, lifts.
+    Four feet: the front pair leads (toward travel), the hind pair trails; left
+    paws sit high, right paws low. Delays fire them hind-left → front-left →
+    hind-right → front-right, so only one foot lifts at a time.
 */
-.track:nth-child(1) { left: 6%;  top: 0.55rem; transform: rotate(-11deg); animation-delay: -7.0s; }
-.track:nth-child(2) { left: 21%; top: 0.80rem; transform: rotate(11deg);  animation-delay: -5.6s; }
-.track:nth-child(3) { left: 36%; top: 0.42rem; transform: rotate(-12deg); animation-delay: -4.2s; }
-.track:nth-child(4) { left: 51%; top: 0.92rem; transform: rotate(12deg);  animation-delay: -2.8s; }
-.track:nth-child(5) { left: 66%; top: 0.30rem; transform: rotate(-13deg); animation-delay: -1.4s; }
-.track:nth-child(6) { left: 81%; top: 1.05rem; transform: rotate(13deg);  animation-delay: 0s; }
+.track.hl { left: 0.2rem; top: 0;      transform: rotate(-8deg); animation-delay: 0s; }
+.track.fl { left: 2.4rem; top: 0;      transform: rotate(-8deg); animation-delay: -0.3s; }
+.track.hr { left: 0.2rem; top: 0.9rem; transform: rotate(8deg);  animation-delay: -0.6s; }
+.track.fr { left: 2.4rem; top: 0.9rem; transform: rotate(8deg);  animation-delay: -0.9s; }
 
-@keyframes track-stamp {
-    0%   { opacity: 0; }
-    8%   { opacity: 0.34; }
-    40%  { opacity: 0.34; }
-    52%  { opacity: 0; }
-    100% { opacity: 0; }
+@keyframes critter-walk {
+    0%   { left: -4rem;  opacity: 0; }
+    6%   { opacity: 0.34; }
+    94%  { opacity: 0.34; }
+    100% { left: 100%;   opacity: 0; }
+}
+
+/* A brief lift and plant; staggered across the four feet, it reads as a walk. */
+@keyframes paw-step {
+    0%   { margin-top: 0; }
+    10%  { margin-top: -0.28rem; }
+    22%  { margin-top: 0; }
+    100% { margin-top: 0; }
 }
 
 @media (prefers-reduced-motion: reduce) {
-    .track {
-        animation: none;
-        opacity: 0.28;
-    }
+    .critter { animation: none; left: 42%; opacity: 0.3; }
+    .track   { animation: none; margin-top: 0; }
 }
 
 /* ===================================================================================================================== */
