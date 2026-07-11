@@ -5,6 +5,8 @@ Hello!
 
 I am currently a Postdoctoral Fellow in the [[https://biology.emory.edu/people/bios/faculty/bazykin-georgii.html][Bazykin Lab]] at Emory University, Atlanta, where my research focuses on epidemiology and population genetics.
 
+I completed my PhD in May 2026 in the Biological Sciences department at North Dakota State University (NDSU). My dissertation focused on "Transposable Element Invasion Dynamics and piRNA Cluster Evolution in /Drosophila/".
+
 Here are some tools listed, which I use almost daily for my work:
 
 * Programming Tools
