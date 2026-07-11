@@ -30,6 +30,28 @@
     --link-hover: #b04a3e;
 }
 
+/* Dark mode: follow the OS preference with a warm, dimmed variant of the palette. */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --fg: #e6dfce;
+        --bg: #211e19;
+        --form-bg: #2a2620;
+        --form-fg: #e6dfce;
+        --form-fg-placeholder: #e6dfce9a;
+        --muted: #a89f90;
+        --link: #c9b57e;
+        --link-visited: #a89570;
+        --link-hover: #e0715f;
+    }
+
+    /* D2 diagrams are drawn with dark ink at build time; lighten them so they
+       stay legible on a dark background. Photographs are left untouched. */
+    .d2diagram svg,
+    .d2math svg {
+        filter: invert(0.9) hue-rotate(180deg);
+    }
+}
+
 /*
     1) Modify the base font-size to 62.5% so that 1.6rem = 16px.
     2) Set box-sizing globally to handle padding and border widths.
@@ -376,99 +398,6 @@ a.page-curl:hover {
         display: block;
         margin: 0.4rem 0;
     }
-}
-
-/* ===================================================================================================================== */
-/*  Card Stack (Pictures page) ========================================================================================== */
-/* ===================================================================================================================== */
-
-.card-stack {
-    position: relative;
-    margin: 3rem auto;
-    max-width: 52rem;
-    min-height: 25rem;
-}
-
-.card-stack .card {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 80%;
-    max-width: 40rem;
-    background: var(--form-bg);
-    border: 1px solid rgba(74, 69, 64, 0.1);
-    box-shadow: 0 4px 16px rgba(74, 69, 64, 0.15);
-    padding: 1.5rem;
-    transition: transform 0.3s ease, opacity 0.3s ease, box-shadow 0.3s ease;
-    cursor: pointer;
-    margin: 0;
-}
-
-.card-stack .card img {
-    width: 100%;
-    height: auto;
-    display: block;
-}
-
-.card-stack .card figcaption {
-    text-align: center;
-    margin-top: 0.8rem;
-    font-size: 1.8rem;
-    color: var(--muted);
-}
-
-.card-stack .card.active {
-    transform: translate(-50%, -50%) rotate(0deg);
-    opacity: 1;
-    z-index: 3;
-}
-
-.card-stack .card.next {
-    transform: translate(-25%, -45%) rotate(8deg);
-    opacity: 0.5;
-    z-index: 2;
-    box-shadow: 0 2px 8px rgba(74, 69, 64, 0.1);
-}
-
-.card-stack .card.prev {
-    transform: translate(-75%, -45%) rotate(-8deg);
-    opacity: 0.5;
-    z-index: 1;
-    box-shadow: 0 2px 8px rgba(74, 69, 64, 0.1);
-}
-
-.card-stack .card.hidden {
-    opacity: 0;
-    pointer-events: none;
-    transform: translate(-50%, -50%) scale(0.8);
-}
-
-.card-stack .card.next:hover,
-.card-stack .card.prev:hover {
-    opacity: 0.75;
-    box-shadow: 0 4px 16px rgba(74, 69, 64, 0.2);
-}
-
-@media (max-width: 600px) {
-    .card-stack .card.next {
-        transform: translate(-15%, -45%) rotate(6deg);
-        opacity: 0.3;
-    }
-    .card-stack .card.prev {
-        transform: translate(-85%, -45%) rotate(-6deg);
-        opacity: 0.3;
-    }
-}
-
-/* ===================================================================================================================== */
-/*  Slide Nav (Notebook page) =========================================================================================== */
-/* ===================================================================================================================== */
-
-.slide {
-    display: none;
-}
-.slide.active {
-    display: revert;
 }
 
 /* ===================================================================================================================== */

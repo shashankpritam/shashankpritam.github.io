@@ -41,5 +41,3 @@ Below is a curated list of books and resources I'm currently enjoying (not updat
 - [[https://d2lang.com][D2]]
 - [[https://www.zotero.org][Zotero]], [[https://zbib.org][zbib.org]], [[https://calibre-ebook.com][Calibre]]
 - [[https://uruky.com/][Kagi]], [[https://justgetflux.com][f.lux]]
-
-#+HTML: <script>(function(){var m=document.querySelector('main'),cs=[],cur=null;m.childNodes.forEach(function(n){if(n.nodeType===1&&n.tagName==='H2'){cur={h:n,els:[]};cs.push(cur)}else if(cur)cur.els.push(n)});cs.forEach(function(s){s.h.classList.add('slide');s.els.forEach(function(e){e.classList.add('slide')})});var i=0;function show(j){cs.forEach(function(s,k){var on=k===j;s.h.classList.toggle('active',on);s.els.forEach(function(e){e.classList.toggle('active',on)})})}show(0);document.addEventListener('keydown',function(e){if(e.target.tagName==='INPUT'||e.target.tagName==='TEXTAREA')return;if(e.key==='ArrowRight'){if(i<cs.length-1){i++;show(i)}else window.location.href='/index.html'}if(e.key==='ArrowLeft'){if(i>0){i--;show(i)}else window.location.href='/pictures.html'}})})();</script>

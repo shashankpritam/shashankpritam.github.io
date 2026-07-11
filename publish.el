@@ -91,6 +91,8 @@ which causes preserveAspectRatio=meet to scale against the wrong axis."
 (defvar sp/html-head
   "<meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'>
+<meta name='color-scheme' content='light dark'>
+<meta http-equiv='Content-Security-Policy' content=\"default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; script-src 'none'; object-src 'none'; base-uri 'none'; form-action 'self'\">
 <meta name='description' content='Shashank Pritam - Computational Biologist. PhD in Biological Sciences.'>
 <link rel='icon' type='image/svg+xml' href='/favicon.svg'>
 <link rel='stylesheet' href='/css/style.css'>
@@ -101,7 +103,7 @@ which causes preserveAspectRatio=meet to scale against the wrong axis."
   \"name\": \"Shashank Pritam\",
   \"url\": \"https://shashankpritam.com\",
   \"sameAs\": [
-    \"https://github.com/shashankpritam\",
+    \"https://github.com/shashankpritam\"
   ],
   \"jobTitle\": \"Computational Biologist\",
   \"description\": \"PhD in Biological Sciences from NDSU.\"
@@ -109,43 +111,24 @@ which causes preserveAspectRatio=meet to scale against the wrong axis."
 </script>")
 
 (defun sp/preamble (plist)
-  "Return header HTML with nav, page-curl, and page-specific keyboard nav."
+  "Return header HTML with nav and a page-curl link to the next page."
   (let* ((filename (file-name-nondirectory (plist-get plist :input-file)))
-         (is-pictures (string= filename "pictures.org"))
-         (is-notebook (string= filename "notebook.org"))
          (next (cond
-                ((string= filename "index.org")    '("Pictures" . "/pictures.html"))
-                ((string= filename "pictures.org")  '("Notebook"  . "/notebook.html"))
-                ((string= filename "notebook.org")  '("Home"      . "/index.html"))
-                (t                                  '("Home"      . "/index.html"))))
-         (prev (cond
-                ((string= filename "index.org")    '("Notebook"  . "/notebook.html"))
-                ((string= filename "pictures.org")  '("Home"      . "/index.html"))
-                ((string= filename "notebook.org")  '("Pictures" . "/pictures.html"))
-                (t                                  '("Home"      . "/index.html"))))
-         (keynav (cond
-                  (is-notebook "")
-                  (t (format "<script>
-document.addEventListener('keydown',function(e){
-if(e.target.tagName==='INPUT'||e.target.tagName==='TEXTAREA')return;
-if(e.key==='ArrowRight')window.location.href='%s';
-if(e.key==='ArrowLeft')window.location.href='%s';
-});
-</script>"
-                             (cdr next) (cdr prev))))))
+                ((string= filename "pictures.org") "/notebook.html")
+                ((string= filename "notebook.org") "/index.html")
+                (t                                 "/pictures.html"))))
     (format "<header>
   <nav>
     <ul>
-<li><a href='/index.html'>Home</a></li>
+      <li><a href='/index.html'>Home</a></li>
       <li><a href='/pictures.html'>Pictures</a></li>
       <li><a href='/notebook.html'>Notebook</a></li>
     </ul>
   </nav>
   <h3 class='site-title'>Shashank Pritam</h3>
 </header>
-<a class='page-curl' href='%s'></a>
-%s"
-            (cdr next) keynav)))
+<a class='page-curl' href='%s'></a>"
+            next)))
 
 (defvar sp/footer
   "<footer>
