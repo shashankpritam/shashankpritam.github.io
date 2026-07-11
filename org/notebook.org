@@ -16,6 +16,7 @@ Below is a curated list of books and resources I'm currently enjoying (not updat
 | *Biology & Evolution* | A Planet of Viruses: Third Edition      | Carl Zimmer                     |
 | *Programming*         | Modern C, Third Edition                 | Jens Gustedt                    |
 |                       | Parallel and High Performance Computing | Robert Robey and Yuliana Zamora |
+| *Physics*             | Modern Particle Physics                 | Mark Thomson                    |
 
 * Bookmarks
 
@@ -31,11 +32,11 @@ Below is a curated list of books and resources I'm currently enjoying (not updat
 
 * Software I like
 
-- [[https://www.python.org][Python]], [[https://www.r-project.org][R]], [[https://www.gnu.org/software/bash/][Bash]], [[https://en.wikipedia.org/wiki/C_(programming_language)][C/C++]]
+- [[https://www.python.org][Python]], [[https://www.r-project.org][R]], [[https://www.gnu.org/software/bash/][Bash]], [[https://en.wikipedia.org/wiki/C3_(programming_language)][C/C3]]
 - [[https://helix-editor.com][Helix]], [[https://gram-editor.com][Gram]]
 - [[https://ghostty.org][Ghostty]], [[https://help.gnome.org/users/gnome-terminal/][GNOME Terminal]], [[https://www.termius.com][Termius]]
 - [[https://git-scm.com][Git]] via [[https://github.com][GitHub]], [[https://tangled.org][Tangled]], [[https://sr.ht][sr.ht]]
-- [[https://github.com/BurntSushi/ripgrep][ripgrep]], [[https://github.com/sharkdp/bat][bat]], [[https://github.com/junegunn/fzf][fzf]], [[https://github.com/sharkdp/fd][fd]], [[https://ffmpeg.org][ffmpeg]], [[https://github.com/yt-dlp/yt-dlp][yt-dlp]], [[https://www.gnu.org/software/coreutils/][sponge]], [[https://lynx.browser.org][lynx]], [[https://github.com/charmbracelet/glow][glow]], [[https://github.com/dalance/pretzo][pretzo]]
+- [[https://github.com/BurntSushi/ripgrep][ripgrep]], [[https://github.com/sharkdp/bat][bat]], [[https://github.com/junegunn/fzf][fzf]], [[https://github.com/sharkdp/fd][fd]], [[https://ffmpeg.org][ffmpeg]], [[https://github.com/yt-dlp/yt-dlp][yt-dlp]], [[https://joeyh.name/code/moreutils/][sponge]], [[https://lynx.browser.org][lynx]], [[https://github.com/charmbracelet/glow][glow]], [[https://github.com/dalance/pretzo][pretzo]]
 - [[https://typst.app][Typst]], [[https://orgmode.org][Org-mode]], [[https://asciidoc.org][AsciiDoc]], [[https://www.latex-project.org][LaTeX]]
 - [[https://d2lang.com][D2]]
 - [[https://www.zotero.org][Zotero]], [[https://zbib.org][zbib.org]], [[https://calibre-ebook.com][Calibre]]
