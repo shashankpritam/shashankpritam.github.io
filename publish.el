@@ -109,15 +109,41 @@ which causes preserveAspectRatio=meet to scale against the wrong axis."
 </script>")
 
 (defun sp/preamble (plist)
-  "Return header HTML with a page-curl link to the next page in the cycle."
+  "Return header HTML with nav and a page-curl link to the next page in the cycle."
   (let* ((filename (file-name-nondirectory (plist-get plist :input-file)))
+         (is-pictures (string= filename "pictures.org"))
          (next (cond
                 ((string= filename "index.org")    '("Pictures" . "/pictures.html"))
                 ((string= filename "pictures.org")  '("Notebook"  . "/notebook.html"))
                 ((string= filename "notebook.org")  '("Home"      . "/index.html"))
-                (t                                  '("Home"      . "/index.html")))))
-    (format "<header>\n  <h3 class='site-title'>Shashank Pritam</h3>\n</header>\n<a class='page-curl' href='%s'><span>%s</span></a>"
-            (cdr next) (car next))))
+                (t                                  '("Home"      . "/index.html"))))
+         (prev (cond
+                ((string= filename "index.org")    '("Notebook"  . "/notebook.html"))
+                ((string= filename "pictures.org")  '("Home"      . "/index.html"))
+                ((string= filename "notebook.org")  '("Pictures" . "/pictures.html"))
+                (t                                  '("Home"      . "/index.html"))))
+         (keynav (if is-pictures ""
+                   (format "<script>
+document.addEventListener('keydown', function(e) {
+  if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
+  if (e.key === 'ArrowRight') window.location.href = '%s';
+  if (e.key === 'ArrowLeft')  window.location.href = '%s';
+});
+</script>"
+                           (cdr next) (cdr prev)))))
+    (format "<header>
+  <nav>
+    <ul>
+<li><a href='/index.html'>Home</a></li>
+      <li><a href='/pictures.html'>Pictures</a></li>
+      <li><a href='/notebook.html'>Notebook</a></li>
+    </ul>
+  </nav>
+  <h3 class='site-title'>Shashank Pritam</h3>
+</header>
+<a class='page-curl' href='%s'></a>
+%s"
+            (cdr next) keynav)))
 
 (defvar sp/footer
   "<footer>
