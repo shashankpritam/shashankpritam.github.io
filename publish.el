@@ -94,38 +94,8 @@ which causes preserveAspectRatio=meet to scale against the wrong axis."
 <meta name='color-scheme' content='light dark'>
 <meta http-equiv='Content-Security-Policy' content=\"default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; script-src 'none'; object-src 'none'; base-uri 'none'; form-action 'self'\">
 <meta name='description' content='Shashank Pritam — computational biologist working on population genetics, epidemiology, and evolutionary dynamics.'>
-<meta property='og:type' content='profile'>
-<meta property='og:site_name' content='Shashank Pritam'>
-<meta property='og:title' content='Shashank Pritam'>
-<meta property='og:description' content='Computational biologist — population genetics, epidemiology, and evolutionary dynamics.'>
-<meta property='profile:first_name' content='Shashank'>
-<meta property='profile:last_name' content='Pritam'>
-<meta name='twitter:card' content='summary'>
-<meta name='twitter:title' content='Shashank Pritam'>
-<meta name='twitter:description' content='Computational biologist — population genetics, epidemiology, and evolutionary dynamics.'>
 <link rel='icon' type='image/svg+xml' href='/favicon.svg'>
-<link rel='stylesheet' href='/css/style.css'>
-<script type='application/ld+json'>
-{
-  \"@context\": \"https://schema.org\",
-  \"@type\": \"Person\",
-  \"name\": \"Shashank Pritam\",
-  \"url\": \"https://shashankpritam.com\",
-  \"sameAs\": [
-    \"https://github.com/shashankpritam\",
-    \"https://orcid.org/0009-0009-4228-7883\",
-    \"https://scholar.google.com/citations?user=E5oKLgkAAAAJ&hl=en\",
-    \"https://bsky.app/profile/shashankpritam.bsky.social\"
-  ],
-  \"identifier\": {
-    \"@type\": \"PropertyValue\",
-    \"propertyID\": \"ORCID\",
-    \"value\": \"https://orcid.org/0009-0009-4228-7883\"
-  },
-  \"jobTitle\": \"Computational Biologist\",
-  \"description\": \"PhD in Biological Sciences from NDSU.\"
-}
-</script>")
+<link rel='stylesheet' href='/css/style.css'>")
 
 (defun sp/preamble (plist)
   "Return header HTML with nav and a page-curl link to the next page."

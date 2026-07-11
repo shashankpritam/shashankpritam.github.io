@@ -65,7 +65,7 @@ A =prefers-color-scheme: dark= block overrides the palette variables with a warm
 
 * No JavaScript
 
-The site ships no executable JavaScript. Everything interactive-looking — framed, scrollable pictures, decorated section subtitles, math, and diagrams — is plain HTML and CSS rendered at build time. The only =<script>= element is a =type="application/ld+json"= structured-data block (inert metadata for search engines).
+The site has no =<script>= elements at all. Everything that looks interactive — framed, scrollable pictures, decorated section subtitles, the walking cat paw, math, and diagrams — is plain HTML and CSS rendered at build time.
 
 A =Content-Security-Policy= meta tag enforces this: =script-src 'none'=, everything same-origin, with Google Fonts the sole third-party origin allowed for styles and fonts.
 

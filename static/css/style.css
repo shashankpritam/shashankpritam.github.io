@@ -942,26 +942,57 @@ footer {
     opacity: 0;
     pointer-events: none;
     user-select: none;
-    animation: paw-walk 16s linear infinite;
+    transform-origin: 50% 80%;
+    /*
+        Glides left→right (`paw-advance`) while riding a sine wave whose
+        amplitude grows across the sweep (`paw-wave`): tiny ripples on the
+        left building to wide swings on the right. `paw-fade` shows the trail
+        then resets. All three share an 18s period so the wave stays aligned.
+    */
+    animation:
+        paw-advance 18s linear infinite,
+        paw-wave 18s ease-in-out infinite,
+        paw-fade 18s linear infinite;
 }
 
 header .paw {
-    top: 0.2rem;
+    top: 0.6rem;
 }
 
 footer .paw {
-    bottom: 0.2rem;
-    animation-duration: 21s;
+    bottom: 0.8rem;
+    /* One value shifts all three animations equally, keeping them in sync. */
+    animation-delay: -7s;
 }
 
-@keyframes paw-walk {
-    0%   { left: -2%;   opacity: 0;    transform: translateY(0) rotate(-10deg); }
-    8%   {              opacity: 0.32; }
-    25%  {              transform: translateY(-0.25rem) rotate(8deg); }
-    50%  {              transform: translateY(0) rotate(-10deg); }
-    75%  {              transform: translateY(-0.25rem) rotate(8deg); }
-    92%  {              opacity: 0.32; }
-    100% { left: 100%;  opacity: 0;    transform: translateY(0) rotate(-10deg); }
+@keyframes paw-advance {
+    from { left: 0; }
+    to   { left: 100%; }
+}
+
+/* Three sine periods with a linearly growing amplitude (~0.11rem → ~0.56rem),
+   with a little banking tilt at each crest and trough. */
+@keyframes paw-wave {
+    0%   { transform: translateY(0)        rotate(0deg); }
+    8%   { transform: translateY(-0.11rem) rotate(-7deg); }
+    17%  { transform: translateY(0)        rotate(0deg); }
+    25%  { transform: translateY(0.20rem)  rotate(7deg); }
+    33%  { transform: translateY(0)        rotate(0deg); }
+    42%  { transform: translateY(-0.29rem) rotate(-8deg); }
+    50%  { transform: translateY(0)        rotate(0deg); }
+    58%  { transform: translateY(0.38rem)  rotate(8deg); }
+    67%  { transform: translateY(0)        rotate(0deg); }
+    75%  { transform: translateY(-0.47rem) rotate(-9deg); }
+    83%  { transform: translateY(0)        rotate(0deg); }
+    92%  { transform: translateY(0.56rem)  rotate(9deg); }
+    100% { transform: translateY(0)        rotate(0deg); }
+}
+
+@keyframes paw-fade {
+    0%   { opacity: 0; }
+    6%   { opacity: 0.34; }
+    88%  { opacity: 0.34; }
+    100% { opacity: 0; }
 }
 
 @media (prefers-reduced-motion: reduce) {

@@ -1,7 +1,5 @@
 #+TITLE: Pictures
 #+OPTIONS: toc:nil num:nil
-#+HTML_HEAD_EXTRA: <link rel="canonical" href="https://shashankpritam.com/pictures.html">
-#+HTML_HEAD_EXTRA: <meta property="og:url" content="https://shashankpritam.com/pictures.html">
 
 * Some random pictures
 
