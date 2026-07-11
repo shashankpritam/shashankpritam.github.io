@@ -114,8 +114,7 @@ which causes preserveAspectRatio=meet to scale against the wrong axis."
     <ul>
 <li><a href='/index.html'>Home</a></li>
       <li><a href='/pictures.html'>Pictures</a></li>
-      <li><a href='/readings.html'>Readings</a></li>
-      <li><a href='/about.html'>About</a></li>
+      <li><a href='/notebook.html'>Notebook</a></li>
     </ul>
   </nav>
   <h3 class='site-title'>Shashank Pritam</h3>

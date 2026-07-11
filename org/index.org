@@ -7,19 +7,5 @@ I am currently a Postdoctoral Fellow in the [[https://biology.emory.edu/people/b
 
 I completed my PhD in May 2026 in the Biological Sciences department at North Dakota State University (NDSU). My dissertation focused on "Transposable Element Invasion Dynamics and piRNA Cluster Evolution in /Drosophila/".
 
-Here are some tools listed, which I use almost daily for my work:
+Before starting my PhD, I did my BS-MS at IISER Pune, where I studied mostly maths and biology. My master's thesis was "Prediction of Polyproline Type II Helix Receptors". Although I see myself as a generalist computational biologist, my primary methods are modeling, simulation, and methodology development. I have interest in statistics and machine learning as well. Recently I have been working with transformers in the context of tooling as well as sequence-based evolution.
 
-* Programming Tools
-
-- *Languages*: Python, R, Bash, C/C3
-- *IDE*: Helix, Gram Editor
-- *Terminal*: Ghostty, GNOME Terminal, Termius
-- *Version Control*: Git hosting via [[https://www.github.com/shashankpritam][GitHub]], [[https://tangled.org/0000.tngl.sh][Tangled]], [[https://sr.ht/~pritam/][sr.ht]]
-- *CLI*: ripgrep, bat, fzf, fd, ffmpeg, yt-dlp, sponge, lynx, glow, pretzo
-- *Note-taking*: Typst, Org-mode, AsciiDoc, LaTeX
-
-* Essential Tools
-
-- *Diagrams*: Typst, D2
-- *Reference Management*: Zotero, zbib.org, Calibre
-- *Utilities*: Kagi, f.lux

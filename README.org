@@ -21,8 +21,7 @@ public/        ← generated HTML
 |---------------------+------------------|
 | =org/index.org=     | ~/~              |
 | =org/pictures.org=  | ~/pictures.html~ |
-| =org/readings.org=  | ~/readings.html~ |
-| =org/about.org=     | ~/about.html~    |
+| =org/notebook.org=  | ~/notebook.html~ |
 
 * Build locally
 

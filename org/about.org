@@ -1,8 +1,0 @@
-#+TITLE: About
-#+OPTIONS: toc:nil num:nil
-
-* What is this webpage about?
-
-I use the webpage as my résumé/CV, a public notebook and bookmarks.
-
-If you have any questions, or just want to chat about science, tech, or anything else, please feel free to send me an email ([[mailto:REDACTED][mail@site]])! Or schedule a meeting with me [[https://cal.com/shashankpritam][here]].
