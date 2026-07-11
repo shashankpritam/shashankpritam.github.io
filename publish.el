@@ -124,7 +124,6 @@ which causes preserveAspectRatio=meet to scale against the wrong axis."
                 ((string= filename "notebook.org")  '("Pictures" . "/pictures.html"))
                 (t                                  '("Home"      . "/index.html"))))
          (keynav (cond
-                  (is-pictures "")
                   (is-notebook "")
                   (t (format "<script>
 document.addEventListener('keydown',function(e){
