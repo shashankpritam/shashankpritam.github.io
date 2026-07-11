@@ -386,6 +386,7 @@ a.page-curl:hover {
     position: relative;
     margin: 3rem auto;
     max-width: 52rem;
+    min-height: 25rem;
 }
 
 .card-stack .card {
