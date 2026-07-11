@@ -28,6 +28,8 @@
     --link: #7c6f4e;
     --link-visited: #5a4e3e;
     --link-hover: #b04a3e;
+    /* Single cat-paw print, used as a mask so footprints take --muted. */
+    --paw: url("data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20viewBox%3D%270%200%2024%2024%27%3E%3Cellipse%20cx%3D%2712%27%20cy%3D%2716.5%27%20rx%3D%274.3%27%20ry%3D%273.5%27%2F%3E%3Cellipse%20cx%3D%275.4%27%20cy%3D%2710.6%27%20rx%3D%271.95%27%20ry%3D%272.6%27%2F%3E%3Cellipse%20cx%3D%279.6%27%20cy%3D%276.8%27%20rx%3D%271.95%27%20ry%3D%272.7%27%2F%3E%3Cellipse%20cx%3D%2714.4%27%20cy%3D%276.8%27%20rx%3D%271.95%27%20ry%3D%272.7%27%2F%3E%3Cellipse%20cx%3D%2718.6%27%20cy%3D%2710.6%27%20rx%3D%271.95%27%20ry%3D%272.6%27%2F%3E%3C%2Fsvg%3E");
 }
 
 /* Dark mode: follow the OS preference with a warm, dimmed variant of the palette. */
@@ -924,77 +926,61 @@ footer nav.elsewhere {
 }
 
 /*
-    A cat paw padding gently along the header and footer — purely for delight.
-    It is bounded and clipped by its container, and steps aside for readers who
-    prefer reduced motion.
+    A cat gait padding across the footer — purely for delight. Six individual
+    paw prints (the --paw shape applied as a mask, so each takes --muted and
+    adapts to dark mode) stamp in sequence, alternating up/down with a widening
+    stride to trace a growing wave. Bounded and clipped by the footer, and held
+    as a static trail for readers who prefer reduced motion.
 */
-header,
 footer {
     position: relative;
     overflow: hidden;
 }
 
-.paw {
+.tracks {
     position: absolute;
     left: 0;
-    font-size: 1.25rem;
-    line-height: 1;
-    opacity: 0;
+    right: 0;
+    bottom: 0.3rem;
+    height: 2.4rem;
     pointer-events: none;
-    user-select: none;
-    transform-origin: 50% 80%;
-    /*
-        Discrete hops along a growing sine wave: `step-end` holds the paw at
-        each point, then snaps it to the next crest / baseline / trough as it
-        advances left→right, the swings widening toward the end. `paw-fade`
-        shows the trail then resets. Both share an 18s period.
-    */
-    animation:
-        paw-hop 18s step-end infinite,
-        paw-fade 18s linear infinite;
 }
 
-header .paw {
-    top: 0.6rem;
+.track {
+    position: absolute;
+    width: 1.15rem;
+    height: 1.15rem;
+    background-color: var(--muted);
+    -webkit-mask: var(--paw) center / contain no-repeat;
+    mask: var(--paw) center / contain no-repeat;
+    opacity: 0;
+    animation: track-stamp 9s ease-in-out infinite;
 }
 
-footer .paw {
-    bottom: 0.8rem;
-    /* One value shifts both animations equally, keeping them in sync. */
-    animation-delay: -7s;
-}
+/*
+    Spread the prints across the footer and alternate the stride up/down, the
+    offset from the centre line widening toward the right. Negative delays keep
+    a trail already in motion on load; each print stamps in, lingers, lifts.
+*/
+.track:nth-child(1) { left: 6%;  top: 0.55rem; transform: rotate(-11deg); animation-delay: -7.0s; }
+.track:nth-child(2) { left: 21%; top: 0.80rem; transform: rotate(11deg);  animation-delay: -5.6s; }
+.track:nth-child(3) { left: 36%; top: 0.42rem; transform: rotate(-12deg); animation-delay: -4.2s; }
+.track:nth-child(4) { left: 51%; top: 0.92rem; transform: rotate(12deg);  animation-delay: -2.8s; }
+.track:nth-child(5) { left: 66%; top: 0.30rem; transform: rotate(-13deg); animation-delay: -1.4s; }
+.track:nth-child(6) { left: 81%; top: 1.05rem; transform: rotate(13deg);  animation-delay: 0s; }
 
-/* Twelve hops tracing three sine periods whose amplitude grows linearly
-   (~0.11rem → ~0.56rem), with a banking tilt at each crest and trough. */
-@keyframes paw-hop {
-    0%   { left: 0;    transform: translateY(0)        rotate(0deg); }
-    8%   { left: 8%;   transform: translateY(-0.11rem) rotate(-7deg); }
-    17%  { left: 17%;  transform: translateY(0)        rotate(0deg); }
-    25%  { left: 25%;  transform: translateY(0.20rem)  rotate(7deg); }
-    33%  { left: 33%;  transform: translateY(0)        rotate(0deg); }
-    42%  { left: 42%;  transform: translateY(-0.29rem) rotate(-8deg); }
-    50%  { left: 50%;  transform: translateY(0)        rotate(0deg); }
-    58%  { left: 58%;  transform: translateY(0.38rem)  rotate(8deg); }
-    67%  { left: 67%;  transform: translateY(0)        rotate(0deg); }
-    75%  { left: 75%;  transform: translateY(-0.47rem) rotate(-9deg); }
-    83%  { left: 83%;  transform: translateY(0)        rotate(0deg); }
-    92%  { left: 92%;  transform: translateY(0.56rem)  rotate(9deg); }
-    100% { left: 100%; transform: translateY(0)        rotate(0deg); }
-}
-
-@keyframes paw-fade {
+@keyframes track-stamp {
     0%   { opacity: 0; }
-    6%   { opacity: 0.34; }
-    88%  { opacity: 0.34; }
+    8%   { opacity: 0.34; }
+    40%  { opacity: 0.34; }
+    52%  { opacity: 0; }
     100% { opacity: 0; }
 }
 
 @media (prefers-reduced-motion: reduce) {
-    .paw {
+    .track {
         animation: none;
-        left: auto;
-        right: 0.6rem;
-        opacity: 0.22;
+        opacity: 0.28;
     }
 }
 
@@ -1004,7 +990,7 @@ footer .paw {
 
 @media print {
     a.page-curl,
-    .paw,
+    .tracks,
     footer nav.elsewhere {
         display: none;
     }

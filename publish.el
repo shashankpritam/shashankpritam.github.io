@@ -113,7 +113,6 @@ which causes preserveAspectRatio=meet to scale against the wrong axis."
     </ul>
   </nav>
   <h3 class='site-title'>Shashank Pritam</h3>
-  <span class='paw' aria-hidden='true'>🐾</span>
 </header>
 <a class='page-curl' href='%s'></a>"
             next)))
@@ -131,7 +130,7 @@ which causes preserveAspectRatio=meet to scale against the wrong axis."
   </nav>
   <p>(c) Shashank Pritam<br>
   Built with <a href='https://orgmode.org/manual/Publishing.html' target='_blank' rel='noopener'>Emacs org-publish</a> and <a href='https://github.com/wintermute-cell/magick.css' target='_blank' rel='noopener'>magick.css</a></p>
-  <span class='paw' aria-hidden='true'>🐾</span>
+  <span class='tracks' aria-hidden='true'><span class='track'></span><span class='track'></span><span class='track'></span><span class='track'></span><span class='track'></span><span class='track'></span></span>
 </footer>")
 
 ;; ---- Project definition ----
