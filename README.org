@@ -20,7 +20,6 @@ public/        ← generated HTML
 | File                | URL              |
 |---------------------+------------------|
 | =org/index.org=     | ~/~              |
-| =org/cv.org=        | ~/cv.html~       |
 | =org/pictures.org=  | ~/pictures.html~ |
 | =org/readings.org=  | ~/readings.html~ |
 | =org/about.org=     | ~/about.html~    |
