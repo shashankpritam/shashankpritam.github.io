@@ -95,7 +95,7 @@ body {
 header,
 section,
 footer {
-    margin: 0.7rem;
+    margin: 0.7rem auto;
     padding: 0.7rem;
 }
 
@@ -125,6 +125,7 @@ header {
 
 /* Org mode adds an extra <header> around the page title inside #content, remove its margin */
 #content header {
+    text-align: center;
     margin-top: 0;
     margin-bottom: 0;
     padding: 0;
@@ -145,8 +146,7 @@ header {
 */
 footer {
     text-align: center; /* 1 */
-    margin-top: 5rem; /* 2 */
-    margin-bottom: 2rem; /* 3 */
+    margin: 5rem auto 2rem auto; /* 2, 3 */
 }
 
 /* ========================================================================================================================= */
@@ -240,6 +240,7 @@ header h1 {
 
 /* Specific styling for Org Mode page titles (e.g. "Resume") to reduce gaps */
 #content h1.title {
+    text-align: center;
     margin-top: 0.5rem;
     margin-bottom: 1rem;
     font-size: 2rem;
