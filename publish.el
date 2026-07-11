@@ -93,7 +93,16 @@ which causes preserveAspectRatio=meet to scale against the wrong axis."
 <meta name='viewport' content='width=device-width, initial-scale=1'>
 <meta name='color-scheme' content='light dark'>
 <meta http-equiv='Content-Security-Policy' content=\"default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; script-src 'none'; object-src 'none'; base-uri 'none'; form-action 'self'\">
-<meta name='description' content='Shashank Pritam - Computational Biologist. PhD in Biological Sciences.'>
+<meta name='description' content='Shashank Pritam — computational biologist working on population genetics, epidemiology, and evolutionary dynamics.'>
+<meta property='og:type' content='profile'>
+<meta property='og:site_name' content='Shashank Pritam'>
+<meta property='og:title' content='Shashank Pritam'>
+<meta property='og:description' content='Computational biologist — population genetics, epidemiology, and evolutionary dynamics.'>
+<meta property='profile:first_name' content='Shashank'>
+<meta property='profile:last_name' content='Pritam'>
+<meta name='twitter:card' content='summary'>
+<meta name='twitter:title' content='Shashank Pritam'>
+<meta name='twitter:description' content='Computational biologist — population genetics, epidemiology, and evolutionary dynamics.'>
 <link rel='icon' type='image/svg+xml' href='/favicon.svg'>
 <link rel='stylesheet' href='/css/style.css'>
 <script type='application/ld+json'>
@@ -103,8 +112,16 @@ which causes preserveAspectRatio=meet to scale against the wrong axis."
   \"name\": \"Shashank Pritam\",
   \"url\": \"https://shashankpritam.com\",
   \"sameAs\": [
-    \"https://github.com/shashankpritam\"
+    \"https://github.com/shashankpritam\",
+    \"https://orcid.org/0009-0009-4228-7883\",
+    \"https://scholar.google.com/citations?user=E5oKLgkAAAAJ&hl=en\",
+    \"https://bsky.app/profile/shashankpritam.bsky.social\"
   ],
+  \"identifier\": {
+    \"@type\": \"PropertyValue\",
+    \"propertyID\": \"ORCID\",
+    \"value\": \"https://orcid.org/0009-0009-4228-7883\"
+  },
   \"jobTitle\": \"Computational Biologist\",
   \"description\": \"PhD in Biological Sciences from NDSU.\"
 }
@@ -126,14 +143,25 @@ which causes preserveAspectRatio=meet to scale against the wrong axis."
     </ul>
   </nav>
   <h3 class='site-title'>Shashank Pritam</h3>
+  <span class='paw' aria-hidden='true'>🐾</span>
 </header>
 <a class='page-curl' href='%s'></a>"
             next)))
 
 (defvar sp/footer
   "<footer>
+  <nav class='elsewhere' aria-label='Profiles elsewhere'>
+    <ul>
+      <li><a href='https://github.com/shashankpritam' target='_blank' rel='me noopener'>GitHub</a></li>
+      <li><a href='https://orcid.org/0009-0009-4228-7883' target='_blank' rel='me noopener'>ORCID</a></li>
+      <li><a href='https://scholar.google.com/citations?user=E5oKLgkAAAAJ&amp;hl=en' target='_blank' rel='me noopener'>Scholar</a></li>
+      <li><a href='https://bsky.app/profile/shashankpritam.bsky.social' target='_blank' rel='me noopener'>Bluesky</a></li>
+      <li><a href='https://sifa.id/p/shashankpritam.bsky.social' target='_blank' rel='me noopener'>sifa.id</a></li>
+    </ul>
+  </nav>
   <p>(c) Shashank Pritam<br>
   Built with <a href='https://orgmode.org/manual/Publishing.html' target='_blank' rel='noopener'>Emacs org-publish</a> and <a href='https://github.com/wintermute-cell/magick.css' target='_blank' rel='noopener'>magick.css</a></p>
+  <span class='paw' aria-hidden='true'>🐾</span>
 </footer>")
 
 ;; ---- Project definition ----

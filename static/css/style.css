@@ -908,3 +908,95 @@ aside h1, aside h2, aside h3, aside h4 {
     content: counter(sidenote-counter) " ";
     top: -0.5rem;
 }
+
+/* ===================================================================================================================== */
+/*  Flourishes  ======================================================================================================== */
+/* ===================================================================================================================== */
+
+/* Tint text selection to match the warm accent (works in both light and dark). */
+::selection {
+    background: rgba(176, 74, 62, 0.22);
+}
+
+/* A little breathing room between the footer's profile links and the colophon. */
+footer nav.elsewhere {
+    margin-bottom: 1rem;
+}
+
+/*
+    A cat paw padding gently along the header and footer — purely for delight.
+    It is bounded and clipped by its container, and steps aside for readers who
+    prefer reduced motion.
+*/
+header,
+footer {
+    position: relative;
+    overflow: hidden;
+}
+
+.paw {
+    position: absolute;
+    left: 0;
+    font-size: 1.25rem;
+    line-height: 1;
+    opacity: 0;
+    pointer-events: none;
+    user-select: none;
+    animation: paw-walk 16s linear infinite;
+}
+
+header .paw {
+    top: 0.2rem;
+}
+
+footer .paw {
+    bottom: 0.2rem;
+    animation-duration: 21s;
+}
+
+@keyframes paw-walk {
+    0%   { left: -2%;   opacity: 0;    transform: translateY(0) rotate(-10deg); }
+    8%   {              opacity: 0.32; }
+    25%  {              transform: translateY(-0.25rem) rotate(8deg); }
+    50%  {              transform: translateY(0) rotate(-10deg); }
+    75%  {              transform: translateY(-0.25rem) rotate(8deg); }
+    92%  {              opacity: 0.32; }
+    100% { left: 100%;  opacity: 0;    transform: translateY(0) rotate(-10deg); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .paw {
+        animation: none;
+        left: auto;
+        right: 0.6rem;
+        opacity: 0.22;
+    }
+}
+
+/* ===================================================================================================================== */
+/*  Print  ============================================================================================================= */
+/* ===================================================================================================================== */
+
+@media print {
+    a.page-curl,
+    .paw,
+    footer nav.elsewhere {
+        display: none;
+    }
+
+    body {
+        max-width: none;
+        color: #000;
+    }
+
+    figure.frame {
+        box-shadow: none;
+        border: 1px solid #999;
+        break-inside: avoid;
+    }
+
+    a {
+        color: #000;
+        text-decoration: underline;
+    }
+}
