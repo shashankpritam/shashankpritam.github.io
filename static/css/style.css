@@ -384,10 +384,8 @@ a.page-curl:hover {
 
 .card-stack {
     position: relative;
-    min-height: 30rem;
     margin: 3rem auto;
     max-width: 52rem;
-    overflow: hidden;
 }
 
 .card-stack .card {
