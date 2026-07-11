@@ -927,11 +927,12 @@ footer nav.elsewhere {
 }
 
 /*
-    A little four-legged cat walking across the footer — purely for delight.
-    The whole critter glides left→right while its four paws (the --paw shape
-    applied as a mask, so each takes --muted and adapts to dark mode) lift and
-    plant one at a time in a lateral-sequence walk. Bounded and clipped by the
-    footer, and held as a static four-paw stance for prefers-reduced-motion.
+    An unseen cat crossing a snowy footer — purely for delight. Prints are
+    stamped at fixed spots (the --paw shape as a mask, so each takes --muted
+    and adapts to dark mode) in two staggered rows — left feet high, right feet
+    low. Each print quickly presses in, lingers, then fades as it is left
+    behind, and the sequence rolls left→right so it reads as a walk, not a
+    slide. Held as a full static trail for prefers-reduced-motion.
 */
 footer {
     position: relative;
@@ -947,15 +948,6 @@ footer {
     pointer-events: none;
 }
 
-.critter {
-    position: absolute;
-    bottom: 0;
-    width: 3.6rem;
-    height: 2rem;
-    opacity: 0;
-    animation: critter-walk 26s linear infinite;
-}
-
 .track {
     position: absolute;
     width: 1rem;
@@ -963,38 +955,36 @@ footer {
     background-color: var(--muted);
     -webkit-mask: var(--paw) center / contain no-repeat;
     mask: var(--paw) center / contain no-repeat;
-    animation: paw-step 1.6s ease-in-out infinite;
+    opacity: 0;
+    animation: snow-step 11s ease-in-out infinite;
 }
 
 /*
-    Four feet: the front pair leads (toward travel), the hind pair trails; left
-    paws sit high, right paws low, tilted out into a slight splay. Delays fire
-    them hind-left → front-left → hind-right → front-right (quarter-cycle
-    apart), so only one foot lifts at a time.
+    Eight footfalls alternating between the upper (left) and lower (right) row
+    as the cat moves forward. Negative delays, one eighth of the cycle apart,
+    keep a rolling trail already in motion: freshest print on the right, oldest
+    fading on the left.
 */
-.track.hl { left: 0.2rem; top: 0;      transform: rotate(-8deg); animation-delay: 0s; }
-.track.fl { left: 2.4rem; top: 0;      transform: rotate(-8deg); animation-delay: -0.4s; }
-.track.hr { left: 0.2rem; top: 0.9rem; transform: rotate(8deg);  animation-delay: -0.8s; }
-.track.fr { left: 2.4rem; top: 0.9rem; transform: rotate(8deg);  animation-delay: -1.2s; }
+.track:nth-child(1) { left: 8%;  top: 0.35rem; transform: rotate(-8deg); animation-delay: -9.6s; }
+.track:nth-child(2) { left: 18%; top: 1.05rem; transform: rotate(8deg);  animation-delay: -8.2s; }
+.track:nth-child(3) { left: 28%; top: 0.35rem; transform: rotate(-8deg); animation-delay: -6.9s; }
+.track:nth-child(4) { left: 38%; top: 1.05rem; transform: rotate(8deg);  animation-delay: -5.5s; }
+.track:nth-child(5) { left: 48%; top: 0.35rem; transform: rotate(-8deg); animation-delay: -4.1s; }
+.track:nth-child(6) { left: 58%; top: 1.05rem; transform: rotate(8deg);  animation-delay: -2.7s; }
+.track:nth-child(7) { left: 68%; top: 0.35rem; transform: rotate(-8deg); animation-delay: -1.4s; }
+.track:nth-child(8) { left: 78%; top: 1.05rem; transform: rotate(8deg);  animation-delay: 0s; }
 
-@keyframes critter-walk {
-    0%   { left: -4rem;  opacity: 0; }
-    6%   { opacity: 0.34; }
-    94%  { opacity: 0.34; }
-    100% { left: 100%;   opacity: 0; }
-}
-
-/* A brief lift and plant; staggered across the four feet, it reads as a walk. */
-@keyframes paw-step {
-    0%   { margin-top: 0; }
-    10%  { margin-top: -0.28rem; }
-    22%  { margin-top: 0; }
-    100% { margin-top: 0; }
+/* Quick press in, brief linger, slow fade as the print is left behind. */
+@keyframes snow-step {
+    0%   { opacity: 0; }
+    5%   { opacity: 0.4; }
+    26%  { opacity: 0.34; }
+    62%  { opacity: 0; }
+    100% { opacity: 0; }
 }
 
 @media (prefers-reduced-motion: reduce) {
-    .critter { animation: none; left: 42%; opacity: 0.3; }
-    .track   { animation: none; margin-top: 0; }
+    .track { animation: none; opacity: 0.28; }
 }
 
 /* ===================================================================================================================== */
