@@ -3,7 +3,7 @@
 
 Hello!
 
-I am currently a Postdoctoral Fellow in the Bazykin Lab at Emory University, Atlanta, where my research focuses on epidemiology and population genetics.
+I am currently a Postdoctoral Fellow in the [[https://biology.emory.edu/people/bios/faculty/bazykin-georgii.html][Bazykin Lab]] at Emory University, Atlanta, where my research focuses on epidemiology and population genetics.
 
 Here are some tools listed, which I use almost daily for my work:
 
