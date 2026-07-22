@@ -18,32 +18,32 @@
 }
 
 :root {
-    /* Warm Sakura-like theme (slaty / easy on the eyes) */
-    --fg: #4a4540;
-    --bg: #ECE7CD;
-    --form-bg: #f0ebe5;
-    --form-fg: #4a4540;
-    --form-fg-placeholder: #4a45409a;
-    --muted: #8a847c;
-    --link: #7c6f4e;
-    --link-visited: #5a4e3e;
+    /* Teal theme (slaty / easy on the eyes) */
+    --fg: #33453f;
+    --bg: #dbeae7;
+    --form-bg: #e6f2ef;
+    --form-fg: #33453f;
+    --form-fg-placeholder: #33453f99;
+    --muted: #77938c;
+    --link: #146259;
+    --link-visited: #3e6b63;
     --link-hover: #b04a3e;
     /* Single cat-paw print (toes pointing right, the walk direction), used as
        a mask so the paws take --muted. */
     --paw: url("data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20viewBox%3D%270%200%2024%2024%27%3E%3Cellipse%20cx%3D%278%27%20cy%3D%2712%27%20rx%3D%273.6%27%20ry%3D%274.2%27%2F%3E%3Cellipse%20cx%3D%2713.8%27%20cy%3D%276.6%27%20rx%3D%272.5%27%20ry%3D%271.95%27%2F%3E%3Cellipse%20cx%3D%2716.6%27%20cy%3D%279.9%27%20rx%3D%272.6%27%20ry%3D%271.95%27%2F%3E%3Cellipse%20cx%3D%2716.6%27%20cy%3D%2714.1%27%20rx%3D%272.6%27%20ry%3D%271.95%27%2F%3E%3Cellipse%20cx%3D%2713.8%27%20cy%3D%2717.4%27%20rx%3D%272.5%27%20ry%3D%271.95%27%2F%3E%3C%2Fsvg%3E");
 }
 
-/* Dark mode: follow the OS preference with a warm, dimmed variant of the palette. */
+/* Dark mode: follow the OS preference with a dimmed variant of the palette. */
 @media (prefers-color-scheme: dark) {
     :root {
-        --fg: #e6dfce;
-        --bg: #211e19;
-        --form-bg: #2a2620;
-        --form-fg: #e6dfce;
-        --form-fg-placeholder: #e6dfce9a;
-        --muted: #a89f90;
-        --link: #c9b57e;
-        --link-visited: #a89570;
+        --fg: #d2e6e1;
+        --bg: #16211f;
+        --form-bg: #1e2b28;
+        --form-fg: #d2e6e1;
+        --form-fg-placeholder: #d2e6e19a;
+        --muted: #8eaba3;
+        --link: #57bfae;
+        --link-visited: #4a8f85;
         --link-hover: #e0715f;
     }
 
@@ -370,8 +370,8 @@ a.page-curl {
             var(--form-bg) 50%
         );
     box-shadow:
-        -4px -4px 8px rgba(74, 69, 64, 0.12),
-        -2px -2px 4px rgba(74, 69, 64, 0.08);
+        -4px -4px 8px rgba(51, 69, 63, 0.12),
+        -2px -2px 4px rgba(51, 69, 63, 0.08);
     overflow: hidden;
     z-index: 999;
     transition: width 0.2s ease, height 0.2s ease, box-shadow 0.2s ease;
@@ -381,8 +381,8 @@ a.page-curl:hover {
     width: 7.5rem;
     height: 7.5rem;
     box-shadow:
-        -6px -6px 12px rgba(74, 69, 64, 0.18),
-        -3px -3px 6px rgba(74, 69, 64, 0.12);
+        -6px -6px 12px rgba(51, 69, 63, 0.18),
+        -3px -3px 6px rgba(51, 69, 63, 0.12);
     color: var(--link-hover);
 }
 
@@ -401,6 +401,12 @@ a.page-curl:hover {
         display: block;
         margin: 0.4rem 0;
     }
+
+    /* The page-curl corner cue is a hover affordance; there's no hover on
+       touch, so it just sits in the way of content on small screens. */
+    a.page-curl {
+        display: none;
+    }
 }
 
 /* ===================================================================================================================== */
@@ -416,8 +422,8 @@ figure.frame {
     margin: 3rem auto;
     padding: 1.5rem;
     background: var(--form-bg);
-    border: 1px solid rgba(74, 69, 64, 0.1);
-    box-shadow: 0 4px 16px rgba(74, 69, 64, 0.15);
+    border: 1px solid rgba(51, 69, 63, 0.1);
+    box-shadow: 0 4px 16px rgba(51, 69, 63, 0.15);
     transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
@@ -434,7 +440,7 @@ figure.frame figcaption {
 /* A subtle lift on hover — purely decorative. */
 figure.frame:hover {
     transform: translateY(-3px);
-    box-shadow: 0 8px 24px rgba(74, 69, 64, 0.2);
+    box-shadow: 0 8px 24px rgba(51, 69, 63, 0.2);
 }
 
 /* ===================================================================================================================== */
