@@ -8,7 +8,7 @@
 @charset "UTF-8";
 
 /* Importing the fonts. */
-@import url('https://fonts.googleapis.com/css2?family=Averia+Libre:ital,wght@0,400;0,700;1,400;1,700&family=Averia+Serif+Libre:ital,wght@0,300;0,700;1,300;1,700&family=Caveat&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Spectral:ital,wght@0,300;0,600;1,300;1,600&display=swap&family=Noto+Sans+Symbols+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&family=Caveat&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Spectral:ital,wght@0,300;0,600;1,300;1,600&display=swap&family=Noto+Sans+Symbols+2&display=swap');
 
 /* Simple CSS Reset */
 * {
@@ -74,17 +74,17 @@ html {
 /*
     1) Set the base font-size to 18px with a normal weight.
     2) Set the text and background colors to match the theme.
-    3) Use the 'Averia Serif Libre' font for the body text.
+    3) Use the 'Geist Mono' font for the body text.
     4) Reset the counter for sidenotes.
 */
 body {
     font-size: 1.8rem; /* 1 */
     background-color: var(--bg); /* 2 */
     color: var(--fg); /* 2 */
-    font-family: "Averia Serif Libre", serif; /* 3 */
+    font-family: "Geist Mono", ui-monospace, monospace; /* 3 */
     font-style: normal; /* 3 */
     line-height: 2.2rem; /* 3 */
-    font-weight: 300; /* 3 */
+    font-weight: 400; /* 3 */
     max-width: 76rem;
     margin: 0 auto;
     padding: 0 1rem;
@@ -199,7 +199,7 @@ a:hover {
 /* Make string a little more bold, to adjust for the font. */
 b,
 strong {
-    font-weight: 600;
+    font-weight: 700;
 }
 
 /* Make emphasized text a little larger, to adjust for the font. */
@@ -216,10 +216,10 @@ h1,
 h2,
 h3,
 h4 {
-    font-family: "Averia Libre", cursive; /* 1 */
+    font-family: "Geist Mono", ui-monospace, monospace; /* 1 */
     color: var(--fg); /* 1 */
     font-style: normal; /* 1 */
-    font-weight: 600; /* 1 */
+    font-weight: 700; /* 1 */
     margin: 1.6rem 0 1.6rem 0; /* 2 */
 }
 
@@ -358,9 +358,9 @@ a.page-curl {
     height: 6rem;
     color: var(--muted);
     text-decoration: none;
-    font-family: "Averia Libre", cursive;
+    font-family: "Geist Mono", ui-monospace, monospace;
     font-size: 1.8rem;
-    font-weight: 600;
+    font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.05em;
     background:
