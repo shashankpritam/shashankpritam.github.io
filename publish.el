@@ -101,13 +101,15 @@ which causes preserveAspectRatio=meet to scale against the wrong axis."
   "Return header HTML with nav and a page-curl link to the next page."
   (let* ((filename (file-name-nondirectory (plist-get plist :input-file)))
          (next (cond
-                ((string= filename "pictures.org") "/notebook.html")
-                ((string= filename "notebook.org") "/index.html")
-                (t                                 "/pictures.html"))))
+                ((string= filename "publications.org") "/pictures.html")
+                ((string= filename "pictures.org")     "/notebook.html")
+                ((string= filename "notebook.org")     "/index.html")
+                (t                                     "/publications.html"))))
     (format "<header>
   <nav>
     <ul>
       <li><a href='/index.html'>Home</a></li>
+      <li><a href='/publications.html'>Publications</a></li>
       <li><a href='/pictures.html'>Pictures</a></li>
       <li><a href='/notebook.html'>Notebook</a></li>
     </ul>

@@ -1,0 +1,9 @@
+#+TITLE: Publications
+#+OPTIONS: toc:nil num:nil
+
+* Publications
+
+- Transposable Element Invasion Dynamics and piRNA Cluster Evolution in /Drosophila/. S. Pritam. PhD thesis, North Dakota State University, 2026.
+- [[https://doi.org/10.1016/j.tig.2024.11.011][Evolution of piRNA-guided defense against transposable elements]]. S. Pritam, S. Signor. Trends in Genetics 41(5), 390-401, 2025.
+- [[https://doi.org/10.1186/s12915-025-02370-0][The impact of insertion bias into piRNA clusters on the invasion of transposable elements]]. S. Pritam, A. Scarpa, R. Kofler, S. Signor. BMC Biology 23, 258, 2025.
+- [[https://doi.org/10.1101/2025.10.30.685650][Recent horizontal transfer of transposable elements in /Drosophila/]]. S. Pritam, S. Signor. bioRxiv, 2025.
