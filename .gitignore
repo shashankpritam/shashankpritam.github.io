@@ -6,3 +6,4 @@
 .claude
 *.json
 public/
+.DS_Store
