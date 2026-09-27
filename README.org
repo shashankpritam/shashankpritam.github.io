@@ -26,12 +26,9 @@ public/        ← generated HTML
 
 * Build locally
 
-Requires Emacs (29+) and [[https://d2lang.com][D2]].
+Requires Emacs (29+).
 
 #+BEGIN_SRC sh
-# install D2 once
-curl -fsSL https://d2lang.com/install.sh | sh -s -- --version v0.7.1
-
 emacs --batch --load publish.el
 # output in public/
 #+END_SRC
@@ -63,40 +60,6 @@ There is no dark mode, so the page looks the same whatever the reader's OS theme
 
 * No JavaScript
 
-The site has no =<script>= elements at all. Navigation, pictures, math, and diagrams are plain HTML and CSS rendered at build time.
+The site has no =<script>= elements at all. Navigation and pictures are plain HTML and CSS rendered at build time.
 
 A =Content-Security-Policy= meta tag enforces this: =script-src 'none'=, everything same-origin, with Google Fonts the sole third-party origin allowed for styles and fonts.
-
-* Math and diagrams
-
-Math and diagrams are rendered at build time via [[https://d2lang.com][D2]] — no JavaScript required.
-D2 is installed by the CI workflow (=v0.7.1= to =~/.local/bin=) and must also be on =PATH= for local builds.
-
-** Inline math
-
-Use a =d2math= source block. Write a bare LaTeX expression (no =$= delimiters):
-
-#+BEGIN_SRC org
-,#+BEGIN_SRC d2math
-p^2 + 2pq + q^2 = 1
-,#+END_SRC
-#+END_SRC
-
-The block renders as a compact inline SVG, sized relative to the surrounding text.
-
-** Diagrams
-
-Use a =d2= source block with standard [[https://d2lang.com/tour/intro][D2 syntax]]:
-
-#+BEGIN_SRC org
-,#+BEGIN_SRC d2
-TE invasion: {
-  shape: sequence_diagram
-  Host -> piRNA cluster: insertion bias
-  piRNA cluster -> TE: silencing
-  TE -> Host: fitness cost
-}
-,#+END_SRC
-#+END_SRC
-
-The block renders as a block-level SVG. Diagram backgrounds are transparent and blend with the page theme.

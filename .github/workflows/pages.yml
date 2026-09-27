@@ -30,20 +30,6 @@ jobs:
       - name: Install Emacs
         run: sudo apt-get install -y emacs-nox
 
-      - name: Cache D2
-        uses: actions/cache@v4
-        with:
-          path: ~/.local/bin/d2
-          key: d2-${{ runner.os }}-v0.7.1
-
-      - name: Install D2
-        run: |
-          if [ ! -f ~/.local/bin/d2 ]; then
-            curl -fsSL https://d2lang.com/install.sh | sh -s -- --version v0.7.1
-          fi
-          echo "$HOME/.local/bin" >> $GITHUB_PATH
-
-
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5

@@ -1,9 +1,4 @@
-.Rproj.user
-.Rhistory
-.RData
-.Ruserdata
-.crush
 .claude
-*.json
+.crush
 public/
 .DS_Store

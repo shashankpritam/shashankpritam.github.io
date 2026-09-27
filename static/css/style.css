@@ -48,6 +48,10 @@ figure.frame img { display: block; width: 100%; height: 158px; object-fit: cover
 .b span { display: flex; align-items: center; justify-content: center; text-align: center; padding: 0 3px; }
 .b .l { width: 34px; }
 .b .r { flex: 1; }
+.b.emacs { background: #7f5ab6; color: #fff; } .b.emacs .l { background: #4b2c7f; }
+.b.org { background: #77aa99; }
+.b.nojs { background: #000; color: #0f0; }
+.b.any { background: #ffc; }
 
 h3 { font-size: 12px; color: #333; margin: 1.2em 0 .3em; }
 .note { font-size: 11px; color: #666; }
