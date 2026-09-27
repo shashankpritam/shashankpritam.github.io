@@ -2,12 +2,18 @@
 #+OPTIONS: toc:nil num:nil
 
 * About this site
+:PROPERTIES:
+:CUSTOM_ID: about
+:END:
 
 I use this webpage as a public notebook and bookmarks.
 
 If you have any questions, or just want to chat about science, tech, or anything else, please feel free to schedule a meeting with me [[https://cal.com/shashankpritam][here]].
 
 * Books
+:PROPERTIES:
+:CUSTOM_ID: books
+:END:
 
 Below is a curated list of books and resources I'm currently enjoying (not updated frequently, but I do try to keep it relevant).
 
@@ -19,6 +25,9 @@ Below is a curated list of books and resources I'm currently enjoying (not updat
 | *Physics*             | Modern Particle Physics                 | Mark Thomson                    |
 
 * Bookmarks
+:PROPERTIES:
+:CUSTOM_ID: bookmarks
+:END:
 
 | *Category*           | *Resource*                                                                    |
 |----------------------+-------------------------------------------------------------------------------|
@@ -31,6 +40,9 @@ Below is a curated list of books and resources I'm currently enjoying (not updat
 |                      | [[https://bioinformatics.stackexchange.com][Bioinformatics Stack Exchange]] |
 
 * Software I like
+:PROPERTIES:
+:CUSTOM_ID: software
+:END:
 
 - [[https://www.python.org][Python]], [[https://www.sbcl.org][Common Lisp (SBCL)]], [[https://julialang.org][Julia]], [[https://www.gnu.org/software/bash/][Bash]]
 - [[https://helix-editor.com][Helix]], [[https://code.visualstudio.com][VS Code]]

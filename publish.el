@@ -91,49 +91,63 @@ which causes preserveAspectRatio=meet to scale against the wrong axis."
 (defvar sp/html-head
   "<meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'>
-<meta name='color-scheme' content='light dark'>
 <meta http-equiv='Content-Security-Policy' content=\"default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; script-src 'none'; object-src 'none'; base-uri 'none'; form-action 'self'\">
 <meta name='description' content='Shashank Pritam — computational biologist working on population genetics, epidemiology, and evolutionary dynamics.'>
 <link rel='icon' type='image/svg+xml' href='/favicon.svg'>
 <link rel='stylesheet' href='/css/style.css'>")
 
+(defvar sp/pages
+  '(("index" . "Home") ("publications" . "Publications")
+    ("pictures" . "Pictures") ("notebook" . "Notebook")))
+
+(defvar sp/elsewhere
+  '(("GitHub" . "https://github.com/shashankpritam")
+    ("ORCID" . "https://orcid.org/0009-0009-4228-7883")
+    ("Google Scholar" . "https://scholar.google.com/citations?user=E5oKLgkAAAAJ&amp;hl=en")
+    ("Bluesky" . "https://bsky.app/profile/shashankpritam.bsky.social")
+    ("sifa.id" . "https://sifa.id/p/shashankpritam.bsky.social")))
+
+(defun sp/sections (file)
+  "Top-level headings of FILE that carry a CUSTOM_ID, as (ID . TITLE)."
+  (with-temp-buffer
+    (insert-file-contents file)
+    (delay-mode-hooks (org-mode))
+    (delq nil (org-map-entries
+               (lambda () (when-let* ((id (org-entry-get nil "CUSTOM_ID")))
+                            (cons id (org-get-heading t t t t))))
+               "LEVEL=1"))))
+
 (defun sp/preamble (plist)
-  "Return header HTML with nav and a page-curl link to the next page."
-  (let* ((filename (file-name-nondirectory (plist-get plist :input-file)))
-         (next (cond
-                ((string= filename "publications.org") "/pictures.html")
-                ((string= filename "pictures.org")     "/notebook.html")
-                ((string= filename "notebook.org")     "/index.html")
-                (t                                     "/publications.html"))))
-    (format "<header>
-  <nav>
-    <ul>
-      <li><a href='/index.html'>Home</a></li>
-      <li><a href='/publications.html'>Publications</a></li>
-      <li><a href='/pictures.html'>Pictures</a></li>
-      <li><a href='/notebook.html'>Notebook</a></li>
-    </ul>
-  </nav>
-  <h3 class='site-title'>Shashank Pritam</h3>
-</header>
-<a class='page-curl' href='%s'></a>"
-            next)))
+  "Top bar and sidebar; the current page is marked and lists its sections."
+  (let* ((file (plist-get plist :input-file))
+         (here (file-name-base file))
+         (link (lambda (cls href label) (format "<a%s href='%s'>%s</a>" cls href label))))
+    (concat
+     "<div class='top'><b>Shashank Pritam</b>"
+     "<small>Postdoctoral Fellow &middot; Bazykin Lab &middot; Emory University</small></div>\n"
+     "<nav class='side'>\n"
+     (mapconcat
+      (lambda (p)
+        (let ((on (string= (car p) here)))
+          (concat (funcall link (if on " class='on'" "") (format "/%s.html" (car p)) (cdr p))
+                  (when on
+                    (mapconcat (lambda (s) (funcall link " class='sub'" (concat "#" (car s)) (cdr s)))
+                               (sp/sections file))))))
+      sp/pages "\n")
+     "\n<h4>Elsewhere</h4>\n"
+     (mapconcat (lambda (e) (funcall link " rel='me'" (cdr e) (car e))) sp/elsewhere "\n")
+     "\n<h4>Say hello</h4>\n"
+     (funcall link "" "https://cal.com/shashankpritam" "Book a chat")
+     "\n</nav>")))
 
 (defvar sp/footer
-  "<footer>
-  <nav class='elsewhere' aria-label='Profiles elsewhere'>
-    <ul>
-      <li><a href='https://github.com/shashankpritam' target='_blank' rel='me noopener'>GitHub</a></li>
-      <li><a href='https://orcid.org/0009-0009-4228-7883' target='_blank' rel='me noopener'>ORCID</a></li>
-      <li><a href='https://scholar.google.com/citations?user=E5oKLgkAAAAJ&amp;hl=en' target='_blank' rel='me noopener'>Scholar</a></li>
-      <li><a href='https://bsky.app/profile/shashankpritam.bsky.social' target='_blank' rel='me noopener'>Bluesky</a></li>
-      <li><a href='https://sifa.id/p/shashankpritam.bsky.social' target='_blank' rel='me noopener'>sifa.id</a></li>
-    </ul>
-  </nav>
-  <p>(c) Shashank Pritam<br>
-  Built with <a href='https://orgmode.org/manual/Publishing.html' target='_blank' rel='noopener'>Emacs org-publish</a> and <a href='https://github.com/wintermute-cell/magick.css' target='_blank' rel='noopener'>magick.css</a></p>
-  <span class='tracks' aria-hidden='true'><span class='track'></span><span class='track'></span><span class='track'></span><span class='track'></span><span class='track'></span><span class='track'></span><span class='track'></span><span class='track'></span></span>
-</footer>")
+  (concat "<div class='foot'>Last modified: " (format-time-string "%a %b %d %Y") "
+<div class='badges'>
+<span class='b' style='background:#7f5ab6;color:#fff'><span class='l' style='background:#4b2c7f'>GNU</span><span class='r'>EMACS<br>POWERED</span></span>
+<span class='b' style='background:#77aa99'><span class='r'>MADE WITH<br>ORG-MODE</span></span>
+<span class='b' style='background:#000;color:#0f0'><span class='r'>NO JAVASCRIPT<br>INSIDE</span></span>
+<span class='b' style='background:#ffc'><span class='r'>BEST VIEWED WITH<br>ANY BROWSER</span></span>
+</div></div>"))
 
 ;; ---- Project definition ----
 
@@ -148,18 +162,18 @@ which causes preserveAspectRatio=meet to scale against the wrong axis."
          ;; HTML settings
          :html-doctype                    "html5"
          :html-html5-fancy                t
-         :html-container                  "main"
+         :html-container                  "section"
          :html-head                       ,sp/html-head
          :html-preamble                   sp/preamble
          :html-postamble                  ,sp/footer
          :html-head-include-default-style nil
          :html-head-include-scripts       nil
          :html-validation-link            nil
-         ;; Render top-level org headings as <h3> so page sections pick up
-         ;; magick.css's decorative subtitle style instead of a plain <h2>.
-         :html-toplevel-hlevel            3
+         :html-toplevel-hlevel            2
+         :html-table-attributes           nil
 
          ;; Export settings
+         :with-title          nil
          :with-latex          nil
          :with-author         nil
          :with-creator        nil
