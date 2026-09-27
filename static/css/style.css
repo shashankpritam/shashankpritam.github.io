@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Geist:wght@300..700&family=Geist+Mono:wght@300..700&display=swap');
 
-:root { --bar: #1f4d2b; --rule: #c9a227; --ink: #1f4d2b; --sub: #cfe0d2;
+:root { --bar: #3b4d5a; --rule: #8cc4ea; --ink: #32414c; --sub: #e4e7e9;
         --mono: "Geist Mono", ui-monospace, monospace; }
 
 /* One centred spread: page links, text, and (on the home page) news in the
