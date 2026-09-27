@@ -17,34 +17,32 @@ If you have any questions, or just want to chat about science, tech, or anything
 
 Below is a curated list of books and resources I'm currently enjoying (not updated frequently, but I do try to keep it relevant).
 
-| *Category*            | *Title*                                 | *Author*                        |
-|-----------------------+-----------------------------------------+---------------------------------|
-| *Biology & Evolution* | A Planet of Viruses: Third Edition      | Carl Zimmer                     |
-| *Programming*         | Practical Common Lisp                   | Peter Seibel                    |
-| *Programming*         | Parallel and High Performance Computing | Robert Robey and Yuliana Zamora |
-| *Physics*             | Modern Particle Physics                 | Mark Thomson                    |
+- Biology & Evolution :: /A Planet of Viruses: Third Edition/, Carl Zimmer
+- Programming :: /Practical Common Lisp/, Peter Seibel \\
+  /Parallel and High Performance Computing/, Robert Robey and Yuliana Zamora
+- Physics :: /Modern Particle Physics/, Mark Thomson
 
 * Bookmarks
 :PROPERTIES:
 :CUSTOM_ID: bookmarks
 :END:
 
-| *Biology & Genetics* | [[https://plato.stanford.edu/entries/population-genetics/][Quick Pop Gen]]                                       |
-| *Mathematics*        | [[https://www.probabilitycourse.com/][Probability Course]]                                  |
-| *Programming*        | [[https://www.asceticprogrammer.info/book][The Ascetic Programmer]], [[https://grugbrain.dev][The Grug Brained Developer]]  |
-| *Bioinformatics*     | [[https://www.biostars.org][Biostars]], [[https://www.seqanswers.com][SeqAnswers]], [[https://bioinformatics.stackexchange.com][Bioinformatics Stack Exchange]] |
+- Biology & Genetics :: [[https://plato.stanford.edu/entries/population-genetics/][Quick Pop Gen]]
+- Mathematics :: [[https://www.probabilitycourse.com/][Probability Course]]
+- Programming :: [[https://www.asceticprogrammer.info/book][The Ascetic Programmer]], [[https://grugbrain.dev][The Grug Brained Developer]]
+- Bioinformatics :: [[https://www.biostars.org][Biostars]], [[https://www.seqanswers.com][SeqAnswers]], [[https://bioinformatics.stackexchange.com][Bioinformatics Stack Exchange]]
 
 * Software I like
 :PROPERTIES:
 :CUSTOM_ID: software
 :END:
 
-| *Languages*       | [[https://www.python.org][Python]], [[https://www.sbcl.org][Common Lisp (SBCL)]], [[https://julialang.org][Julia]], [[https://www.gnu.org/software/bash/][Bash]]                                   |
-| *Editors*         | [[https://helix-editor.com][Helix]], [[https://code.visualstudio.com][VS Code]]                                                            |
-| *Terminals*       | [[https://ghostty.org][Ghostty]], [[https://help.gnome.org/users/gnome-terminal/][GNOME Terminal]], [[https://www.termius.com][Termius]]                                          |
-| *Version control* | [[https://git-scm.com][Git]] via [[https://github.com][GitHub]], [[https://tangled.org][Tangled]]                                                   |
-| *Command line*    | [[https://github.com/BurntSushi/ripgrep][ripgrep]], [[https://github.com/sharkdp/bat][bat]], [[https://github.com/junegunn/fzf][fzf]], [[https://github.com/sharkdp/fd][fd]], [[https://ffmpeg.org][ffmpeg]], [[https://github.com/yt-dlp/yt-dlp][yt-dlp]], [[https://joeyh.name/code/moreutils/][sponge]], [[https://lynx.browser.org][lynx]], [[https://github.com/charmbracelet/glow][glow]], [[https://github.com/dalance/pretzo][pretzo]], [[https://sqlite.org][SQLite]] |
-| *Writing*         | [[https://typst.app][Typst]], [[https://orgmode.org][Org-mode]], [[https://asciidoc.org][AsciiDoc]], [[https://www.latex-project.org][LaTeX]]                                          |
-| *Diagrams*        | [[https://d2lang.com][D2]]                                                                        |
-| *References*      | [[https://www.zotero.org][Zotero]], [[https://zbib.org][zbib.org]], [[https://calibre-ebook.com][Calibre]]                                                 |
-| *Web*             | [[https://kagi.com][Kagi]], [[https://justgetflux.com][f.lux]]                                                               |
+- Languages :: [[https://www.python.org][Python]], [[https://www.sbcl.org][Common Lisp (SBCL)]], [[https://julialang.org][Julia]], [[https://www.gnu.org/software/bash/][Bash]]
+- Editors :: [[https://helix-editor.com][Helix]], [[https://code.visualstudio.com][VS Code]]
+- Terminals :: [[https://ghostty.org][Ghostty]], [[https://help.gnome.org/users/gnome-terminal/][GNOME Terminal]], [[https://www.termius.com][Termius]]
+- Version control :: [[https://git-scm.com][Git]] via [[https://github.com][GitHub]], [[https://tangled.org][Tangled]]
+- Command line :: [[https://github.com/BurntSushi/ripgrep][ripgrep]], [[https://github.com/sharkdp/bat][bat]], [[https://github.com/junegunn/fzf][fzf]], [[https://github.com/sharkdp/fd][fd]], [[https://ffmpeg.org][ffmpeg]], [[https://github.com/yt-dlp/yt-dlp][yt-dlp]], [[https://joeyh.name/code/moreutils/][sponge]], [[https://lynx.browser.org][lynx]], [[https://github.com/charmbracelet/glow][glow]], [[https://github.com/dalance/pretzo][pretzo]], [[https://sqlite.org][SQLite]]
+- Writing :: [[https://typst.app][Typst]], [[https://orgmode.org][Org-mode]], [[https://asciidoc.org][AsciiDoc]], [[https://www.latex-project.org][LaTeX]]
+- Diagrams :: [[https://d2lang.com][D2]]
+- References :: [[https://www.zotero.org][Zotero]], [[https://zbib.org][zbib.org]], [[https://calibre-ebook.com][Calibre]]
+- Web :: [[https://kagi.com][Kagi]], [[https://justgetflux.com][f.lux]]

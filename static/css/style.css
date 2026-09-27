@@ -45,6 +45,12 @@ table.news { width: 100%; }
 .aside td { display: block; padding: 0; border: 0; }
 .aside td:first-child { font: 12px var(--mono); color: #777; margin-bottom: 2px; }
 
+/* Label and items, one shared label column so every list on a page lines up */
+#content dl { display: grid; grid-template-columns: 10rem minmax(0, 1fr); column-gap: 1.5rem; margin: 0; max-width: 44rem; }
+#content dt, #content dd { padding: 8px 0; border-bottom: 1px dotted #ccc; }
+#content dt { font: 12px/2 var(--mono); color: #666; }
+#content dd { margin: 0; }
+
 table { border-collapse: collapse; width: 100%; }
 th { text-align: left; font: 500 11px var(--mono); letter-spacing: .06em; color: #666; border-bottom: 1px solid #ccc; padding: 4px 12px 4px 0; }
 td { vertical-align: top; padding: 6px 12px 6px 0; border-bottom: 1px dotted #ccc; }
@@ -82,6 +88,9 @@ figure.frame img { display: block; width: 100%; height: 11.25rem; object-fit: co
     .pages a.sub { padding-left: 0; }
     #content { padding: 0 20px; }
     #content ul { padding-left: 1.2rem; }
+    #content dl { display: block; }
+    #content dt { border: 0; padding: 12px 0 0; }
+    #content dd { padding-top: 2px; }
     /* A wide table scrolls sideways in its own strip, edge to edge, as on the wikis */
     #content table:not(.news) { display: block; overflow-x: auto; -webkit-overflow-scrolling: touch;
         width: auto; margin-inline: -20px; padding-inline: 20px; scrollbar-width: none; }
