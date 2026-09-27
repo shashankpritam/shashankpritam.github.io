@@ -39,31 +39,33 @@
                             (cons id (org-get-heading t t t t))))
                "LEVEL=1"))))
 
+(defun sp/link (cls href label)
+  (format "<a%s href='%s'>%s</a>" cls href label))
+
 (defun sp/preamble (plist)
-  "Top bar and sidebar; the current page is marked and lists its sections."
+  "Top bar and page links; the current page is marked and lists its sections."
   (let* ((file (plist-get plist :input-file))
-         (here (file-name-base file))
-         (link (lambda (cls href label) (format "<a%s href='%s'>%s</a>" cls href label))))
+         (here (file-name-base file)))
     (concat
-     "<div class='top'><b>Shashank Pritam</b>"
-     "<small>Postdoctoral Fellow &middot; Bazykin Lab &middot; Emory University</small></div>\n"
-     "<nav class='side'>\n"
+     "<header class='top'><b>Shashank Pritam</b><small>Computational biologist</small></header>\n"
+     "<nav class='pages'>\n"
      (mapconcat
       (lambda (p)
         (let ((on (string= (car p) here)))
-          (concat (funcall link (if on " class='on'" "") (format "/%s.html" (car p)) (cdr p))
+          (concat (sp/link (if on " class='on'" "") (format "/%s.html" (car p)) (cdr p))
                   (when on
-                    (mapconcat (lambda (s) (funcall link " class='sub'" (concat "#" (car s)) (cdr s)))
+                    (mapconcat (lambda (s) (sp/link " class='sub'" (concat "#" (car s)) (cdr s)))
                                (sp/sections file))))))
       sp/pages "\n")
-     "\n<h4>Elsewhere</h4>\n"
-     (mapconcat (lambda (e) (funcall link " rel='me'" (cdr e) (car e))) sp/elsewhere "\n")
-     "\n<h4>Say hello</h4>\n"
-     (funcall link "" "https://cal.com/shashankpritam" "Book a chat")
      "\n</nav>")))
 
 (defvar sp/footer
-  (concat "<div class='foot'>Last modified: " (format-time-string "%a %b %d %Y") "
+  ;; The outward links come after the page, so a phone reaches the text first.
+  (concat "<nav class='else'>\n<h4>Elsewhere</h4>\n"
+          (mapconcat (lambda (e) (sp/link " rel='me'" (cdr e) (car e))) sp/elsewhere "\n")
+          "\n<h4>Say hello</h4>\n"
+          (sp/link "" "https://cal.com/shashankpritam" "Book a chat")
+          "\n</nav>\n<div class='foot'>Last modified: " (format-time-string "%a %b %d %Y") "
 <div class='badges'>
 <span class='b emacs'><span class='l'>GNU</span><span class='r'>EMACS<br>POWERED</span></span>
 <span class='b org'><span class='r'>MADE WITH<br>ORG-MODE</span></span>
