@@ -82,6 +82,11 @@ figure.frame img { display: block; width: 100%; height: 11.25rem; object-fit: co
     .pages a.sub { padding-left: 0; }
     #content { padding: 0 20px; }
     #content ul { padding-left: 1.2rem; }
+    /* A wide table scrolls sideways in its own strip, edge to edge, as on the wikis */
+    #content table:not(.news) { display: block; overflow-x: auto; -webkit-overflow-scrolling: touch;
+        width: auto; margin-inline: -20px; padding-inline: 20px; scrollbar-width: none; }
+    #content table:not(.news)::-webkit-scrollbar { display: none; }
+    #content table:not(.news) :is(th, td) { white-space: nowrap; }
     .else { display: flex; flex-wrap: wrap; gap: 0 18px; margin: 2.5rem 20px 0; }
     .else h4 { flex-basis: 100%; margin: 10px 0 0; }
     .else a { padding-block: 5px; }
