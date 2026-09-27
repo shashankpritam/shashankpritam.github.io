@@ -1,6 +1,8 @@
 #+TITLE: ~/
 #+OPTIONS: toc:nil num:nil
 
+* About
+
 Hello!
 
 I am currently a Postdoctoral Fellow in the [[https://biology.emory.edu/people/bios/faculty/bazykin-georgii.html][Bazykin Lab]] at Emory University, Atlanta, where my research focuses on epidemiology and population genetics.
@@ -9,3 +11,10 @@ I completed my PhD in May 2026 in the Biological Sciences department at North Da
 
 Before starting my PhD, I did my BS-MS at IISER Pune, where I studied mostly maths and biology. My master's thesis was "Prediction of Polyproline Type II Helix Receptors". Although I see myself as a generalist computational biologist, my primary methods are modeling, simulation, and methodology development. I have interest in statistics and machine learning as well. Recently I have been working with transformers in the context of tooling as well as sequence-based evolution.
 
+* News
+
+#+ATTR_HTML: :class news
+|     2026 | Joined the [[https://biology.emory.edu/people/bios/faculty/bazykin-georgii.html][Bazykin Lab]] at Emory as a postdoc.                |
+| May 2026 | PhD, North Dakota State University.                          |
+| Oct 2025 | Preprint: [[file:publications.org][Recent horizontal transfer of TEs in /Drosophila/]]. |
+|     2025 | [[file:publications.org][Insertion bias into piRNA clusters]] out in BMC Biology.       |
