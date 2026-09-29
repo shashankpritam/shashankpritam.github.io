@@ -47,10 +47,10 @@ The page follows the house style (=~/.claude/skills/house-style=): the name in b
 
 ** Colour
 
-The tokens between the marker comments at the top of =static/css/style.css= are written by the house-style =paint= script; edit the tokens there, not here. Light and dark follow the reader's OS setting.
+The tokens between the marker comments at the top of =static/css/style.css= are written by the house-style =paint= script; edit the tokens there, not here. The header button picks mint, light or dark (see below).
 
-* No JavaScript
+* JavaScript
 
-The site has no =<script>= elements at all. Navigation and pictures are plain HTML and CSS rendered at build time.
+One small same-origin script, =static/theme.js=, and nothing else. It drives the round button in the header, which cycles the three house-style palettes (mint, light, dark) and remembers the choice in =localStorage=. Until one is made the page follows the device's light or dark mode, and mint when that cannot be read. Without it the button stays hidden and the page follows the OS light or dark setting.
 
-A =Content-Security-Policy= meta tag enforces this: =script-src 'none'=, everything same-origin, with Google Fonts the sole third-party origin allowed for styles and fonts.
+A =Content-Security-Policy= meta tag keeps it that way: =script-src 'self'=, everything same-origin, with Google Fonts the sole third-party origin allowed for styles and fonts.

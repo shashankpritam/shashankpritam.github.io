@@ -13,11 +13,12 @@
 (defvar sp/html-head
   "<meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'>
-<meta http-equiv='Content-Security-Policy' content=\"default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; script-src 'none'; object-src 'none'; base-uri 'none'; form-action 'self'\">
+<meta http-equiv='Content-Security-Policy' content=\"default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; script-src 'self'; object-src 'none'; base-uri 'none'; form-action 'self'\">
 <meta name='description' content='Shashank Pritam — computational biologist working on population genetics, epidemiology, and evolutionary dynamics.'>
 <link rel='icon' type='image/svg+xml' href='/favicon.svg'>
 <link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Geist:wght@400..700&amp;family=Geist+Mono:wght@400..600&amp;display=swap'>
-<link rel='stylesheet' href='/css/style.css'>")
+<link rel='stylesheet' href='/css/style.css'>
+<script src='/theme.js'></script>")
 
 (defvar sp/pages
   '(("index" . "Home") ("publications" . "Publications")
@@ -50,7 +51,7 @@
          (secs (sp/sections file)))
     (concat
      "<a class='skip' href='#content'>Skip to text</a>\n"
-     "<div class='wrap brand'><h1>Shashank Pritam</h1><span class='muted'>Computational biologist</span></div>\n"
+     "<div class='wrap brand'><h1>Shashank Pritam</h1><span class='muted'>Computational biologist</span><button type='button' id='theme-cycle' hidden><span></span></button></div>\n"
      "<nav class='bar' aria-label='Pages'><div class='wrap'>\n"
      (mapconcat
       (lambda (p)
@@ -73,7 +74,6 @@
 <div class='badges'>
 <span class='b emacs'><span class='l'>GNU</span><span class='r'>EMACS<br>POWERED</span></span>
 <span class='b org'><span class='r'>MADE WITH<br>ORG-MODE</span></span>
-<span class='b nojs'><span class='r'>NO JAVASCRIPT<br>INSIDE</span></span>
 <span class='b any'><span class='r'>BEST VIEWED WITH<br>ANY BROWSER</span></span>
 </div></div>"))
 
@@ -116,7 +116,7 @@
 
         ("sp-static"
          :base-directory       "static/"
-         :base-extension       "css\\|jpg\\|jpeg\\|png\\|gif\\|svg\\|ico\\|webp\\|woff2\\|woff\\|pdf\\|mp4\\|webm\\|mp3\\|ogg"
+         :base-extension       "css\\|js\\|jpg\\|jpeg\\|png\\|gif\\|svg\\|ico\\|webp\\|woff2\\|woff\\|pdf\\|mp4\\|webm\\|mp3\\|ogg"
          :publishing-directory "public/"
          :recursive            t
          :publishing-function  org-publish-attachment)
