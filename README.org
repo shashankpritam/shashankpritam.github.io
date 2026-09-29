@@ -41,22 +41,13 @@ Pushing to =main= triggers the GitHub Actions workflow (=.github/workflows/pages
 
 * Theme
 
-A small hand-written stylesheet (=static/css/style.css=) in the style of an early-2000s university homepage: a green top bar, a gray sidebar, one column of text, and a row of 88x31 badges in the footer. All text is set in Geist Mono.
+The page follows the house style (=~/.claude/skills/house-style=): the name in bold capitals, a sticky bar of pages under a thick accent rule, headings in capitals over dashed rules, news as a square panel with a title strip. Geist sets the text and Geist Mono the chrome: the bar, section links, labels, dates and captions. No rounded corners, shadows or gradients.
 
-=publish.el= builds the chrome. =sp/pages= lists the pages for the sidebar and =sp/elsewhere= the profile links; each is defined once. On the current page the sidebar also lists that page's top-level headings, read from any heading with a =CUSTOM_ID=, so renaming a heading renames its sidebar link.
+=publish.el= builds the chrome. =sp/pages= lists the pages for the bar and =sp/elsewhere= the profile links; each is defined once. On the current page a row under the bar lists that page's top-level headings, read from any heading with a =CUSTOM_ID=, so renaming a heading renames its link.
 
-** Color palette
+** Colour
 
-| Role              | Hex       |
-|-------------------+-----------|
-| Top bar, headings | =#1f4d2b= |
-| Accent rule       | =#c9a227= |
-| Sidebar           | =#e8e8e0= |
-| Links             | =#003399= |
-| Visited           | =#663399= |
-| Hover             | =#cc0000= |
-
-There is no dark mode, so the page looks the same whatever the reader's OS theme.
+The tokens between the marker comments at the top of =static/css/style.css= are written by the house-style =paint= script; edit the tokens there, not here. Light and dark follow the reader's OS setting.
 
 * No JavaScript
 

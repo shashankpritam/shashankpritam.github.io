@@ -16,6 +16,7 @@
 <meta http-equiv='Content-Security-Policy' content=\"default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; script-src 'none'; object-src 'none'; base-uri 'none'; form-action 'self'\">
 <meta name='description' content='Shashank Pritam — computational biologist working on population genetics, epidemiology, and evolutionary dynamics.'>
 <link rel='icon' type='image/svg+xml' href='/favicon.svg'>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Geist:wght@400..700&amp;family=Geist+Mono:wght@400..600&amp;display=swap'>
 <link rel='stylesheet' href='/css/style.css'>")
 
 (defvar sp/pages
@@ -43,29 +44,32 @@
   (format "<a%s href='%s'>%s</a>" cls href label))
 
 (defun sp/preamble (plist)
-  "Top bar and page links; the current page is marked and lists its sections."
+  "Skip link, name, the page bar, and the current page's sections."
   (let* ((file (plist-get plist :input-file))
-         (here (file-name-base file)))
+         (here (file-name-base file))
+         (secs (sp/sections file)))
     (concat
-     "<header class='top'><b>Shashank Pritam</b><small>Computational biologist</small></header>\n"
-     "<nav class='pages'>\n"
+     "<a class='skip' href='#content'>Skip to text</a>\n"
+     "<div class='wrap brand'><h1>Shashank Pritam</h1><span class='muted'>Computational biologist</span></div>\n"
+     "<nav class='bar' aria-label='Pages'><div class='wrap'>\n"
      (mapconcat
       (lambda (p)
-        (let ((on (string= (car p) here)))
-          (concat (sp/link (if on " class='on'" "") (format "/%s.html" (car p)) (cdr p))
-                  (when on
-                    (mapconcat (lambda (s) (sp/link " class='sub'" (concat "#" (car s)) (cdr s)))
-                               (sp/sections file))))))
+        (sp/link (if (string= (car p) here) " aria-current='page'" "")
+                 (format "/%s.html" (car p)) (cdr p)))
       sp/pages "\n")
-     "\n</nav>")))
+     "\n</div></nav>"
+     (when secs
+       (concat "\n<nav class='wrap toc' aria-label='On this page'>"
+               (mapconcat (lambda (s) (sp/link "" (concat "#" (car s)) (cdr s))) secs "\n")
+               "</nav>")))))
 
 (defvar sp/footer
   ;; The outward links come after the page, so a phone reaches the text first.
-  (concat "<nav class='else'>\n<h4>Elsewhere</h4>\n"
+  (concat "<div class='wrap'>\n<nav class='else' aria-label='Elsewhere'>\n<h2>Elsewhere</h2>\n<p>"
           (mapconcat (lambda (e) (sp/link " rel='me'" (cdr e) (car e))) sp/elsewhere "\n")
-          "\n<h4>Say hello</h4>\n"
+          "</p>\n<h2>Say hello</h2>\n<p>"
           (sp/link "" "https://cal.com/shashankpritam" "Book a chat")
-          "\n</nav>\n<div class='foot'>Last modified: " (format-time-string "%a %b %d %Y") "
+          "</p>\n</nav>\n<p class='stamp'>Last modified <span class='t'>" (format-time-string "%a %b %d %Y") "</span></p>
 <div class='badges'>
 <span class='b emacs'><span class='l'>GNU</span><span class='r'>EMACS<br>POWERED</span></span>
 <span class='b org'><span class='r'>MADE WITH<br>ORG-MODE</span></span>
@@ -87,6 +91,9 @@
          :html-doctype                    "html5"
          :html-html5-fancy                t
          :html-container                  "section"
+         :html-divs                       ((preamble "header" "preamble")
+                                           (content "main" "content")
+                                           (postamble "footer" "postamble"))
          :html-head                       ,sp/html-head
          :html-preamble                   sp/preamble
          :html-postamble                  ,sp/footer
