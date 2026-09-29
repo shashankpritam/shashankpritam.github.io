@@ -37,7 +37,7 @@ Below is a curated list of books and resources I'm currently enjoying (not updat
 :CUSTOM_ID: software
 :END:
 
-- Languages :: [[https://www.python.org][Python]], [[https://odin-lang.org][Odin]], [[https://julialang.org][Julia]], [[https://www.gnu.org/software/bash/][Bash]]
+- Languages :: [[https://www.python.org][Python]], [[https://odin-lang.org][Odin]], [[https://www.r-project.org][R]], [[https://www.gnu.org/software/bash/][Bash]]
 - Editors :: [[https://helix-editor.com][Helix]], [[https://code.visualstudio.com][VS Code]]
 - Terminals :: [[https://ghostty.org][Ghostty]], [[https://help.gnome.org/users/gnome-terminal/][GNOME Terminal]], [[https://www.termius.com][Termius]]
 - Version control :: [[https://git-scm.com][Git]] via [[https://github.com][GitHub]], [[https://tangled.org][Tangled]]
