@@ -18,8 +18,10 @@ a:hover { color: var(--ink); }
 .muted, .note { color: var(--muted); }
 .note { font-size: 13px; }
 
-/* One column; the home page's news takes a second at 900px */
-.wrap, #content { max-width: 720px; margin: 0 auto; padding-inline: 18px; }
+/* One frame on every page, so moving between pages moves nothing.
+   Text keeps its own measure inside it; the home page's news takes the second column. */
+html { scrollbar-gutter: stable; }
+.wrap, #content { max-width: 1080px; margin: 0 auto; padding-inline: 18px; }
 
 /* Header: name, then the page bar */
 .skip { position: absolute; left: 8px; top: -60px; z-index: 20; background: var(--ink); color: var(--paper);
@@ -52,6 +54,7 @@ h2 { font-size: 19px; font-weight: 700; text-transform: uppercase; letter-spacin
      margin: 0 0 12px; padding-bottom: 8px; border-bottom: 1px dashed var(--rule2); }
 h3 { font-size: 15px; font-weight: 600; margin: 20px 0 6px; }
 #content p, #content li { max-width: 40rem; }
+#content dl, #content table, #content:has(figure.frame) section div { max-width: 720px; }
 #content ul { padding-left: 1.2rem; }
 #content li { margin-bottom: .6em; }
 
@@ -103,7 +106,6 @@ figure.frame figcaption { padding: 8px 12px; font: 13px var(--mono); color: var(
     #content:has(> .aside) { max-width: 1080px; display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr);
                              column-gap: 40px; align-items: start; }
     #content:has(> .aside) > .aside { grid-column: 2; grid-row: 1 / span 9; }
-    body:has(.aside) .wrap { max-width: 1080px; }
 }
 
 @media (max-width: 520px) {
