@@ -2,7 +2,7 @@
 :root{--paper:#FBFBF9; --ink:#141414; --muted:#6E6E69; --rule:#E4E4DF; --rule2:#BDBDB6; --accent:#3F698D; --go:#1B6B4A; --note:#88681E; --wait:#BD4538; --tint:#F2F2F0; color-scheme:light}
 @media (prefers-color-scheme: dark){ :root:not([data-theme]){--paper:#121212; --ink:#EDEDEA; --muted:#9A9A94; --rule:#2A2A28; --rule2:#4A4A46; --accent:#7FB2D9; --go:#63C79A; --note:#D3B25E; --wait:#FF7A68; --tint:#1B1B1B; color-scheme:dark} }
 :root[data-theme="dark"]{--paper:#121212; --ink:#EDEDEA; --muted:#9A9A94; --rule:#2A2A28; --rule2:#4A4A46; --accent:#7FB2D9; --go:#63C79A; --note:#D3B25E; --wait:#FF7A68; --tint:#1B1B1B; color-scheme:dark}
-:root[data-theme="mint"]{--paper:#DBEAE7; --ink:#2F4A57; --muted:#4A5C64; --rule:#C9DDD8; --rule2:#A9C4BE; --accent:#3D6689; --go:#3B6D47; --note:#616635; --wait:#A63F33; --tint:#D4E4E1; color-scheme:light}
+:root[data-theme="mint"]{--paper:#DBEAE7; --ink:#1A2B36; --muted:#4A5C64; --rule:#C9DDD8; --rule2:#A9C4BE; --accent:#3D6689; --go:#3B6D47; --note:#616635; --wait:#A63F33; --tint:#D3E2E0; color-scheme:light}
 /* end house-style tokens */
 
 :root { --sans: "Geist", -apple-system, "Inter", "Roboto", "Segoe UI", system-ui, sans-serif;
