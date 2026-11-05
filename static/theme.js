@@ -1,11 +1,11 @@
-// Five themes in the header capsule: Rex day, slate, stone, light, dark.
+// Two themes in the header capsule: Rex day and its dark twin.
 // The capsule rests closed on the current dot; a click opens it, a pick closes it.
 // The choice is kept per browser. Until one is made the page wears Rex day,
 // or dark when the device is in dark mode. Loaded in <head> so the page
 // never paints in the wrong theme first.
 (function () {
   var KEY = 'theme';
-  var MODES = [['rexday', 'Rex day'], ['slate', 'Slate'], ['stone', 'Stone'], ['light', 'Light'], ['dark', 'Dark']];
+  var MODES = [['rexday', 'Rex day'], ['dark', 'Dark']];
   var NAMES = MODES.map(function (m) { return m[0]; });
   var root = document.documentElement;
   function device() {
