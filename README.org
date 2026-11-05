@@ -43,10 +43,8 @@ The common academic homepage, with standard parts: a skip link, then the name an
 
 ** Colour
 
-The tokens between the marker comments at the top of =static/css/style.css= are written by the house-style =paint= script; edit the tokens there, not here. The header switch swaps between Rex day and its dark twin (see below).
+The tokens between the marker comments at the top of =static/css/style.css= are written by the house-style =paint= script; edit the tokens there, not here. One palette, Rex day, in light only.
 
 * No JavaScript
 
 The site runs no script; the =Content-Security-Policy= meta tag says so (=script-src 'none'=), with Google Fonts the sole third-party origin for styles and fonts.
-
-The round switch in the header is a checkbox and its label. The page follows the device's light or dark mode, Rex day for light; ticking the switch swaps to the other theme through =:has(#flip:checked)= in the stylesheet. With no script there is nowhere to keep the choice, so each page opens on the device's mode again.

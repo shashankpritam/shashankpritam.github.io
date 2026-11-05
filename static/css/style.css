@@ -1,9 +1,6 @@
 /* house-style tokens, written by paint; edit tokens there */
-/* Rex day, and a dark twin made by flipping its OKLCH lightness (L' = 1.379 - 1.229 L, hue kept).
-   The page follows the device; the header switch (#flip, no script) swaps to the other one. */
+/* Rex day, the one palette; no dark theme */
 :root{--paper:#F4F9EF; --ink:#3A4A35; --muted:#52614A; --rule:#DDE9D2; --rule2:#B8CEA8; --accent:#2B6C60; --go:#3A7230; --note:#765A10; --wait:#A93F33; --tint:#EAF3E2; color-scheme:light}
-@media (prefers-color-scheme: dark){ :root:not(:has(#flip:checked)){--paper:#10130C; --ink:#D2E5CC; --muted:#B2C3A9; --rule:#1C2514; --rule2:#334525; --accent:#86C7B9; --go:#8AC680; --note:#D4B572; --wait:#FA8878; --tint:#141A0E; color-scheme:dark} }
-@media not (prefers-color-scheme: dark){ :root:has(#flip:checked){--paper:#10130C; --ink:#D2E5CC; --muted:#B2C3A9; --rule:#1C2514; --rule2:#334525; --accent:#86C7B9; --go:#8AC680; --note:#D4B572; --wait:#FA8878; --tint:#141A0E; color-scheme:dark} }
 /* end house-style tokens */
 
 /* Academic profile: name and pages on top, profile beside the text, no footer.
@@ -27,11 +24,6 @@ a:hover { text-decoration-thickness: 2px; }
 .pages { display: flex; flex-wrap: wrap; gap: 0 20px; }
 .pages a { display: inline-flex; align-items: center; min-height: 44px; }
 .pages a[aria-current] { color: var(--ink); font-weight: 600; text-decoration-thickness: 3px; }
-
-#flip { position: absolute; opacity: 0; pointer-events: none; }
-.flip { width: 44px; height: 44px; display: grid; place-items: center; cursor: pointer; margin-right: -12px; }
-.flip span { width: 16px; height: 16px; border-radius: 50%; background: var(--paper); border: 2px solid var(--accent); display: block; }
-#flip:focus-visible ~ .flip { outline: 3px solid var(--ink); outline-offset: -6px; }
 
 .shell { display: grid; grid-template-columns: 13rem minmax(0, 1fr); gap: 36px; padding-block: 28px 56px; }
 .profile { align-self: start; position: sticky; top: 16px; font-size: 15px; border-right: 1px solid var(--rule); padding-right: 20px; }

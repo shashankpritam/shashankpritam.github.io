@@ -49,7 +49,6 @@
               e("a", attrs: a)[#label]
             }
           ]
-          #e("input", attrs: (type: "checkbox", id: "flip", aria-label: "Switch between light and dark"))#e("label", attrs: (class: "flip", "for": "flip", title: "Switch between light and dark"))[#e("span")[]]
         ]
       ]
       #e("div", attrs: (class: "shell"))[
