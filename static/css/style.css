@@ -32,10 +32,12 @@ html { scrollbar-gutter: stable; }
 .skip:focus { top: 8px; }
 .brand .muted { font: 13px var(--mono); }
 .brand { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 14px; padding-block: 16px 12px; }
-/* Theme capsule: one dot per palette, each painted in its own paper and accent */
+/* Theme capsule: closed it shows the current dot; open, one dot per palette, each painted in its own paper and accent */
 #theme-pick { margin-left: auto; align-self: center; display: flex; gap: 2px; padding: 3px;
               border: 1px solid var(--rule2); border-radius: 999px; }
 #theme-pick[hidden] { display: none; }
+#theme-pick:not(.open) button[aria-pressed="false"] { display: none; }
+#theme-pick:not(.open) button[aria-pressed="true"] { background: none; }
 #theme-pick button { appearance: none; border: 0; background: none; cursor: pointer; width: 30px; height: 30px;
                      border-radius: 50%; display: grid; place-items: center; padding: 0; }
 #theme-pick button[aria-pressed="true"] { background: var(--rule); }

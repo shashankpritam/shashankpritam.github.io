@@ -51,6 +51,6 @@ The tokens between the marker comments at the top of =static/css/style.css= are 
 
 * JavaScript
 
-One small same-origin script, =static/theme.js=, and nothing else. It drives the capsule in the header, one dot per palette (Rex day, slate, stone, light, dark), and remembers the choice in =localStorage=. Until one is made the page wears Rex day, or dark when the device is in dark mode. Without the script the capsule stays hidden and the page follows the OS light or dark setting, Rex day standing in for light.
+One small same-origin script, =static/theme.js=, and nothing else. It drives the capsule in the header, which rests on the current theme's dot and opens on a click to one dot per palette (Rex day, slate, stone, light, dark), and remembers the choice in =localStorage=. Until one is made the page wears Rex day, or dark when the device is in dark mode. Without the script the capsule stays hidden and the page follows the OS light or dark setting, Rex day standing in for light.
 
 A =Content-Security-Policy= meta tag keeps it that way: =script-src 'self'=, everything same-origin, with Google Fonts the sole third-party origin allowed for styles and fonts.
