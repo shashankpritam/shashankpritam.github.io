@@ -2,49 +2,48 @@
 
 Personal website for [[https://shashankpritam.github.io][Shashank Pritam]].
 
-Built with Emacs [[https://orgmode.org/manual/Publishing.html][org-publish]].
+Built with [[https://typst.app][Typst]]'s HTML bundle export, on this machine; GitHub Pages serves =docs/= from =main=.
 
 * Structure
 
 #+BEGIN_EXAMPLE
-org/           ← source pages (.org)
-static/
-  css/         ← Stylesheet
-  pics/        ← images
-publish.el     ← org-publish build script
-deploy.sh      ← build, preview, publish to gh-pages
-public/        ← generated HTML (not tracked)
+site.typ       ← the bundle: includes every page, ships static/ as assets
+chrome.typ     ← head, header, page bar, footer, shared by all pages
+pages/         ← one .typ per page
+static/        ← stylesheet, theme.js, favicon, pictures
+site.sh        ← build, or serve with live reload
+docs/          ← generated site (tracked; this is what Pages serves)
 #+END_EXAMPLE
 
 * Pages
 
-| File                   | URL                  |
-|------------------------+----------------------|
-| =org/index.org=        | ~/~                  |
-| =org/publications.org= | ~/publications.html~ |
-| =org/pictures.org=     | ~/pictures.html~     |
-| =org/notebook.org=     | ~/notebook.html~     |
+| File                     | URL                  |
+|--------------------------+----------------------|
+| =pages/index.typ=        | ~/~                  |
+| =pages/publications.typ= | ~/publications.html~ |
+| =pages/pictures.typ=     | ~/pictures.html~     |
+| =pages/notebook.typ=     | ~/notebook.html~     |
 
 * Build and publish
 
-Requires Emacs (29+). Everything builds here; GitHub only serves files.
+Requires Typst 0.15 (HTML and bundle export are still marked experimental there).
 
 #+BEGIN_SRC sh
-./deploy.sh serve   # build into public/ and preview at http://localhost:8000
-./deploy.sh         # build and push public/ to the gh-pages branch
+./site.sh serve   # build into docs/, serve at http://127.0.0.1:3000, rebuild on save
+./site.sh         # build into docs/
 #+END_SRC
 
-GitHub Pages serves the =gh-pages= branch as is (=.nojekyll=, no Actions). Each publish replaces that branch with one commit named for the =main= commit it was built from, so commit on =main= first.
+To publish, build, commit =docs/= with the source, and push =main=. GitHub Pages serves =main:/docs= as is (=.nojekyll=, no Actions workflow).
 
 * Theme
 
 The page follows the house style (=~/.claude/skills/house-style=): the name in bold capitals, a sticky bar of pages under a thick accent rule, headings in capitals over dashed rules, news as a square panel with a title strip. Geist sets the text and Geist Mono the chrome: the bar, section links, labels, dates and captions. No rounded corners, shadows or gradients.
 
-=publish.el= builds the chrome. =sp/pages= lists the pages for the bar and =sp/elsewhere= the profile links; each is defined once. On the current page a row under the bar lists that page's top-level headings, read from any heading with a =CUSTOM_ID=, so renaming a heading renames its link.
+=chrome.typ= builds the chrome. =pages= lists the pages for the bar and =elsewhere= the profile links; each is defined once. A page that passes =toc= gets a row under the bar linking its sections (the notebook does).
 
 ** Colour
 
-The tokens between the marker comments at the top of =static/css/style.css= are written by the house-style =paint= script; edit the tokens there, not here. The header button picks mint, light or dark (see below).
+The tokens between the marker comments at the top of =static/css/style.css= are written by the house-style =paint= script; edit the tokens there, not here. The header capsule picks Rex day or its dark twin (see below).
 
 * JavaScript
 
