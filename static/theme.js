@@ -1,25 +1,24 @@
-// Three themes, cycled by the round button in the header: mint, light, dark.
-// The choice is kept per browser. Until one is made the page follows the
-// device's light or dark mode, and mint when that cannot be read. Loaded in
-// <head> so the page never paints in the wrong theme first.
+// Five themes in the header capsule: Rex day, slate, stone, light, dark.
+// The choice is kept per browser. Until one is made the page wears Rex day,
+// or dark when the device is in dark mode. Loaded in <head> so the page
+// never paints in the wrong theme first.
 (function () {
-  var KEY = 'theme', MODES = ['mint', 'light', 'dark'];
+  var KEY = 'theme';
+  var MODES = [['rexday', 'Rex day'], ['slate', 'Slate'], ['stone', 'Stone'], ['light', 'Light'], ['dark', 'Dark']];
+  var NAMES = MODES.map(function (m) { return m[0]; });
   var root = document.documentElement;
   function device() {
-    try {
-      if (matchMedia('(prefers-color-scheme: dark)').matches) return 'dark';
-      if (matchMedia('(prefers-color-scheme: light)').matches) return 'light';
-    } catch (e) {}
-    return 'mint';
+    try { if (matchMedia('(prefers-color-scheme: dark)').matches) return 'dark'; } catch (e) {}
+    return 'rexday';
   }
   function chosen() {
-    try { var m = localStorage.getItem(KEY); return MODES.indexOf(m) < 0 ? null : m; } catch (e) { return null; }
+    try { var m = localStorage.getItem(KEY); return NAMES.indexOf(m) < 0 ? null : m; } catch (e) { return null; }
   }
   function mode() { return chosen() || device(); }
   function apply(m) {
     root.setAttribute('data-theme', m);
-    var b = document.getElementById('theme-cycle');
-    if (b) { b.title = 'Theme: ' + m; b.setAttribute('aria-label', 'Theme: ' + m + '. Click to change.'); }
+    var bs = document.querySelectorAll('#theme-pick button');
+    for (var i = 0; i < bs.length; i++) bs[i].setAttribute('aria-pressed', bs[i].getAttribute('data-t') === m);
   }
   apply(mode());
   try {
@@ -28,14 +27,19 @@
     });
   } catch (e) {}
   addEventListener('DOMContentLoaded', function () {
-    var b = document.getElementById('theme-cycle');
-    if (!b) return;
-    b.hidden = false;
-    apply(mode());
-    b.addEventListener('click', function () {
-      var n = MODES[(MODES.indexOf(mode()) + 1) % MODES.length];
-      try { localStorage.setItem(KEY, n); } catch (e) {}
-      apply(n);
+    var box = document.getElementById('theme-pick');
+    if (!box) return;
+    MODES.forEach(function (m) {
+      var b = document.createElement('button');
+      b.type = 'button'; b.setAttribute('data-t', m[0]); b.title = m[1]; b.setAttribute('aria-label', m[1]);
+      b.appendChild(document.createElement('i'));
+      b.addEventListener('click', function () {
+        try { localStorage.setItem(KEY, m[0]); } catch (e) {}
+        apply(m[0]);
+      });
+      box.appendChild(b);
     });
+    box.hidden = false;
+    apply(mode());
   });
 })();

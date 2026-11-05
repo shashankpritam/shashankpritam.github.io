@@ -51,7 +51,7 @@
          (secs (sp/sections file)))
     (concat
      "<a class='skip' href='#content'>Skip to text</a>\n"
-     "<div class='wrap brand'><h1>Shashank Pritam</h1><span class='muted'>Computational biologist</span><button type='button' id='theme-cycle' hidden><span></span></button></div>\n"
+     "<div class='wrap brand'><h1>Shashank Pritam</h1><span class='muted'>Computational biologist</span><div id='theme-pick' role='group' aria-label='Theme' hidden></div></div>\n"
      "<nav class='bar' aria-label='Pages'><div class='wrap'>\n"
      (mapconcat
       (lambda (p)

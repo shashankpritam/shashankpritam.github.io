@@ -1,8 +1,11 @@
 /* house-style tokens, written by paint; edit tokens there */
-:root{--paper:#FBFBF9; --ink:#141414; --muted:#6E6E69; --rule:#E4E4DF; --rule2:#BDBDB6; --accent:#3F698D; --go:#1B6B4A; --note:#88681E; --wait:#BD4538; --tint:#F2F2F0; color-scheme:light}
+/* Rex day is the default; the device's dark mode wins until a theme is picked */
+:root{--paper:#F4F9EF; --ink:#3A4A35; --muted:#52614A; --rule:#DDE9D2; --rule2:#B8CEA8; --accent:#2B6C60; --go:#3A7230; --note:#765A10; --wait:#A93F33; --tint:#EAF3E2; color-scheme:light}
 @media (prefers-color-scheme: dark){ :root:not([data-theme]){--paper:#121212; --ink:#EDEDEA; --muted:#9A9A94; --rule:#2A2A28; --rule2:#4A4A46; --accent:#7FB2D9; --go:#63C79A; --note:#D3B25E; --wait:#FF7A68; --tint:#1B1B1B; color-scheme:dark} }
 :root[data-theme="dark"]{--paper:#121212; --ink:#EDEDEA; --muted:#9A9A94; --rule:#2A2A28; --rule2:#4A4A46; --accent:#7FB2D9; --go:#63C79A; --note:#D3B25E; --wait:#FF7A68; --tint:#1B1B1B; color-scheme:dark}
-:root[data-theme="mint"]{--paper:#DBEAE7; --ink:#1A2B36; --muted:#4A5C64; --rule:#C9DDD8; --rule2:#A9C4BE; --accent:#3D6689; --go:#3B6D47; --note:#616635; --wait:#A63F33; --tint:#D3E2E0; color-scheme:light}
+:root[data-theme="light"]{--paper:#FBFBF9; --ink:#141414; --muted:#6E6E69; --rule:#E4E4DF; --rule2:#BDBDB6; --accent:#3F698D; --go:#1B6B4A; --note:#88681E; --wait:#BD4538; --tint:#F2F2F0; color-scheme:light}
+:root[data-theme="slate"]{--paper:#EEF1F5; --ink:#1B2430; --muted:#4E5B6B; --rule:#D9DFE7; --rule2:#B4BFCC; --accent:#3A5BA0; --go:#2E6B4A; --note:#7A5A12; --wait:#A83A32; --tint:#E3E8EF; color-scheme:light}
+:root[data-theme="stone"]{--paper:#ECEAE5; --ink:#24221F; --muted:#5D5953; --rule:#DEDAD3; --rule2:#BDB7AD; --accent:#56692F; --go:#2F6A44; --note:#7D5A14; --wait:#A63B30; --tint:#E3E0DA; color-scheme:light}
 /* end house-style tokens */
 
 :root { --sans: "Geist", -apple-system, "Inter", "Roboto", "Segoe UI", system-ui, sans-serif;
@@ -29,10 +32,19 @@ html { scrollbar-gutter: stable; }
 .skip:focus { top: 8px; }
 .brand .muted { font: 13px var(--mono); }
 .brand { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 14px; padding-block: 16px 12px; }
-#theme-cycle { appearance: none; border: 0; background: none; cursor: pointer; width: 44px; height: 44px;
-               margin: -10px -12px -10px auto; display: grid; place-items: center; align-self: center; }
-#theme-cycle[hidden] { display: none; }
-#theme-cycle span { width: 16px; height: 16px; border-radius: 50%; background: var(--paper); border: 2px solid var(--accent); display: block; }
+/* Theme capsule: one dot per palette, each painted in its own paper and accent */
+#theme-pick { margin-left: auto; align-self: center; display: flex; gap: 2px; padding: 3px;
+              border: 1px solid var(--rule2); border-radius: 999px; }
+#theme-pick[hidden] { display: none; }
+#theme-pick button { appearance: none; border: 0; background: none; cursor: pointer; width: 30px; height: 30px;
+                     border-radius: 50%; display: grid; place-items: center; padding: 0; }
+#theme-pick button[aria-pressed="true"] { background: var(--rule); }
+#theme-pick i { width: 16px; height: 16px; border-radius: 50%; border: 2px solid; display: block; }
+#theme-pick [data-t="rexday"] i { background: #F4F9EF; border-color: #2B6C60; }
+#theme-pick [data-t="slate"] i  { background: #EEF1F5; border-color: #3A5BA0; }
+#theme-pick [data-t="stone"] i  { background: #ECEAE5; border-color: #56692F; }
+#theme-pick [data-t="light"] i  { background: #FBFBF9; border-color: #3F698D; }
+#theme-pick [data-t="dark"] i   { background: #121212; border-color: #7FB2D9; }
 h1 { font-size: 22px; font-weight: 700; text-transform: uppercase; letter-spacing: -.02em; margin: 0; }
 
 .bar { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 10; background: var(--paper);
