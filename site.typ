@@ -8,3 +8,4 @@
   asset(f, read("static/" + f, encoding: none))
 }
 #asset(".nojekyll", bytes(()))
+#asset("CNAME", read("static/CNAME", encoding: none))
