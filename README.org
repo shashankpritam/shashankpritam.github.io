@@ -10,7 +10,7 @@ Built with [[https://typst.app][Typst]]'s HTML bundle export, on this machine; G
 site.typ       ← the bundle: includes every page, ships static/ as assets
 chrome.typ     ← head, header, page bar, footer, shared by all pages
 pages/         ← one .typ per page
-static/        ← stylesheet, favicon, pictures
+static/        ← stylesheet, favicon, pictures, CNAME (shashankpritam.com)
 site.sh        ← build, or serve with live reload
 docs/          ← generated site (tracked; this is what Pages serves)
 #+END_EXAMPLE
