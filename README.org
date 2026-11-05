@@ -12,7 +12,8 @@ static/
   css/         ← Stylesheet
   pics/        ← images
 publish.el     ← org-publish build script
-public/        ← generated HTML
+deploy.sh      ← build, preview, publish to gh-pages
+public/        ← generated HTML (not tracked)
 #+END_EXAMPLE
 
 * Pages
@@ -24,20 +25,16 @@ public/        ← generated HTML
 | =org/pictures.org=     | ~/pictures.html~     |
 | =org/notebook.org=     | ~/notebook.html~     |
 
-* Build locally
+* Build and publish
 
-Requires Emacs (29+).
+Requires Emacs (29+). Everything builds here; GitHub only serves files.
 
 #+BEGIN_SRC sh
-emacs --batch --load publish.el
-# output in public/
+./deploy.sh serve   # build into public/ and preview at http://localhost:8000
+./deploy.sh         # build and push public/ to the gh-pages branch
 #+END_SRC
 
-Open =public/index.html= in a browser to preview.
-
-* Deploy
-
-Pushing to =main= triggers the GitHub Actions workflow (=.github/workflows/pages.yml=), which installs =emacs-nox= and runs =publish.el=. Output is deployed to GitHub Pages automatically.
+GitHub Pages serves the =gh-pages= branch as is (=.nojekyll=, no Actions). Each publish replaces that branch with one commit named for the =main= commit it was built from, so commit on =main= first.
 
 * Theme
 
