@@ -38,43 +38,36 @@
       #e("link", attrs: (rel: "stylesheet", href: "/css/style.css"))
     ]
     #e("body")[
-      #e("header", attrs: (id: "preamble"))[
-        #e("a", attrs: (class: "skip", href: "#content"))[Skip to text]
-        #e("div", attrs: (class: "wrap brand"))[
-          #e("h1")[Shashank Pritam]
-          #e("span", attrs: (class: "muted"))[Computational biologist]
-          #e("input", attrs: (type: "checkbox", id: "flip", aria-label: "Switch between light and dark"))#e("label", attrs: (class: "flip", "for": "flip", title: "Switch between light and dark"))[#e("span")[]]
-        ]
-        #e("nav", attrs: (class: "bar", aria-label: "Pages"))[
-          #e("div", attrs: (class: "wrap"))[
+      #e("a", attrs: (class: "skip", href: "#content"))[Skip to main content]
+      #e("header", attrs: (class: "top"))[
+        #e("div", attrs: (class: "in"))[
+          #e("a", attrs: (class: "name", href: "/index.html"))[Shashank Pritam]
+          #e("nav", attrs: (class: "pages", aria-label: "Pages"))[
             #for (p, label) in pages {
               let a = (href: "/" + p + ".html")
               if p == here { a.insert("aria-current", "page") }
               e("a", attrs: a)[#label]
             }
           ]
+          #e("input", attrs: (type: "checkbox", id: "flip", aria-label: "Switch between light and dark"))#e("label", attrs: (class: "flip", "for": "flip", title: "Switch between light and dark"))[#e("span")[]]
         ]
-        #if toc.len() > 0 {
-          e("nav", attrs: (class: "wrap toc", aria-label: "On this page"))[
-            #for (id, t) in toc { e("a", attrs: (href: "#" + id))[#t] }
-          ]
-        }
       ]
-      #e("main", attrs: (id: "content"))[#body]
-      #e("footer", attrs: (id: "postamble"))[
-        #e("div", attrs: (class: "wrap"))[
-          #e("nav", attrs: (class: "else", aria-label: "Elsewhere"))[
-            #e("h2")[Elsewhere]
-            #e("p")[#for (n, u) in elsewhere { e("a", attrs: (rel: "me", href: u))[#n] }]
-            #e("h2")[Say hello]
-            #e("p")[#link("https://cal.com/shashankpritam")[Book a chat]]
+      #e("div", attrs: (class: "shell"))[
+        #e("aside", attrs: (class: "profile", aria-label: "Profile"))[
+          #e("p", attrs: (class: "role"))[Postdoctoral Fellow]
+          #e("p")[Bazykin Lab, Emory University, Atlanta]
+          #e("ul")[
+            #for (n, u) in elsewhere { e("li")[#e("a", attrs: (rel: "me", href: u))[#n]] }
+            #e("li")[#link("https://cal.com/shashankpritam")[Book a chat]]
           ]
-          #e("p", attrs: (class: "stamp"))[Last modified #e("span", attrs: (class: "t"))[#datetime.today().display("[weekday repr:short] [month repr:short] [day] [year]")]]
-          #e("div", attrs: (class: "badges"))[
-            #e("span", attrs: (class: "b org"))[#e("span", attrs: (class: "r"))[MADE WITH#linebreak()TYPST]]
-            #e("span", attrs: (class: "b any"))[#e("span", attrs: (class: "r"))[BEST VIEWED WITH#linebreak()ANY BROWSER]]
-          ]
+          #if toc.len() > 0 {
+            e("nav", attrs: (class: "toc", aria-label: "On this page"))[
+              #e("p", attrs: (class: "label"))[On this page]
+              #e("ul")[#for (id, t) in toc { e("li")[#e("a", attrs: (href: "#" + id))[#t]] }]
+            ]
+          }
         ]
+        #e("main", attrs: (id: "content"))[#body]
       ]
     ]
   ]

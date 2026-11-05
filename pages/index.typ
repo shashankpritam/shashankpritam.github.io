@@ -11,14 +11,14 @@
 
     Before starting my PhD, I did my BS-MS at IISER Pune, where I studied mostly maths and biology. My master's thesis was "Prediction of Polyproline Type II Helix Receptors". Although I see myself as a generalist computational biologist, my primary methods are modeling, simulation, and methodology development. I have interest in statistics and machine learning as well. Recently I have been working with transformers in the context of tooling as well as sequence-based evolution.
   ]
-  #section(cls: "aside")[News][
-    #e("table", attrs: (class: "news"))[#e("tbody")[
+  #section[News][
+    #e("ul", attrs: (class: "news"))[
       #for (d, t) in (
         ("2026", [Joined the #link(bazykin)[Bazykin Lab] at Emory as a postdoc.]),
         ("May 2026", [PhD, North Dakota State University.]),
-        ("Oct 2025", [Preprint: #link("/publications.html")[Recent horizontal transfer of TEs in _Drosophila_].]),
-        ("2025", [#link("/publications.html")[Insertion bias into piRNA clusters] out in BMC Biology.]),
-      ) { e("tr")[#e("td")[#d]#e("td")[#t]] }
-    ]]
+        ("October 2025", [Preprint: #link("/publications.html")[Recent horizontal transfer of TEs in _Drosophila_].]),
+        ("2025", [#link("/publications.html")[Insertion bias into piRNA clusters] published in BMC Biology.]),
+      ) { e("li")[#e("span", attrs: (class: "when"))[#d]#t] }
+    ]
   ]
 ]

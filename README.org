@@ -35,11 +35,11 @@ Requires Typst 0.15 (HTML and bundle export are still marked experimental there)
 
 To publish, build, commit =docs/= with the source, and push =main=. GitHub Pages serves =main:/docs= as is (=.nojekyll=, no Actions workflow).
 
-* Theme
+* Layout
 
-The page follows the house style (=~/.claude/skills/house-style=): the name in bold capitals, a sticky bar of pages under a thick accent rule, headings in capitals over dashed rules, news as a square panel with a title strip. Geist sets the text and Geist Mono the chrome: the bar, section links, labels, dates and captions. No rounded corners, shadows or gradients.
+The common academic homepage, with standard parts: a skip link, then the name and a row of page links in the header, then a profile column (role, lab, every outside link) beside the text. No footer; the profile already holds those links. On a phone the profile moves above the text. Links are underlined, the current page is marked in code and in weight, focus shows a thick ring, and the body is 17px Geist.
 
-=chrome.typ= builds the chrome. =pages= lists the pages for the bar and =elsewhere= the profile links; each is defined once. A page that passes =toc= gets a row under the bar linking its sections (the notebook does).
+=chrome.typ= builds the chrome. =pages= lists the pages for the header and =elsewhere= the profile links; each is defined once. A page that passes =toc= gets an "On this page" list in the profile column (the notebook does).
 
 ** Colour
 
