@@ -4,7 +4,7 @@
 #include "pages/pictures.typ"
 #include "pages/notebook.typ"
 
-#for f in ("css/style.css", "theme.js", "favicon.svg", "pics/uni.jpg", "pics/sneak.jpg", "pics/mrturt.jpg") {
+#for f in ("css/style.css", "favicon.svg", "pics/uni.jpg", "pics/sneak.jpg", "pics/mrturt.jpg") {
   asset(f, read("static/" + f, encoding: none))
 }
 #asset(".nojekyll", bytes(()))

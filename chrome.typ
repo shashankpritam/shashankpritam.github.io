@@ -12,7 +12,7 @@
   ("Bluesky", "https://bsky.app/profile/shashankpritam.bsky.social"),
   ("sifa.id", "https://sifa.id/p/shashankpritam.bsky.social"))
 
-#let csp = "default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; script-src 'self'; object-src 'none'; base-uri 'none'; form-action 'self'"
+#let csp = "default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; script-src 'none'; object-src 'none'; base-uri 'none'; form-action 'self'"
 
 // A top-level block of a page: an h2 over its body. `id` makes it a link target and puts it in the row under the bar.
 #let section(title, id: none, cls: none, body) = {
@@ -36,7 +36,6 @@
       #e("link", attrs: (rel: "icon", type: "image/svg+xml", href: "/favicon.svg"))
       #e("link", attrs: (rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Geist:wght@400..700&family=Geist+Mono:wght@400..600&display=swap"))
       #e("link", attrs: (rel: "stylesheet", href: "/css/style.css"))
-      #e("script", attrs: (src: "/theme.js"))[]
     ]
     #e("body")[
       #e("header", attrs: (id: "preamble"))[
@@ -44,7 +43,7 @@
         #e("div", attrs: (class: "wrap brand"))[
           #e("h1")[Shashank Pritam]
           #e("span", attrs: (class: "muted"))[Computational biologist]
-          #e("div", attrs: (id: "theme-pick", role: "group", aria-label: "Theme", hidden: ""))[]
+          #e("input", attrs: (type: "checkbox", id: "flip", aria-label: "Switch between light and dark"))#e("label", attrs: (class: "flip", "for": "flip", title: "Switch between light and dark"))[#e("span")[]]
         ]
         #e("nav", attrs: (class: "bar", aria-label: "Pages"))[
           #e("div", attrs: (class: "wrap"))[
