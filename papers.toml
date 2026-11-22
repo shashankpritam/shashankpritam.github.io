@@ -1,0 +1,43 @@
+# Every paper once. The site and the CVs both read this file.
+# Order here is the order on the site. kind picks the section on Publications;
+# cv is its place on a CV (absent: not on one).
+
+[[publications]]
+kind = "preprint"
+year = "2026"
+authors = ["George Boateng-Sarfo", "Shashank Pritam", "Sarah Signor"]
+title = "PeakLocus: A transcript-aware toolkit for RNA-Centric Genomic Annotation"
+venue = "bioRxiv"
+doi = "10.64898/2026.10.17.759721"
+code = "https://github.com/gsarfo-boateng/PeakLocus"
+cv = 4
+
+[[publications]]
+kind = "preprint"
+year = "2025"
+authors = ["Shashank Pritam", "Sarah Signor"]
+title = "Recent horizontal transfer of transposable elements in _Drosophila_"
+venue = "bioRxiv"
+status = "In revision"
+doi = "10.1101/2025.10.30.685650"
+cv = 1
+
+[[publications]]
+kind = "article"
+year = "2025"
+authors = ["Shashank Pritam", "Almorò Scarpa", "Robert Kofler", "Sarah Signor"]
+title = "The impact of insertion bias into piRNA clusters on the invasion of transposable elements"
+venue = "BMC Biology 23, 258"
+doi = "10.1186/s12915-025-02370-0"
+code = "https://github.com/shashankpritam/Insertion-Bias-TE"
+cv = 2
+
+[[publications]]
+kind = "review"
+year = "2025"
+authors = ["Shashank Pritam", "Sarah Signor"]
+title = "Evolution of piRNA-guided defense against transposable elements"
+venue = "Trends in Genetics 41(5), 390-401"
+doi = "10.1016/j.tig.2024.11.011"
+fulltext = "https://pmc.ncbi.nlm.nih.gov/articles/PMC13114267/"
+cv = 3

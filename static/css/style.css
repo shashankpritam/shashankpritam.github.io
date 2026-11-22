@@ -1,0 +1,38 @@
+/* Nordwand Mono, SIL OFL 1.1 (fonts/OFL.txt). Latin subsets, regular and bold only; there is no italic file, so the browser slants the regular. */
+@font-face { font-family:"Nordwand Mono"; src:url(/fonts/NordwandMono-Regular.woff2) format("woff2"); font-weight:400; font-display:swap; }
+@font-face { font-family:"Nordwand Mono"; src:url(/fonts/NordwandMono-Bold.woff2) format("woff2"); font-weight:700; font-display:swap; }
+/* Light palette; the dark one follows the device. No switch. */
+:root { --paper:#F6F8FA; --ink:#1B2530; --muted:#55626F; --rule:#DCE2E8; --accent:#27597F; color-scheme:light dark; }
+@media (prefers-color-scheme:dark) { :root { --paper:#12171C; --ink:#E3E8ED; --muted:#9AA6B2; --rule:#2A323A; --accent:#8DBBE0; } }
+* { box-sizing:border-box; }
+/* Keep room for the scrollbar on every page, so the column does not shift between a short page and a long one. */
+html { scrollbar-gutter:stable; }
+body { margin:0; background:var(--paper); color:var(--ink); font:15px/1.6 "Nordwand Mono","SF Mono",ui-monospace,Menlo,Consolas,monospace; font-variant-ligatures:none; -webkit-text-size-adjust:100%; }
+a { color:var(--accent); text-underline-offset:3px; text-decoration-thickness:1px; }
+a:hover { text-decoration-thickness:2px; }
+:focus-visible { outline:3px solid var(--ink); outline-offset:2px; }
+.skip { position:absolute; left:12px; top:-60px; background:var(--ink); color:var(--paper); padding:8px 12px; }
+.skip:focus { top:8px; }
+.page { max-width:46em; margin:0 auto; padding:0 20px 64px; }
+nav { display:flex; flex-wrap:wrap; gap:0 16px; border-bottom:1px solid var(--rule); }
+nav a { display:inline-flex; align-items:center; min-height:44px; }
+nav a[aria-current] { color:var(--ink); font-weight:700; text-decoration:none; }
+h1 { font:inherit; font-size:20px; font-weight:700; line-height:1.2; margin:26px 0 0; }
+.role { margin:2px 0 0; color:var(--muted); }
+h2 { font:inherit; font-weight:700; margin:1.5em 0 0; }
+section > *:not(h2) { margin:0 0 0 3.5em; }
+section > p + p { margin-top:.8em; }
+dl { display:grid; grid-template-columns:5.5em minmax(0,1fr); gap:.5em 1em; }
+dl.wide { grid-template-columns:11em minmax(0,1fr); }
+dt { color:var(--muted); }
+dd { margin:0; }
+small { display:block; font-size:13px; color:var(--muted); }
+/* On a phone the left column of a list moves above its entry. */
+@media (max-width:560px) {
+  section > *:not(h2) { margin-left:1.4em; }
+  dl, dl.wide { grid-template-columns:1fr; gap:0; }
+  dd { margin:0 0 .7em; }
+}
+@media (pointer:coarse), (max-width:560px) {
+  dl.wide dd:has(a), p.links { line-height:2.3; }
+}
